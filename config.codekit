@@ -271,6 +271,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_assets\/img\/apple-touch-57.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4212,
+		"inputAbbreviatedPath": "\/_assets\/img\/apple-touch-57.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/apple-touch-57.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/bg_direction_nav.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -278,28 +289,6 @@
 		"initialSize": 1866,
 		"inputAbbreviatedPath": "\/_assets\/img\/bg_direction_nav.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/bg_direction_nav.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_assets\/img\/chosen-sprite.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 646,
-		"inputAbbreviatedPath": "\/_assets\/img\/chosen-sprite.png",
-		"outputAbbreviatedPath": "\/_assets\/img\/chosen-sprite.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_assets\/img\/chosen-sprite@2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 872,
-		"inputAbbreviatedPath": "\/_assets\/img\/chosen-sprite@2x.png",
-		"outputAbbreviatedPath": "\/_assets\/img\/chosen-sprite@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -373,17 +362,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_assets\/js\/chosen.jquery.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/js\/chosen.jquery.min.js",
-		"outputAbbreviatedPath": "\/_assets\/js\/min\/chosen.jquery.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_assets\/js\/fancybox.jquery.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -427,15 +405,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/contact.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/index.php": {
 		"fileType": 8192,

@@ -22,6 +22,7 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="/_assets/css/styles.css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 
 	<!-- JavaScript -->
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
