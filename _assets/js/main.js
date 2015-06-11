@@ -20,21 +20,8 @@ function firstLoad() {
 
 // function to set dom vars, etc that will not change
 function initVars() {
-	$nav 	= $('header.main nav.main-nav ul');
-	$showMenu 	= $('a#showMenu');
-}
-
-$(window).resize(function() {
-	checkScreenSize();
-});
-
-// checks to see if screen size requires mobile menu
-function checkScreenSize(){
-	if ($(window).width() < 950) {
-		$nav.removeClass('expand');
-	} else {
-		$nav.removeClass('expand');
-	}
+	$nav 	= $('nav ul, div.content');
+	$showMenu 	= $('a#menu');
 }
 
 // show hide left menu
@@ -50,11 +37,9 @@ function showMenu(){
 }
 function menuOut() {
 	$nav.removeClass('expand');
-	//$content.unbind('click',menuOut);
 }
 function menuIn() {
 	$nav.addClass('expand');
-	//$content.bind('click',menuOut);
 }
 
 // this function fixes placeholders in browsers that don't support it

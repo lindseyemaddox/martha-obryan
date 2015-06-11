@@ -2,15 +2,61 @@
 /******** START MAIN HEADER AND NAVIGATION STYLES *********/
 
 
-header.main {
-	nav.main-nav {
+header {
+	.inner {
+		position: relative;
+	}
+	nav {
+		position: absolute;
+		top: 0;
+		z-index: 3;
+		width: 100%;
+		a.logo {
+			margin-top: 22px;
+			display: block;
+			width: 151px;
+		}
+		a#menu {
+			position: absolute;
+			right: 0;
+			top: 46px;
+		}
 		ul {
-			li{}
-				a {}
+			height: 0;
+			overflow: hidden;
+			position: absolute;
+			right: 0;
+			top: -330px;
+			text-align: right;
+			.transition;
+			li {
+				.lato-bold;
+				text-transform: uppercase;
+				font-size: 1.857142857142857em;
+				line-height: 2.6923076923076925em;
+				a {
+					text-decoration: none;
+					color: @black;
+				}
 			}
-		#menu{}
+			&.expand {
+				top: 190px;
+				height: 360px;
+			}
+		}
 	}
 }
 
+div.content {
+	background: url(/_assets/img/overlay.png) repeat left top transparent;
+	height: 0;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	.transition;
+	&.expand {
+		height: 100%;
+	}
+}
 
 /******** END MAIN HEADER AND NAVIGATION STYLES *********/

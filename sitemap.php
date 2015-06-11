@@ -1,8 +1,11 @@
-</head>
-<body>
-	<header>
-		<nav>
-			<ul>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<script type="text/javascript" src="/_assets/js/sitemapstyler.js"></script>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
+
+<section>
+
+
+			<ul id="sitemap">
 				<li><a href="/outreach/">Outreach</a>
 					<ul>
 						<li><a href="/outreach/community/">Clinical Services, Community, and Families</a>
@@ -47,7 +50,7 @@
 						</li>
 					</ul>
 				</li>
-				<li><a href="/values/"></a>
+				<li><a href="/values/">Our Values</a>
 					<ul>
 						<li><a href="/values/leadership/">Board of Directors, Leadership Team</a></li>
 						<li><a href="/values/target-service-population/">Target Service Population</a></li>
@@ -92,5 +95,6 @@
 				</li>
 				<li><a href="/privacy/">Privacy Statement</a></li>
 			</ul>
-		</nav>
-	</header>
+</section>
+
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
