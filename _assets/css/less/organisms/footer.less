@@ -2,8 +2,116 @@
 /******** START MAIN FOOTER STYLES *********/
 
 footer {
-
-
+	background-color: @green;
+	margin-top: 92px;
+	padding: 88px 0 57px;
+	div.map {
+		width: 30%;
+		margin-right: 3.5%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	form {
+		width: 30%;
+		margin-right: 3.5%;
+		display: inline-block;
+			color: @black;
+			.lato-light;
+		input {
+			width: 92%;
+			margin-bottom: 13px;
+			height: 25px;
+			border: none;
+			background-color: @white;
+			padding: 10px 4%;
+			text-transform: uppercase;
+			font-size: 1em;
+			letter-spacing: 3px;
+		}
+		textarea {
+			width: 92%;
+			background-color: @white;
+			padding: 10px 4%;
+			margin-bottom: 13px;
+			border: none;
+			resize: none;
+			height: 120px;
+			.lato-light;
+			text-transform: uppercase;
+			font-size: 1em;
+			letter-spacing: 3px;
+		}
+		button {
+			width: 100%;
+			background-color: @white;
+			.lato-light;
+			font-size: 1em;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			text-align: center;
+			border: none;
+			padding: 10px 0;
+			display: block;
+			&:hover {
+				background-color: #00df83;
+				.transition;
+			}
+		}		
+	}
+	div.footer-right {
+		display: inline-block;
+		vertical-align: top;
+		width: 30%;
+		div.item {
+			margin-bottom: 35px;
+			a {
+				p {
+					color: @white;
+					display: inline-block;
+					width: 85%;
+					margin-top: 0;
+					text-align: left;
+					vertical-align: middle;
+					font-size: 1em;
+					line-height: 1.3333333333333333em;
+					text-transform: uppercase;
+					text-decoration: none;
+					.lato-bold;
+					}
+				&:hover {
+					color: @black;
+				}
+			}
+			span {
+				color: @white;
+				display: inline-block;
+				width: 15%;
+				font-size: 2em;
+				vertical-align: middle;
+			}
+		}
+		p.ours {
+			color: @white;
+			margin: 0 0 10px;
+			font-size: 1em;
+			line-height: 1.3333333333333333em;
+			text-transform: uppercase;
+			.lato-bold;
+		}
+	}
+	p {
+		.lato-light;
+		color: @white;
+		text-align: center;
+		margin-top: 50px;
+		a {
+			color: @white;
+			text-decoration: none;
+			&:hover {
+				color: @black;
+			}
+		}
+	}
 }
 
 /******** END FOOTER STYLES *********/

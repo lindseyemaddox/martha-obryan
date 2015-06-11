@@ -419,6 +419,13 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+a:hover {
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
 /*===============================================*/
@@ -513,16 +520,19 @@ div.content.expand {
 }
 /* FlexSlider Necessary Styles
 *********************************/
-.flexslider {
+.flexslider,
+.sponsors {
   margin: 0;
   padding: 0;
 }
-.flexslider .slides > li {
+.flexslider,
+.sponsors .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
 }
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides img {
+.flexslider,
+.sponsors .slides img {
   width: 100%;
   display: block;
 }
@@ -552,7 +562,8 @@ html[xmlns] .slides {
 }
 /* FlexSlider Default Theme
 *********************************/
-.flexslider {
+.flexslider,
+.sponsors {
   position: relative;
   zoom: 1;
 }
@@ -564,6 +575,7 @@ html[xmlns] .slides {
 }
 .loading .flex-viewport {
   max-height: 300px;
+  overflow: hidden;
 }
 .flexslider .slides {
   zoom: 1;
@@ -678,6 +690,126 @@ html[xmlns] .slides {
   }
 }
 /******** START MAIN FOOTER STYLES *********/
+footer {
+  background-color: #029494;
+  margin-top: 92px;
+  padding: 88px 0 57px;
+}
+footer div.map {
+  width: 30%;
+  margin-right: 3.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+footer form {
+  width: 30%;
+  margin-right: 3.5%;
+  display: inline-block;
+  color: #4d4d4d;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+footer form input {
+  width: 92%;
+  margin-bottom: 13px;
+  height: 25px;
+  border: none;
+  background-color: #ffffff;
+  padding: 10px 4%;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 3px;
+}
+footer form textarea {
+  width: 92%;
+  background-color: #ffffff;
+  padding: 10px 4%;
+  margin-bottom: 13px;
+  border: none;
+  resize: none;
+  height: 120px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 3px;
+}
+footer form button {
+  width: 100%;
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  border: none;
+  padding: 10px 0;
+  display: block;
+}
+footer form button:hover {
+  background-color: #00df83;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+footer div.footer-right {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+footer div.footer-right div.item {
+  margin-bottom: 35px;
+}
+footer div.footer-right div.item a p {
+  color: #ffffff;
+  display: inline-block;
+  width: 85%;
+  margin-top: 0;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 1em;
+  line-height: 1.3333333333333333em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+footer div.footer-right div.item a:hover {
+  color: #4d4d4d;
+}
+footer div.footer-right div.item span {
+  color: #ffffff;
+  display: inline-block;
+  width: 15%;
+  font-size: 2em;
+  vertical-align: middle;
+}
+footer div.footer-right p.ours {
+  color: #ffffff;
+  margin: 0 0 10px;
+  font-size: 1em;
+  line-height: 1.3333333333333333em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+footer p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+}
+footer p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer p a:hover {
+  color: #4d4d4d;
+}
 /******** END FOOTER STYLES *********/
 /*================================================*/
 /*================  PAGE STYLES  ================*/

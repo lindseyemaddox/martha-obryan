@@ -346,6 +346,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/logo-sitemason.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5225,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-sitemason.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-sitemason.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -465,6 +476,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/js\/main.js",
 		"outputAbbreviatedPath": "\/_assets\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_assets\/js\/min\/flexslider.jquery-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/js\/min\/flexslider.jquery-min.js",
+		"outputAbbreviatedPath": "\/_assets\/js\/min\/min\/flexslider.jquery-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
