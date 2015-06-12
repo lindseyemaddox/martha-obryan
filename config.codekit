@@ -333,6 +333,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/bkgd-work.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74541,
+		"inputAbbreviatedPath": "\/_assets\/img\/bkgd-work.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/bkgd-work.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/fancybox_overlay.png": {
 		"fileType": 32768,
 		"ignore": 0,

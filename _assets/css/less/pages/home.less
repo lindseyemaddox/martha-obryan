@@ -54,6 +54,14 @@ div#home {
 		text-transform: uppercase;
 		padding: 22px 0 12px;
 	}
+	h5 {
+		text-align: center;
+		text-transform: uppercase;
+		color: @white;
+		font-size: 2em;
+		padding-bottom: 36px;
+		.lato-bold;
+	}
 	p {
 		.lato;
 		font-size: 0.8571428571428571em;
@@ -101,6 +109,117 @@ div#home {
 			.lato;
 			font-size: 1.2857142857142856em;
 			line-height: 1.3333333333333333em;
+		}
+	}
+	section#work {
+		padding: 68px 0 84px;
+		background: url(/_assets/img/bkgd-work.jpg) no-repeat center center transparent;
+		background-size: cover;
+		article.job {
+			background-color: @green;
+			width: 22%;
+			margin: 0 1.3%;
+			padding: 20px 1.5%;
+			display: inline-block;
+			vertical-align: top;
+			p {
+				color: @white;
+				text-align: left;
+			}
+			p.title {
+				.lato-bold;
+				font-size: 1.2857142857142856em;
+				line-height: 1.222222222222222em;
+				padding-bottom: 10px;
+				height: 76px;
+			}
+			p.city {
+				padding-bottom: 8px;
+			}
+			p.location, p.city {
+				.lato;
+				line-height: 1.1428571428571428em;
+				font-size: 1em;
+			}
+			p.desc {
+				.lato-light;
+				font-size: 1em;
+				line-height: 1.1428571428571428em;
+			}
+			a.btn {
+				width: 100%;
+				color: @green;
+				background-color: @white;
+				&:hover {
+					background-color: @brown;
+					color: @white;
+				}
+			}
+		}
+	}
+	section#form {
+		padding: 68px 0 100px;
+		h5 {
+			color: @brown;
+		}
+		article.option {
+			width: 18%;
+			height: 70px!important;
+			display: inline-block;
+			vertical-align: top;
+			padding: 20px 1%;
+			margin: 0 .8% 20px;
+			cursor: pointer;
+			background-color: @brown;
+			position: relative;
+			p {
+				.lato;
+				font-size: 1em;
+				line-height: 1.1em;
+				color: #fff;
+				text-align: center;
+			}
+		}
+		div#box {
+			display: inline-block;
+			vertical-align: top;
+			width: 58%;
+			margin: 0 .8% 20px;
+			border: 1px solid @brown;
+			min-height: 180px;
+			p {
+				.lato;
+				font-size: 1em;
+				color: @brown;
+				text-align: center;
+				padding-top: 70px;
+			}
+			&.clue {
+				background-color: @green;
+				opacity: .1;
+			}
+		}
+		div#form-right {
+			display: inline-block;
+			width: 38.5%;
+		}
+		input {
+			display: none;
+			&#email {
+				border: 1px solid @brown;
+				display: block;
+				width: 99%;
+				margin-bottom: 10px;
+				height: 90px;
+				text-align: center;
+				.lato;
+				font-size: 1em;
+				color: @brown;
+			}
+		}
+		.btn {
+			width: 100%;
+			padding: 30px 0;
 		}
 	}
 }
