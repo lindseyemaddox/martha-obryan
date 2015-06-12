@@ -430,6 +430,71 @@
 
 	</section><!--work-->
 
+	<section id="crankin">
+		
+		<div class="inner">
+
+			<div class="crankin">
+			
+				<img src="/_assets/img/logo-crankin.jpg" alt="Purity Miss Martha's Ice Cream Crankin' and Summer Social">
+
+			</div><!--crankin-->
+
+			<div class="right">
+
+				<p class="header">30th Purity Miss Martha's Ice Cream Crankin' and Summer Social</p>
+
+				<p class="time">3:00-5:00pm Sunday, June 14, 2015</p>
+
+				<p class="place">First Presbyterian Church, Franklin Road, Nashville</p>
+
+				<p class="place">$10 for adults, $8 for children</p>
+
+				<a class="btn" href="/news/ice-cream-crankin/">Participate</a>
+
+			</div><!--right-->
+
+			<div class="bottom">
+
+				<p class="sponsors">Thanks to <br/>our sponsors:</p>
+
+	            <div class="slider">
+	                <div class="sponsors-crankin">
+	                    <ul class="slides">
+	                        <li>
+	                            <img src="/_assets/img/logo-sponsor-purity.png" />
+	                        </li>
+	                        <li>
+	                            <img src="/_assets/img/logo-sponsor-cat.png" />
+	                        </li>
+	                        <li>
+	                            <img src="/_assets/img/logo-sponsor-dg.png" />
+	                        </li>
+	                        <li>
+	                            <img src="/_assets/img/logo-sponsor-lightning.png" />
+	                        </li>
+	                        <li>
+	                            <img src="/_assets/img/logo-sponsor-scene.png" />
+	                        </li>
+	                        <li>
+	                            <img src="/_assets/img/logo-sponsor-standard.png" />
+	                        </li>
+	                        <li>
+	                            <img src="/_assets/img/logo-sponsor-vf.png" />
+	                        </li>
+	                        <li>
+	                            <img src="/_assets/img/logo-sponsor-purity.png" />
+	                        </li>
+	                    </ul>
+	                </div>
+	            </div>
+
+	        </div><!--bottom-->
+
+		</div><!--inner-->
+
+	</section><!--crankin-->
+
 </div><!--home-->
 
 	<script>
@@ -504,5 +569,40 @@
 			});
 		});
 	</script>
+
+    <script defer src="/_assets/js/flexslider.jquery.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        SyntaxHighlighter.all();
+      });
+      $(window).load(function(){
+        $('.flexslider').flexslider({
+          animation: "fade",
+          directionNav: false,
+          start: function(slider){
+            $('body').removeClass('loading');
+          }
+        });
+        $('.sponsors').flexslider({
+          itemWidth: 100,
+          itemMargin: 0,
+          minItems: 2,
+          maxItems: 2,
+          controlNav: false,
+          directionNav: true,
+          slideshow: false,
+          animationLoop: true,
+        });
+        $('.sponsors-crankin').flexslider({
+          itemWidth: 100,
+          itemMargin: 0,
+          minItems: 2,
+          maxItems: 7,
+          controlNav: false,
+          directionNav: true,
+          animationLoop: true,
+        });
+      });
+    </script>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>

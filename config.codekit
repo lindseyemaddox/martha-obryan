@@ -652,6 +652,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/logo-crankin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31952,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-crankin.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-crankin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/logo-sitemason.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -659,6 +670,83 @@
 		"initialSize": 5225,
 		"inputAbbreviatedPath": "\/_assets\/img\/logo-sitemason.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/logo-sitemason.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/logo-sponsor-cat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6323,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-cat.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-cat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/logo-sponsor-dg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3964,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-dg.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-dg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/logo-sponsor-lightning.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5013,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-lightning.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-lightning.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/logo-sponsor-purity.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11496,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-purity.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-purity.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/logo-sponsor-scene.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6456,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-scene.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-scene.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/logo-sponsor-standard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10893,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-standard.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-standard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/logo-sponsor-vf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6456,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-vf.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-sponsor-vf.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
