@@ -18,6 +18,8 @@
    }(document, 'script', 'facebook-jssdk'));
 </script>
 
+<script src="/_assets/js/jquery-scrollspy.js"></script>
+
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 <div id="home">
@@ -112,6 +114,100 @@
 
 	</section><!--social-->
 
+	<section id="numbers">
+		
+		<div class="inner">
+			
+			<article class="four">
+				
+				<p id="individuals" class="number">6000</p>
+
+				<p class="header">Individuals</p>
+
+				<p class="desc">served through a continuum of cradle to college to career services</p>
+
+			</article><!--four-->
+
+			<article class="four">
+
+				<p id="volunteers" class="number">347</p>
+
+				<p class="header">Volunteers</p>
+
+				<p class="desc">engaged with their community through opportunities with us</p>
+
+			</article><!--four-->
+
+			<article class="four">
+
+				<p id="sponsors" class="number">28</p>
+
+				<p class="header">Sponsors</p>
+
+				<p class="desc">have taken action through our corporate patron program</p>
+
+			</article><!--four-->
+
+			<article class="four">
+
+				<p id="families" class="number">286</p>
+
+				<p class="header">Families</p>
+
+				<p class="desc">empowered through early intervention and educational assistance</p>
+
+			</article><!--four-->
+
+		</div><!--inner-->
+
+	</section><!--numbers-->
+
 </div><!--home-->
+
+	<script>
+		$(document).ready(function(){
+
+			$('#numbers').scrollspy({
+			min: $('#numbers').offset().top,
+			max:$('footer').offset().top,
+			container: window,
+			onEnter: function() {
+
+			// Animate the individuals value from x to y:
+			  $({someValue: 0}).animate({someValue: 6000}, {
+			      duration: 3500,
+			      easing:'swing', // can be anything
+			      step: function() { // called on every step
+			          // Update the element's text with rounded-up value:
+			          $('#individuals').text(Math.round(this.someValue));
+			      }
+			  });
+			  $({someValue: 0}).animate({someValue: 347}, {
+			      duration: 3000,
+			      easing:'swing', // can be anything
+			      step: function() { // called on every step
+			          $('#volunteers').text(Math.round(this.someValue));
+			      }
+			  });
+			  $({someValue: 0}).animate({someValue: 28}, {
+			      duration: 2500,
+			      easing:'swing', // can be anything
+			      step: function() { // called on every step
+			          $('#sponsors').text(Math.round(this.someValue));
+			      }
+			  });
+			  $({someValue: 0}).animate({someValue: 286}, {
+			      duration: 3000,
+			      easing:'swing', // can be anything
+			      step: function() { // called on every step
+			          $('#families').text(Math.round(this.someValue));
+			      }
+			  });
+
+			}
+			});
+
+		});
+	</script>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>

@@ -1021,6 +1021,39 @@ div#home section#social div.twitter {
   display: inline-block;
   width: 30%;
 }
+div#home section#numbers {
+  padding: 90px 0 78px;
+}
+div#home section#numbers article.four {
+  width: 20%;
+  margin: 0 2.3%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+div#home section#numbers p.number {
+  font-size: 3.4285714285714284em;
+  line-height: 1em;
+  color: #029494;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+div#home section#numbers p.header {
+  font-size: 1.5714285714285714em;
+  line-height: 1.3636363636363638em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #029494;
+  padding-bottom: 10px;
+}
+div#home section#numbers p.desc {
+  color: #4d4d4d;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.2857142857142856em;
+  line-height: 1.3333333333333333em;
+}
 /*
 	Sitemap Styler 	 
 */
