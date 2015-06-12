@@ -1,4 +1,23 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1686024951613671',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 <div id="home">
@@ -75,6 +94,23 @@
 		</div><!--inner-->
 
 	</section><!--we-->
+
+	<section id="social">
+		
+		<div class="inner">
+			
+			<div class="fb-page" data-href="https://www.facebook.com/marthaobryancenter" data-width="300" data-height="400" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/marthaobryancenter"><a href="https://www.facebook.com/marthaobryancenter">Martha O&#039;Bryan Center</a></blockquote></div></div>
+
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/flipper.php'); // flipping images ?>
+
+            <div class="twitter">
+            	<a class="twitter-timeline"  href="https://twitter.com/MarthaOBryanCtr" data-widget-id="609394801801191424" width="300" height="400">Tweets by @MarthaOBryanCtr</a>
+ 	           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    		</div><!--twitter-->      
+
+		</div><!--inner-->
+
+	</section><!--social-->
 
 </div><!--home-->
 

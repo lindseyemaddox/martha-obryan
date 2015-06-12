@@ -28,4 +28,6 @@
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="/_assets/js/main.js"></script>
-
+	<script type="text/javascript" src="/_assets/js/jquery.1.7.1.min.js"></script>
+	<script type="text/javascript" src="/_assets/js/jquery.easing.1.3.js"></script>	
+	<script type="text/javascript" src="/_assets/js/modernizr.2.5.3.min.js"></script>	
