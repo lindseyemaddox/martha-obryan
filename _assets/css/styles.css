@@ -837,10 +837,27 @@ div.gradient {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
   /* IE6-8 */
-  height: 180px;
+  height: 280px;
   position: absolute;
   width: 100%;
   bottom: 0;
+}
+div#home div.h1-container {
+  height: 160px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+div#home h1 {
+  width: 50%;
+  margin: 0 25%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.7142857142857142em;
+  line-height: 1.3333333333333333em;
+  color: #ffffff;
+  z-index: 9;
 }
 /*
 	Sitemap Styler 	 
