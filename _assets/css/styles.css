@@ -426,6 +426,22 @@ a:hover {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+a.btn {
+  background-color: #029494;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding: 13px 0;
+  text-decoration: none;
+}
+a.btn:hover {
+  background-color: #4d4d4d;
+}
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
 /*===============================================*/
@@ -858,6 +874,44 @@ div#home h1 {
   line-height: 1.3333333333333333em;
   color: #ffffff;
   z-index: 9;
+}
+div#home section#we {
+  margin: 66px 0 100px;
+}
+div#home section#we article.three {
+  width: 30%;
+  margin: 0 1.5%;
+  display: inline-block;
+}
+div#home section#we [class^="icon-"] {
+  margin: 0 auto;
+  font-size: 3em;
+  text-align: center;
+  display: block;
+  color: #4d4d4d;
+}
+div#home h2,
+div#home h3,
+div#home h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #4d4d4d;
+  font-size: 1.5714285714285714em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 22px 0 12px;
+}
+div#home p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 0.8571428571428571em;
+  color: #4d4d4d;
+  line-height: 1.5em;
+  text-align: center;
+}
+div#home a.btn {
+  width: 184px;
+  margin-top: 24px;
 }
 /*
 	Sitemap Styler 	 

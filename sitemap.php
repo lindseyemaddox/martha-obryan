@@ -74,6 +74,7 @@
 				<li><a href="/contact/">Contact Us</a>
 					<ul>
 						<li><a href="/contact/donate/">Donate</a></li>
+						<li><a href="/contact/volunteer/">Volunteer</a></li>
 						<li><a href="/contact/wish-lists/">Wish Lists</a>
 							<ul>
 								<li><a href="/contact/wish-lists/children/">Young Children, Parents &amp; Families</a></li>

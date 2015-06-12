@@ -37,8 +37,38 @@
 		<div class="inner">
 			
 			<article class="three">
-				
 
+				<span class="icon-tree"></span>
+				
+				<h2>We Serve Families</h2>
+
+				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
+
+				<a class="btn" href="/outreach/community/family/">Learn More</a>
+
+			</article><!--three-->
+
+			<article class="three">
+
+				<span class="icon-portrait"></span>
+				
+				<h2>We Support Communities</h2>
+
+				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
+
+				<a class="btn" href="/contact/donate/">Donate</a>
+
+			</article><!--three-->
+
+			<article class="three">
+
+				<span class="icon-circle"></span>
+				
+				<h2>We Restore Dignity</h2>
+
+				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
+
+				<a class="btn" href="/contact/volunteer/">Volunteer</a>
 
 			</article><!--three-->
 
