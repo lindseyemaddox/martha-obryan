@@ -749,7 +749,6 @@
 		});
 	</script>
 
-    <script defer src="/_assets/js/flexslider.jquery.js"></script>
     <script type="text/javascript">
       $(function(){
         SyntaxHighlighter.all();
@@ -761,17 +760,6 @@
           start: function(slider){
             $('body').removeClass('loading');
           }
-        });
-        $('.sponsors').flexslider({
-          slideshowSpeed: 300,
-          itemWidth: 100,
-          itemMargin: 0,
-          minItems: 2,
-          maxItems: 2,
-          controlNav: false,
-          directionNav: true,
-          slideshow: false,
-          animationLoop: true,
         });
         $('.sponsors-crankin').flexslider({
           slideshowSpeed: 3000,

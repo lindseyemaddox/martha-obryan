@@ -51,5 +51,21 @@
 
 		</footer>
 
+        <script type="text/javascript">
+          $(document).ready(function(){
+            $('.sponsors').flexslider({
+              slideshowSpeed: 300,
+              itemWidth: 100,
+              itemMargin: 0,
+              minItems: 2,
+              maxItems: 2,
+              controlNav: false,
+              directionNav: true,
+              slideshow: false,
+              animationLoop: true,
+            });
+          });
+        </script>
+
 	</body>
 </html>
