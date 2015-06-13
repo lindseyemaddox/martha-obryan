@@ -432,6 +432,7 @@ p {
   font-size: 1.1428571428571428em;
   line-height: 1.375em;
   color: #4d4d4d;
+  padding-bottom: 20px;
 }
 .btn {
   background-color: #029494;
@@ -489,6 +490,33 @@ div.gradient {
   position: absolute;
   width: 100%;
   bottom: 0;
+}
+section.subpage h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-size: 2.8571428571428568em;
+  padding-bottom: 22px;
+}
+section.subpage h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #4d4d4d;
+  font-size: 1.7142857142857142em;
+  padding-bottom: 20px;
+}
+section.subpage ul {
+  padding: 0 0 20px 20px;
+}
+section.subpage ul li {
+  list-style-type: disc;
+  color: #4d4d4d;
+  padding: 5px 0 5px 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.1428571428571428em;
+  line-height: 1.375em;
 }
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
@@ -1030,6 +1058,7 @@ footer p {
   color: #ffffff;
   text-align: center;
   margin-top: 50px;
+  font-size: 1em;
 }
 footer p a {
   color: #ffffff;

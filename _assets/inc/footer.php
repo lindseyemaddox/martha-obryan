@@ -51,21 +51,59 @@
 
 		</footer>
 
-        <script type="text/javascript">
-          $(document).ready(function(){
-            $('.sponsors').flexslider({
-              slideshowSpeed: 300,
-              itemWidth: 100,
-              itemMargin: 0,
-              minItems: 2,
-              maxItems: 2,
-              controlNav: false,
-              directionNav: true,
-              slideshow: false,
-              animationLoop: true,
-            });
-          });
-        </script>
+    <script type="text/javascript">
+      $(function(){
+        SyntaxHighlighter.all();
+      });
+      $(window).load(function(){
+        $('.flexslider').flexslider({
+          animation: "fade",
+          directionNav: false,
+          start: function(slider){
+            $('body').removeClass('loading');
+          }
+        });
+        $('.sponsors').flexslider({
+          slideshowSpeed: 300,
+          itemWidth: 100,
+          itemMargin: 0,
+          minItems: 2,
+          maxItems: 2,
+          controlNav: false,
+          directionNav: true,
+          slideshow: false,
+          animationLoop: true,
+        });
+        $('.sponsors-crankin').flexslider({
+          slideshowSpeed: 3000,
+          itemWidth: 100,
+          itemMargin: 0,
+          minItems: 2,
+          maxItems: 7,
+          controlNav: false,
+          directionNav: false,
+          animationLoop: true,
+        });
+        $('.jobs').flexslider({
+          itemWidth: 100,
+          itemMargin: 0,
+          minItems: 2,
+          maxItems: 4,
+          controlNav: false,
+          directionNav: false,
+          animationLoop: true,
+        });
+        $('.leaders').flexslider({
+          itemWidth: 100,
+          itemMargin: 0,
+          minItems: 2,
+          maxItems: 5,
+          controlNav: false,
+          directionNav: false,
+          animationLoop: true,
+        });
+      });
+    </script>
 
 	</body>
 </html>
