@@ -426,6 +426,13 @@ a:hover {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.1428571428571428em;
+  line-height: 1.375em;
+  color: #4d4d4d;
+}
 .btn {
   background-color: #029494;
   color: #ffffff;
@@ -454,6 +461,9 @@ div.sub h1 {
   font-size: 3.4285714285714284em;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
+}
+section.header {
+  margin-bottom: 67px;
 }
 .header .inner {
   position: relative;
@@ -491,7 +501,7 @@ header .inner {
 header nav {
   position: absolute;
   top: 0;
-  z-index: 3;
+  z-index: 5;
   width: 100%;
 }
 header nav a.logo {
@@ -537,7 +547,7 @@ div.content {
   height: 0;
   width: 100%;
   position: absolute;
-  z-index: 2;
+  z-index: 4;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
@@ -850,6 +860,57 @@ html[xmlns] .slides {
   -ms-transform: rotateY(-180deg);
   -o-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
+}
+/* Start: Recommended Isotope styles */
+/**** Isotope Filtering ****/
+.isotope-item {
+  z-index: 2;
+}
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity;
+}
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+/* End: Recommended Isotope styles */
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
 }
 /******** START MAIN FOOTER STYLES *********/
 footer {
@@ -1383,6 +1444,81 @@ div#outreach section.header {
   background-size: cover;
   height: 536px;
   position: relative;
+}
+div#outreach section#options div.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin-top: 79px;
+}
+div#outreach section#options div.main {
+  display: table-row;
+  height: 100%;
+}
+div#outreach section#options div.main-scrollable {
+  height: 100%;
+  overflow-y: auto;
+}
+div#outreach section#options article {
+  width: 47%;
+  margin: 0 1.2% 22px;
+  padding: 15px 1.55%;
+}
+div#outreach section#options article h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #4d4d4d;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2857142857142856em;
+  padding-bottom: 10px;
+}
+div#outreach section#options article h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 0.8571428571428571em;
+  line-height: 1.5em;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #4d4d4d;
+}
+div#outreach section#options article .btn {
+  width: 60%;
+  margin-top: 5px;
+}
+aside.sorter {
+  display: table-cell;
+  background-color: #706561;
+  min-width: 300px;
+  width: 300px;
+  padding: 33px 24px 60px;
+  border-right: 20px solid #ffffff;
+}
+aside.sorter li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 0.9166666666666666em;
+  padding-bottom: 18px;
+}
+aside.sorter li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+aside.sorter li a:hover {
+  color: #029494;
+}
+div#items {
+  display: table-cell;
+  width: 100%;
+}
+div.slider-row {
+  margin-bottom: 44px;
+}
+div.slider-row h4,
+div.slider-row div.slider {
+  display: inline-block;
+  vertical-align: middle;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/

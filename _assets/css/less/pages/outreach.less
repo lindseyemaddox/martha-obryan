@@ -5,4 +5,82 @@ div#outreach {
 		height: 536px;
 		position: relative;
 	}
+	section#options {
+		div.wrapper {
+		    display: table;
+		    height: 100%;
+		    width: 100%;
+		    margin-top: 79px;	
+		}
+		div.main {
+		    display: table-row;
+		    height: 100%;
+		}
+		div.main-scrollable {
+		    height: 100%;
+		    overflow-y: auto;
+		}
+		article {
+			width: 47%;
+			margin: 0 1.2% 22px;
+			padding: 15px 1.55%;
+			h2 {
+				.lato-bold;
+				color: @black;
+				text-transform: uppercase;
+				text-align: center;
+				font-size: 1.2857142857142856em;
+				padding-bottom: 10px;
+			}
+			h4 {
+				.lato;
+				font-size: 0.8571428571428571em;
+				line-height: 1.5em;
+				text-align: center;
+				padding-bottom: 10px;
+				color: @black;
+			}
+			.btn {
+				width: 60%;
+				margin-top: 5px;
+			}
+		}
+	}
 }
+
+
+
+aside.sorter {
+    display: table-cell;
+    background-color: @brown;
+    min-width: 300px;
+    width: 300px;
+    padding: 33px 24px 60px;
+    border-right: 20px solid @white;
+    li {
+    	.lato;
+    	font-size: 1.5em;
+    	line-height: 0.9166666666666666em;
+    	padding-bottom: 18px;
+    	a {
+    		text-decoration: none;
+    		color: @white;
+    		&:hover {
+    			color: @green;
+    		}
+    	}
+    }
+}
+div#items {
+    display: table-cell;
+    width: 100%;
+}
+
+div.slider-row {
+	margin-bottom: 44px;
+	h4, div.slider {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
