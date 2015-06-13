@@ -170,61 +170,107 @@
 			
 			<h5>Work with Martha O’Bryan</h5>
 
-			<article class="job">
+			<div class="slider">
+			
+				<div class="jobs">
+			
+			  		<ul class="slides">
+			
+			    		<li class="job">
+
+			    		<div class="job-inner">
 				
-				<p class="title">Founding Physical Education Teacher</p>
+							<p class="title">Founding Physical Education Teacher</p>
 
-				<p class="location">Explore Community School</p>
+							<p class="location">Explore Community School</p>
 
-				<p class="city">Nashville, TN</p>
+							<p class="city">Nashville, TN</p>
 
-				<p class="desc">At Explore, we always begin with our mission: to foster the independence, critical thinking, and creativity of a diverse community of learners so they are fully prepared...</p>
+							<p class="desc">At Explore, we always begin with our mission: to foster the independence, critical thinking, and creativity of a diverse community of learners so they are fully prepared...</p>
 
-				<a class="btn" href="/careers/">Learn More</a>
+							<a class="btn" href="/careers/">Learn More</a>
 
-			</article><!--job-->
+						</div><!--job-inner-->
 
-			<article class="job">
+						</li><!--job-->
+
+						<li class="job">
+
+						<div class="job-inner">
+							
+							<p class="title">Ingram Athlete Summer Camp Counselor</p>
+
+							<p class="location">Martha O'Bryan</p>
+
+							<p class="city">Nashville, TN</p>
+
+							<p class="desc">The THRIVE program at the Martha O’Bryan Center is looking for Vanderbilt student athletes to staff our summer camp. This opportunity is specifically for student...</p>
+
+							<a class="btn" href="/careers/">Learn More</a>
+
+						</div><!--job-inner-->
+
+						</li><!--job-->
+
+						<li class="job">
+
+						<div class="job-inner">
+							
+							<p class="title">Full Time Kitchen Assistant</p>
+
+							<p class="location">Martha O'Bryan</p>
+
+							<p class="city">Nashville, TN</p>
+
+							<p class="desc">The Martha O'Bryan Center is a creative activist ministry serving over 9,000 clients in Nashville each year through early learning education, youth development, Work Ready...</p>
+
+							<a class="btn" href="/careers/">Learn More</a>
+
+						</div><!--job-inner-->
+
+						</li><!--job-->
+
+						<li class="job">
+
+						<div class="job-inner">
+							
+							<p class="title">Founding Office Manager</p>
+
+							<p class="location">Explore Community School</p>
+
+							<p class="city">Nashville, TN</p>
+
+							<p class="desc">The THRIVE program at the Martha O’Bryan Center is looking for Vanderbilt student athletes to staff our summer camp. This opportunity is specifically for student...</p>
+
+							<a class="btn" href="/careers/">Learn More</a>
+
+						</div><!--job-inner-->
+
+						</li><!--job-->
+
+			    		<li class="job">
+
+			    		<div class="job-inner">
 				
-				<p class="title">Ingram Athlete Summer Camp Counselor</p>
+							<p class="title">Founding Physical Education Teacher</p>
 
-				<p class="location">Martha O'Bryan</p>
+							<p class="location">Explore Community School</p>
 
-				<p class="city">Nashville, TN</p>
+							<p class="city">Nashville, TN</p>
 
-				<p class="desc">The THRIVE program at the Martha O’Bryan Center is looking for Vanderbilt student athletes to staff our summer camp. This opportunity is specifically for student...</p>
+							<p class="desc">At Explore, we always begin with our mission: to foster the independence, critical thinking, and creativity of a diverse community of learners so they are fully prepared...</p>
 
-				<a class="btn" href="/careers/">Learn More</a>
+							<a class="btn" href="/careers/">Learn More</a>
 
-			</article><!--job-->
+						</div><!--job-inner-->
 
-			<article class="job">
-				
-				<p class="title">Full Time Kitchen Assistant</p>
+						</li><!--job-->
 
-				<p class="location">Martha O'Bryan</p>
+					</ul>
 
-				<p class="city">Nashville, TN</p>
+				</div>
 
-				<p class="desc">The Martha O'Bryan Center is a creative activist ministry serving over 9,000 clients in Nashville each year through early learning education, youth development, Work Ready...</p>
-
-				<a class="btn" href="/careers/">Learn More</a>
-
-			</article><!--job-->
-
-			<article class="job">
-				
-				<p class="title">Founding Office Manager</p>
-
-				<p class="location">Explore Community School</p>
-
-				<p class="city">Nashville, TN</p>
-
-				<p class="desc">The THRIVE program at the Martha O’Bryan Center is looking for Vanderbilt student athletes to staff our summer camp. This opportunity is specifically for student...</p>
-
-				<a class="btn" href="/careers/">Learn More</a>
-
-			</article><!--job-->
+			</div>
 
 		</div><!--inner-->
 
@@ -590,14 +636,23 @@
           maxItems: 2,
           controlNav: false,
           directionNav: true,
-          slideshow: false,
+          //slideshow: false,
           animationLoop: true,
         });
         $('.sponsors-crankin').flexslider({
           itemWidth: 100,
           itemMargin: 0,
           minItems: 2,
-          maxItems: 6,
+          maxItems: 7,
+          controlNav: false,
+          directionNav: false,
+          animationLoop: true,
+        });
+        $('.jobs').flexslider({
+          itemWidth: 100,
+          itemMargin: 0,
+          minItems: 2,
+          maxItems: 4,
           controlNav: false,
           directionNav: false,
           animationLoop: true,
