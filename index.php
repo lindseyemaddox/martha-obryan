@@ -597,9 +597,9 @@
           itemWidth: 100,
           itemMargin: 0,
           minItems: 2,
-          maxItems: 7,
+          maxItems: 6,
           controlNav: false,
-          directionNav: true,
+          directionNav: false,
           animationLoop: true,
         });
       });
