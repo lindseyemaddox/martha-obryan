@@ -629,9 +629,37 @@
 
 				    			<img src="/_assets/img/silouette.png">
 					
-								<p class="name">Marsha Edwards</p>
+								<p class="name">Clay Richards</p>
 
-								<p class="title">President / Chief Executive Officer</p>
+								<p class="title">Secretary / Board Chair-Elect</p>
+
+							</div><!--leader-inner-->
+
+						</li><!--leader-->
+
+			    		<li class="leader">
+
+				    		<div class="leader-inner">
+
+				    			<img src="/_assets/img/silouette.png">
+					
+								<p class="name">Juan Vallarino</p>
+
+								<p class="title">Co-Treasurer</p>
+
+							</div><!--leader-inner-->
+
+						</li><!--leader-->
+
+			    		<li class="leader">
+
+				    		<div class="leader-inner">
+
+				    			<img src="/_assets/img/silouette.png">
+					
+								<p class="name">Lee Ballew</p>
+
+								<p class="title">Co-Treasurer</p>
 
 							</div><!--leader-inner-->
 

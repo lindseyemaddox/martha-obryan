@@ -4,7 +4,6 @@
 
 <section>
 
-
 			<ul id="sitemap">
 				<li><a href="/outreach/">Outreach</a>
 					<ul>
@@ -25,7 +24,7 @@
 							<ul>
 								<li><a href="/outreach/high-school/top-floor/">Top Floor at Stratford</a></li>
 								<li><a href="/outreach/high-school/college-zone/">College Zone and Maplewood</a></li>
-								<li><a href="/outreach/high-school/nashville-after-zone/">Nashville After Zone Alliance</a></li>
+								<li><a href="/outreach/high-school/after-zone/">Nashville After Zone Alliance</a></li>
 							</ul>
 						</li>
 						<li><a href="/outreach/college/">College and Career</a>

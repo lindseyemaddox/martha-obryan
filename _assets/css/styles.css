@@ -1021,7 +1021,7 @@ div#home h5 {
 }
 div#home h6 {
   text-align: center;
-  color: #ffffff;
+  color: #4d4d4d;
   font-size: 1.7857142857142856em;
   padding-bottom: 46px;
   font-family: 'Lato', sans-serif;
@@ -1259,7 +1259,7 @@ div#home section#crankin div.slider {
   width: 81%;
 }
 div#home section#leaders {
-  padding: 74px 0 92px;
+  padding: 74px 0 0;
 }
 div#home section#leaders li.leader div.leader-inner {
   vertical-align: top;
