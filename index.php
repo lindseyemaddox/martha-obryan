@@ -541,6 +541,111 @@
 
 	</section><!--crankin-->
 
+	<section id="leaders">
+		
+		<div class="inner">
+			
+			<h6>Meet some of the people empowering productive adults to more fully realize their potential.</h6>
+
+			<div class="slider">
+			
+				<div class="leaders">
+			
+			  		<ul class="slides">
+			
+			    		<li class="leader">
+
+				    		<div class="leader-inner">
+
+				    			<img src="/_assets/img/silouette.png">
+					
+								<p class="name">Marsha Edwards</p>
+
+								<p class="title">President / Chief Executive Officer</p>
+
+							</div><!--leader-inner-->
+
+						</li><!--leader-->
+
+						<li class="leader">
+
+							<div class="leader-inner">
+
+								<img src="/_assets/img/silouette.png">
+								
+								<p class="name">Michael Gross</p>
+
+								<p class="title">Chief Program Officer</p>
+
+							</div><!--leader-inner-->
+
+						</li><!--leader-->
+
+						<li class="leader">
+
+							<div class="leader-inner">
+
+								<img src="/_assets/img/silouette.png">
+								
+								<p class="name">Vickeeta Coleman</p>
+
+								<p class="title">Chief Operating Officer</p>
+
+							</div><!--leader-inner-->
+
+						</li><!--leader-->
+
+						<li class="leader">
+
+							<div class="leader-inner">
+
+								<img src="/_assets/img/silouette.png">
+								
+								<p class="name">Peter Martino</p>
+
+								<p class="title">Chief Talent &amp; Innovation Officer</p>
+
+							</div><!--leader-inner-->
+
+						</li><!--leader-->
+
+			    		<li class="leader">
+
+				    		<div class="leader-inner">
+
+				    			<img src="/_assets/img/silouette.png">
+					
+								<p class="name">Tim Sinks</p>
+
+								<p class="title">Board Chair</p>
+
+							</div><!--leader-inner-->
+
+						</li><!--leader-->
+
+			    		<li class="leader">
+
+				    		<div class="leader-inner">
+
+				    			<img src="/_assets/img/silouette.png">
+					
+								<p class="name">Marsha Edwards</p>
+
+								<p class="title">President / Chief Executive Officer</p>
+
+							</div><!--leader-inner-->
+
+						</li><!--leader-->
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div><!--inner-->
+
+	</section><!--leaders-->
 </div><!--home-->
 
 	<script>
@@ -630,16 +735,18 @@
           }
         });
         $('.sponsors').flexslider({
+          slideshowSpeed: 300,
           itemWidth: 100,
           itemMargin: 0,
           minItems: 2,
           maxItems: 2,
           controlNav: false,
           directionNav: true,
-          //slideshow: false,
+          slideshow: false,
           animationLoop: true,
         });
         $('.sponsors-crankin').flexslider({
+          slideshowSpeed: 3000,
           itemWidth: 100,
           itemMargin: 0,
           minItems: 2,
@@ -653,6 +760,15 @@
           itemMargin: 0,
           minItems: 2,
           maxItems: 4,
+          controlNav: false,
+          directionNav: false,
+          animationLoop: true,
+        });
+        $('.leaders').flexslider({
+          itemWidth: 100,
+          itemMargin: 0,
+          minItems: 2,
+          maxItems: 5,
           controlNav: false,
           directionNav: false,
           animationLoop: true,

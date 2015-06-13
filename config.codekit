@@ -795,6 +795,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/silouette.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3623,
+		"inputAbbreviatedPath": "\/_assets\/img\/silouette.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/silouette.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/slider-girls.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

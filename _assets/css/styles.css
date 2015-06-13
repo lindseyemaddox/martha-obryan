@@ -540,14 +540,16 @@ div.content.expand {
 .flexslider,
 .sponsors,
 .sponsors-crankin,
-.jobs {
+.jobs,
+.leaders {
   margin: 0;
   padding: 0;
 }
 .flexslider .slides > li,
 .sponsors .slides > li,
 .sponsors-crankin .slides > li,
-.jobs .slides > li {
+.jobs .slides > li,
+.leaders .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
 }
@@ -555,7 +557,8 @@ div.content.expand {
 .flexslider .slides img,
 .sponsors .slides img,
 .sponsors-crankin .slides img,
-.jobs .slides img {
+.jobs .slides img,
+.leaders .slides img {
   width: 100%;
   display: block;
 }
@@ -1016,6 +1019,14 @@ div#home h5 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
+div#home h6 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.7857142857142856em;
+  padding-bottom: 46px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
 div#home p {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -1246,6 +1257,32 @@ div#home section#crankin div.slider {
   display: inline-block;
   vertical-align: middle;
   width: 81%;
+}
+div#home section#leaders {
+  padding: 74px 0 92px;
+}
+div#home section#leaders li.leader div.leader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+}
+div#home section#leaders li.leader p {
+  text-align: center;
+}
+div#home section#leaders li.leader p.name {
+  color: #029494;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding-top: 10px;
+  font-size: 1.4285714285714284em;
+  line-height: 1.1500000000000001em;
+}
+div#home section#leaders li.leader p.title {
+  color: #4d4d4d;
+  font-size: 1.1428571428571428em;
+  line-height: 1.125em;
+  width: 80%;
+  margin: 0 auto;
 }
 /*
 	Sitemap Styler 	 
