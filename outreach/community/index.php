@@ -51,6 +51,54 @@
 
 			<p>“We’re not trying to stay in James Cayce forever,” said Cassandra. “We’re just trying to use that just for the moment, to get on our feet and do what we’ve got to do. It’s (Martha O’Bryan Center) a valuable resource and if somebody is not using it, they need to use it.”</p>
 
+			<div class="img full">
+				<img src="/_assets/img/inset-family.jpg" alt="family empowered by Martha O'Bryan Center" title="family empowered by Martha O'Bryan Center">
+				<p class="caption">Cassandra and James Berry and children</p>
+			</div><!--img-->
+			<div class="clear"></div>
+
+			<h3>Steps in the Right Direction</h3>
+
+			<div class="img sixty">
+				<img src="/_assets/img/inset-mccann.jpg" alt="Martha O'Bryan Center graduate Michelle McCann" title="Martha O'Bryan Center graduate Michelle McCann">
+				<p class="caption">Michelle McCann</p>
+			</div><!--img-->
+
+			<p>Michelle McCann walked for 90 minutes each day in scorching summer heat and icy winter cold, sometimes five days a week, to get to her GED class at the Martha O’Bryan Center. She spent four or five hours in class or alone at a computer. Then she walked 90 minutes home.   </p>
+
+			<p>“I’m a dedicated person,” she said.</p>
+
+			<p>For McCann, the obstacles sprung up last year when her mother no longer could afford the $1,300 rent their Memphis apartment. The family, which also includes two younger brothers, moved to Nashville to live with an uncle.</p>
+
+			<p>McCann was a rising high school junior in Memphis but couldn’t get back into high school because she was already 19. When she started looking for a way to get a GED, the only place that wasn’t full was Martha O’Bryan Center. She and her brother walked 90 minutes each way to get here.  </p>
+
+			<p>“It took me a month to find a school,” she said. “I'm not the type of person to sit down and wait for someone to call me.”</p>
+
+			<p>And while McCann’s obstacles were extraordinary, she’s not alone. She was one of 94 Adult Education students to graduate from the Martha O’Bryan Center GED program this year. It’s the largest class in at least seven years, maybe ever.</p>
+
+			<p>“Everyone out here in this room has some story that includes obstacles, whether it's health, transportation, family, having their own ill health that they're dealing with,” said Judy Rye, Adult Education Teacher at the Martha O’Bryan Center. “So barriers are the norm for each student. Whether or not they want to put in the effort to overcome it is a question.</p>
+
+			<p>"This is the best part of working at Martha O'Bryan,” Rye added. “I'm going to do everything I can. As long as you are working, I'm going to keep working with you. As a result, if they see they're making a little progress, they know, OK, I've got to make more. Maybe we've created an environment where they can get that sense of what it takes. It takes a lot of hard work to achieve these goals, especially when you're overcoming obstacles.”</p>
+
+			<h3>Returning to Help – Himself</h3>
+
+			<div class="img sixty">
+				<img src="/_assets/img/inset-nelson.jpg" alt="Martha O'Bryan Center worker Adrian Nelson" title="Martha O'Bryan Center worker Adrian Nelson">
+				<p class="caption">Adrian Nelson</p>
+			</div><!--img-->
+
+			<p>Adrian Nelson came to Martha O'Bryan Center’s THRIVE program in August 2006 as a high school freshman.</p>
+
+			<p>Adrian graduated from Stratford High School in May 2010 and has spent his summer working with the Martha O'Bryan Center staff and students to renovate the top floor of Stratford, where the new High School THRIVE program will be housed.</p>
+
+			<p>While working on the renovation, Adrian found himself enjoying what he was doing. Martha O’Bryan Center staff is helping him find a position in construction.</p>
+
+			<h3>Thriving at THRIVE</h3>
+
+			<p>Shermond Dillard is a 6th grader at Bailey Middle School.  He has been a part of the Martha O'Bryan Center since he was 1-month-old baby in the Early Learning Center.  </p>
+
+			<p>He, along with his two sisters, is currently in our THRIVE Out-of-School time program at the Martha O'Bryan Center's South Seventh Street campus.</p>
+
 	    </div><!--inner-->
 
 	</section><!--subpage-->

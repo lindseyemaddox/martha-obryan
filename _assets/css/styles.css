@@ -419,6 +419,9 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+.clear {
+  clear: both;
+}
 a:hover {
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
@@ -497,14 +500,14 @@ section.subpage h2 {
   text-transform: uppercase;
   color: #4d4d4d;
   font-size: 2.8571428571428568em;
-  padding-bottom: 22px;
 }
 section.subpage h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   color: #4d4d4d;
   font-size: 1.7142857142857142em;
-  padding-bottom: 20px;
+  padding: 26px 0 20px;
+  clear: right;
 }
 section.subpage h4 {
   font-family: 'Lato', sans-serif;
@@ -551,6 +554,7 @@ section#bio p {
   padding-bottom: 0;
 }
 section#crumbs {
+  clear: both;
   margin-top: 80px;
   height: 20px;
 }
@@ -579,6 +583,31 @@ section#crumbs div.left {
 }
 section#crumbs div.right {
   right: 0;
+}
+div.img img {
+  width: 100%;
+}
+div.img.full {
+  width: 100%;
+}
+div.img.sixty {
+  width: 60%;
+  margin-left: 5%;
+  float: right;
+}
+div.img p.caption {
+  text-transform: uppercase;
+  font-size: 0.8571428571428571em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #4d4d4d;
+  letter-spacing: 2px;
+  text-align: right;
+  width: 80%;
+  border-bottom: 1px solid #029494;
+  padding: 5px 0;
+  margin-bottom: 50px;
+  float: right;
 }
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
