@@ -31,5 +31,5 @@
 	<script type="text/javascript" src="/_assets/js/jquery.1.7.1.min.js"></script>
 	<script type="text/javascript" src="/_assets/js/jquery.easing.1.3.js"></script>	
 	<script type="text/javascript" src="/_assets/js/modernizr.2.5.3.min.js"></script>
-    <script defer src="/_assets/js/flexslider.jquery.js"></script>
+    <script src="/_assets/js/flexslider.jquery.js"></script>
 

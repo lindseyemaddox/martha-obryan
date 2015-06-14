@@ -100,6 +100,19 @@ section.subpage {
 		font-size: 1.7142857142857142em;
 		padding-bottom: 20px;
 	}
+	h4 {
+		.lato;
+		color: @black;
+		font-size: 1.7857142857142856em;
+		padding-bottom: 20px;
+	}
+	h5 {
+		.lato;
+		color: @black;
+		font-size: 1.7857142857142856em;
+		padding-bottom: 20px;
+		margin-top: 50px;
+	}
 	ul {
 		padding: 0 0 20px 20px;
 		li {
@@ -110,5 +123,52 @@ section.subpage {
 			font-size: 1.1428571428571428em;
 			line-height: 1.375em;
 		}
+	}
+	.btn {
+		width: 185px;
+		margin-bottom: 30px;
+	}
+}
+
+section#bio {
+	div.img {
+		display: inline-block;
+		width: 20%;
+		img {
+			width: 100%;
+		}
+	}
+	p {
+		display: inline-block;
+		width: 79%;
+		vertical-align: middle;
+		padding-bottom: 0;
+	}
+}
+
+section#crumbs {
+	margin-top: 80px;
+	height: 20px;
+	div.inner {
+		position: relative;
+	}
+	div.left, div.right {
+		position: absolute;
+		a {
+			color: @green;
+			text-decoration: underline;
+			.lato-bold;
+			font-style: italic;
+			font-size: 1.2857142857142856em;
+			&:hover {
+				color: @brown;
+			}
+		}
+	}
+	div.left {
+		left: 0;
+	}
+	div.right {
+		right: 0;
 	}
 }
