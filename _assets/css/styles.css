@@ -469,9 +469,6 @@ div.sub h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
-section.header {
-  margin-bottom: 67px;
-}
 .header .inner {
   position: relative;
 }
@@ -503,6 +500,7 @@ section.subpage h2 {
   text-transform: uppercase;
   color: #4d4d4d;
   font-size: 2.8571428571428568em;
+  margin-top: 67px;
 }
 section.subpage h3 {
   font-family: 'Lato', sans-serif;
@@ -612,6 +610,31 @@ div.img p.caption {
   margin-bottom: 50px;
   float: right;
 }
+section#tertiary-nav {
+  margin-top: 40px;
+}
+section#tertiary-nav article.three {
+  width: 30%;
+  margin: 0 1.5%;
+  display: inline-block;
+  text-align: center;
+}
+section#tertiary-nav article.three p.heading {
+  font-size: 1.2857142857142856em;
+  line-height: 2.2222222222222223em;
+  padding-bottom: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+section#tertiary-nav article.three p.desc {
+  font-size: 1.1428571428571428em;
+  line-height: 1.125em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+section#tertiary-nav article.three a.btn {
+  width: 80%;
+}
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
 /*===============================================*/
@@ -635,6 +658,13 @@ header nav a#menu {
   position: absolute;
   right: 0;
   top: 46px;
+}
+header nav a#menu span {
+  font-size: 2.5em;
+  color: #ffffff;
+}
+header nav a#menu span.expand {
+  color: #4d4d4d;
 }
 header nav > ul {
   height: 0;
@@ -679,6 +709,117 @@ div.content {
 div.content.expand {
   height: 1900px;
 }
+/*
+	subnav Styler 	 
+*/
+#subnav-cont {
+  border-bottom: 2px solid #b7b7b7;
+  padding: 15px 0;
+  font-size: 0.8571428571428571em;
+  background-color: #ffffff;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 310px;
+  left: 0;
+  z-index: 5;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+#subnav,
+#subnav ul,
+#subnav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+#subnav {
+  background: transparent url("/_assets/img/line1.png") repeat-y scroll right 0%;
+}
+#subnav li {
+  line-height: 20px;
+  margin-top: 1px;
+  position: relative;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  text-align: right;
+  padding-right: 12px;
+}
+/* IE leaves a blank space where span is added so this is to avoid that */
+* html #subnav li {
+  float: right;
+  display: inline;
+}
+#subnav li a {
+  padding-right: 28px;
+  color: #706561;
+  text-decoration: none;
+}
+#subnav li a:hover {
+  color: #029494;
+}
+#subnav li a.h1 {
+  color: #ffffff;
+}
+#subnav li span {
+  float: right;
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  width: 20px;
+  height: 20px;
+  cursor: auto;
+  font-size: 0;
+  cursor: pointer;
+}
+#subnav li span,
+#subnav li span.collapsed {
+  background: url(/_assets/img/collapsed.png) no-repeat 0 0;
+}
+#subnav li span.expanded {
+  background: url(/_assets/img/expanded.png) no-repeat 0 0;
+}
+/* sub levels */
+#subnav li ul {
+  margin-right: 28px;
+  background: transparent url(/_assets/img/line1.png) repeat-y scroll right 0%;
+}
+#subnav li li {
+  background: transparent url(/_assets/img/line2.png) no-repeat scroll right 0;
+}
+/* etc. */
+/* float fix */
+#subnav:after,
+#subnav ul:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#subnav,
+#subnav ul {
+  display: block;
+}
+/*  \*/
+#subnav,
+#subnav ul {
+  min-height: 1%;
+}
+* html #subnav,
+* html #subnav ul {
+  height: 1%;
+}
+/*  */
 /******** END MAIN HEADER AND NAVIGATION STYLES *********/
 /*
  * jQuery FlexSlider v2.0
@@ -1332,117 +1473,26 @@ div.videowrap {
 .video.standard iframe {
   *height: auto;
 }
-/*
-	subnav Styler 	 
-*/
-#subnav-cont {
-  border-bottom: 2px solid #b7b7b7;
-  padding: 15px 0;
-  font-size: 0.8571428571428571em;
-  background-color: #ffffff;
-  width: 100%;
+section#subpage-nav {
+  background-color: #4d4d4d;
+}
+section#subpage-nav ul li {
+  display: inline-block;
+  border-left: 1px solid #ffffff;
+  padding: 12px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  position: absolute;
-  top: 310px;
-  left: 0;
-  z-index: 5;
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-}
-#subnav,
-#subnav ul,
-#subnav li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
-  -ms-transition: all 400ms ease;
-  transition: all 400ms ease;
-}
-#subnav {
-  background: transparent url("/_assets/img/line1.png") repeat-y scroll right 0%;
-}
-#subnav li {
-  line-height: 20px;
-  margin-top: 1px;
-  position: relative;
-  width: 100%;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 12px;
-  text-align: right;
-  padding-right: 12px;
+  font-size: 0.74em;
+  line-height: 1em;
 }
-/* IE leaves a blank space where span is added so this is to avoid that */
-* html #subnav li {
-  float: right;
-  display: inline;
-}
-#subnav li a {
-  padding-right: 28px;
-  color: #706561;
+section#subpage-nav ul li a {
+  color: #ffffff;
   text-decoration: none;
 }
-#subnav li a:hover {
-  color: #029494;
+section#subpage-nav ul li a:hover {
+  color: #b7b7b7;
 }
-#subnav li a.h1 {
-  color: #ffffff;
-}
-#subnav li span {
-  float: right;
-  position: absolute;
-  top: 0px;
-  right: 2px;
-  width: 20px;
-  height: 20px;
-  cursor: auto;
-  font-size: 0;
-  cursor: pointer;
-}
-#subnav li span,
-#subnav li span.collapsed {
-  background: url(/_assets/img/collapsed.png) no-repeat 0 0;
-}
-#subnav li span.expanded {
-  background: url(/_assets/img/expanded.png) no-repeat 0 0;
-}
-/* sub levels */
-#subnav li ul {
-  margin-right: 28px;
-  background: transparent url(/_assets/img/line1.png) repeat-y scroll right 0%;
-}
-#subnav li li {
-  background: transparent url(/_assets/img/line2.png) no-repeat scroll right 0;
-}
-/* etc. */
-/* float fix */
-#subnav:after,
-#subnav ul:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-#subnav,
-#subnav ul {
-  display: block;
-}
-/*  \*/
-#subnav,
-#subnav ul {
-  min-height: 1%;
-}
-* html #subnav,
-* html #subnav ul {
-  height: 1%;
-}
-/*  */
 /******** START MAIN FOOTER STYLES *********/
 footer {
   background-color: #029494;

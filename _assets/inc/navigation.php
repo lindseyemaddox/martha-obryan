@@ -5,7 +5,7 @@
 		<div class="inner">
 			<nav>
 				<a class="logo" href="/"><img src="/_assets/img/logo.png"></a>
-				<a id="menu" href="#"><img src="/_assets/img/menu.png"></a>
+				<a id="menu" href="#"><span class="icon-menu"></span></a>
 				<ul id="subnav">
 					<li><a href="/outreach/">Outreach</a>
 						<ul>
