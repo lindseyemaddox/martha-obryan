@@ -16,6 +16,8 @@
 
 	</section><!--header-->
 
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subnav-other.php'); ?>
+
 	<section class="subpage">
 
 		<div class="inner">
@@ -147,7 +149,7 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/high-performers/explore/">&lt; Explore! Community School</a></div><!--left-->
+			<div class="left"><a href="/outreach/other/">&lt; Other Outreach</a></div><!--left-->
 
 			<div class="right"><a href="/outreach/other/recruit-2/">Recruit 2 Mission &gt;</a></div><!--right-->
 

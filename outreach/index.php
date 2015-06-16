@@ -20,8 +20,6 @@
 		
 		<div class="inner">
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque urna neque, lacinia nec risus non, consectetur hendrerit lectus. Praesent in sagittis ligula. Suspendisse potenti. Duis ac fermentum mi, quis suscipit enim. Integer sed velit nec justo pharetra elementum a sit amet justo. Aenean quis lorem condimentum, maximus arcu sed, viverra lacus. Quisque nibh metus, convallis vel diam fringilla, facilisis luctus nibh.</p>
-
 			<div class="wrapper">
 
 			    <div class="main">

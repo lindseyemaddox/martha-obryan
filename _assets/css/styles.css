@@ -1493,6 +1493,9 @@ section#subpage-nav ul li a {
 section#subpage-nav ul li a:hover {
   color: #b7b7b7;
 }
+section#subpage-nav ul li:last-child {
+  border-right: 1px solid #ffffff;
+}
 /******** START MAIN FOOTER STYLES *********/
 footer {
   background-color: #029494;
