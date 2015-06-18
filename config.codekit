@@ -351,6 +351,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/_assets\/css\/less\/pages\/values.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/values.less",
+		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/values.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/_assets\/css\/less\/responsive.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -754,6 +774,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/header-values.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155775,
+		"inputAbbreviatedPath": "\/_assets\/img\/header-values.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/header-values.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/inset-family.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -783,6 +814,17 @@
 		"initialSize": 53112,
 		"inputAbbreviatedPath": "\/_assets\/img\/inset-nelson.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/inset-nelson.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/inset-values.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15132,
+		"inputAbbreviatedPath": "\/_assets\/img\/inset-values.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/inset-values.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

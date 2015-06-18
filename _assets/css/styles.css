@@ -596,6 +596,11 @@ div.img.sixty {
   margin-left: 5%;
   float: right;
 }
+div.img.forty {
+  width: 40%;
+  margin-left: 5%;
+  float: right;
+}
 div.img p.caption {
   text-transform: uppercase;
   font-size: 0.8571428571428571em;
@@ -2133,6 +2138,62 @@ div.slider-row {
 div.slider-row h4,
 div.slider-row div.slider {
   display: inline-block;
+  vertical-align: middle;
+}
+div#values section.header {
+  background: url(/_assets/img/header-values.jpg) no-repeat center center transparent;
+  background-size: cover;
+  height: 536px;
+  position: relative;
+}
+section#leadership h3 {
+  margin-bottom: 30px;
+}
+section#leadership h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: .7em;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  padding: 0;
+}
+section#leadership h5 {
+  font-size: 0.8em;
+  color: #029494;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  padding: 8px 0 0;
+  margin: 0;
+}
+section#leadership h5:nth-child(3) {
+  padding-top: 0;
+}
+section#leadership h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 0.8em;
+  color: #4d4d4d;
+  line-height: 1em;
+  padding: 5px 0 0;
+}
+section#leadership article.item {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 1.3% 30px;
+}
+section#leadership article.item img {
+  display: inline-block;
+  width: 16%;
+  margin: 0 2% 0 0;
+}
+section#leadership article.item div.text {
+  display: inline-block;
+  width: 81%;
   vertical-align: middle;
 }
 /*======================================================*/

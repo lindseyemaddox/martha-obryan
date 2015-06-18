@@ -25,7 +25,7 @@
 
 			<h3>Need a subhead</h3>
 
-			<p>paragraph</p>
+			<p>Martha O'Bryan Center and its extensive network of partners empower families to overcome their roadblocks to success. To provide expertise in specialized areas, we refer families to one or more of our many partners. Partners vary according to need. For example, for our Tied Together parenting program, these include Cayce Family Health Center, Nurses for Newborns, Tennessee Voices for Children, Nashville Public Libraries, and Our Kids. Other partners include, but are not limited to: MDHA (Metropolitan Development Housing Agency), HUD (Housing and Urban Development), CCW Learning Center, the YMCA, Oasis Center, Centerstone, Second Harvest, TAMCO (Tennessee Asset Management Company), Mental Health Cooperative, TN Department of Human Services, Metro Refugee Program, the Alcohol and Drug Council of Middle Tennessee, United Neighborhood Health Services, teachers and counselors from the Stratford and Maplewood clusters, Metro Social Services Relative Caregiver program, and Vanderbilt Counseling services.</p>
 
 	    </div><!--inner-->
 
