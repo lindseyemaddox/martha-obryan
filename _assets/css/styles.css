@@ -2227,6 +2227,7 @@ div#news #news-items h6 {
   font-weight: 400;
   font-size: 1.1428571428571428em;
   line-height: 1.375em;
+  margin-bottom: 40px;
 }
 div#news #news-items h6 a.readmore {
   color: #029494;
@@ -2237,6 +2238,24 @@ div#news #news-items h6 a.readmore {
 }
 div#news #news-items h6 a.readmore:hover {
   color: #b7b7b7;
+}
+div#news div#pagination {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 8px;
+}
+div#news div#pagination a {
+  color: #b7b7b7;
+  text-decoration: none;
+}
+div#news div#pagination a.active {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #029494;
+}
+div#news div#pagination a:hover {
+  color: #029494;
 }
 section#news-item {
   padding: 20px;
