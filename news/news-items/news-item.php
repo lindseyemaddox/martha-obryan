@@ -37,7 +37,7 @@
 
 		<p>Ut ligula turpis, semper a sem id, malesuada egestas diam. Maecenas et aliquet velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam velit urna, tempus at rutrum vel, blandit ac enim. Nam id pharetra lorem. Maecenas tincidunt massa ex, ut ornare felis laoreet ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam vitae est sit amet velit venenatis condimentum ut in neque. Fusce egestas viverra tellus ac lobortis. Nam imperdiet nibh tristique ligula iaculis, hendrerit tincidunt est pulvinar. Mauris pellentesque dui ipsum, non iaculis lorem molestie vel. Vivamus feugiat mauris erat, a accumsan dui hendrerit quis. Vestibulum fermentum elementum varius. Vivamus vel dapibus velit, sit amet semper tellus. Pellentesque tincidunt rhoncus elit, at convallis lectus lacinia non. </p>
 
-		<a class="next-item" href="/news/news-items/news-item.php">Next News Item &gt;</a>
+		<a class="next-item" href="/news/news-items/news-item.php">"Next News Item Title" &gt;</a>
 
 	</section><!--bio-->
 

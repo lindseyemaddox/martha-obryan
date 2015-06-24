@@ -882,6 +882,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/logo-crankin-purity.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36753,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-crankin-purity.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-crankin-purity.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/logo-crankin-vf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7934,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-crankin-vf.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-crankin-vf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/logo-crankin.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

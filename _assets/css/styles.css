@@ -2257,6 +2257,20 @@ div#news div#pagination a.active {
 div#news div#pagination a:hover {
   color: #029494;
 }
+div#news .btn.row {
+  display: inline-block;
+}
+div#news img.logo {
+  display: inline-block;
+  width: 60%;
+  margin-bottom: 40px;
+}
+div#news div.slider {
+  display: inline-block;
+  width: 20%;
+  margin-left: 19%;
+  vertical-align: middle;
+}
 section#news-item {
   padding: 20px;
 }

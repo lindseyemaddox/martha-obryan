@@ -84,6 +84,13 @@
           directionNav: false,
           animationLoop: true,
         });
+        $('.sponsors-crankin-page').flexslider({
+          slideshowSpeed: 4000,
+          minItems: 1,
+          maxItems: 1,
+          controlNav: false,
+          directionNav: false,
+        });
         $('.jobs').flexslider({
           itemWidth: 100,
           itemMargin: 0,
