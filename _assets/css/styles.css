@@ -2196,6 +2196,89 @@ section#leadership article.item div.text {
   width: 81%;
   vertical-align: middle;
 }
+div#news section.header {
+  background: url(/_assets/img/header-news.jpg) no-repeat center center transparent;
+  background-size: cover;
+  height: 536px;
+  position: relative;
+}
+div#news #news-items {
+  margin-top: 30px;
+}
+div#news #news-items h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.7142857142857142em;
+  line-height: 0.9166666666666666em;
+  padding-bottom: 0;
+}
+div#news #news-items h5 {
+  letter-spacing: 5px;
+  color: #029494;
+  font-size: 1.1428571428571428em;
+  line-height: 2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+div#news #news-items h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.1428571428571428em;
+  line-height: 1.375em;
+}
+div#news #news-items h6 a.readmore {
+  color: #029494;
+  text-decoration: underline;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+div#news #news-items h6 a.readmore:hover {
+  color: #b7b7b7;
+}
+section#news-item {
+  padding: 20px;
+}
+section#news-item h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.7142857142857142em;
+  line-height: 0.9166666666666666em;
+  padding-bottom: 0;
+}
+section#news-item h2 {
+  letter-spacing: 5px;
+  color: #029494;
+  font-size: 1.1428571428571428em;
+  line-height: 2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+section#news-item div.img {
+  float: right;
+  width: 40%;
+  margin: 0 0 20px 3%;
+}
+section#news-item div.img img {
+  width: 100%;
+}
+section#news-item a.next-item {
+  display: block;
+  text-align: right;
+  padding-right: 20px;
+  color: #029494;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+section#news-item a.next-item:hover {
+  color: #b7b7b7;
+}
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
 /*====================================================*/
