@@ -502,7 +502,7 @@
 
 			<div class="bottom">
 
-				<p class="sponsors">Thanks to <br/>our sponsors:</p>
+				<p class="sponsors-p">Thanks to <br/>our sponsors:</p>
 
 	            <div class="slider">
 	                <div class="sponsors-crankin">
@@ -722,32 +722,34 @@
 
 		});
 
-		$(function() {
-			$( ".option" ).draggable({
-				stop: function( event, ui ) {
-					
+$(function() {
+	$( ".option" ).draggable({
+		stop: function( event, ui ) {
 
-					$(this).addClass("checked");
 
-				}
-			});
+		}
+	});
 
-		  var option = $('.checked').attr('id');
-		  console.log(option);
-		  $("input#"+option).attr('checked', true).change();
+  var service = $('.checked').attr('id');
+  console.log(service);
+  $("input#"+service).attr('checked', true).change();
 
-			$( "#box" ).droppable({
-		      hoverClass: "clue",
-			  drop: function( event, ui ) {
-			    $( this )
-			      .addClass( "ui-state-highlight" )
-			      .find( "p" )
-			        .html( "Thank You." );
-			      
+	$( "#box" ).droppable({
+      hoverClass: "clue",
+	  drop: function( event, ui ) {
+	    $( this )
+	      .addClass( "ui-state-highlight" )
+	      .find( "p" )
+	        .html( "Thank You." );
+		var $this = ui.draggable;
+		var name = $this.attr('id');
+		$('input[name="' + name + '"').prop('checked', true);
+	      
+	  }
+	});
+});
 
-			  }
-			});
-		});
+
 	</script>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>

@@ -51,11 +51,17 @@
 
       			   		<div id="items" class="clearfix">
 
-    						<article class="item y2013">
-    						  	<h4>June 2013</h4>
-    						  	<h5>Sandy Tyrell of Harpeth Presbyterian Church took home the Best of Show award for the 29th Purity Miss Martha's Ice Cream Crankin'. Purity Dairies will try to replicate her winning recipe, Salt Lick N Burnt Caramel, and add it to its lineup of ice cream flavors in 2015. Tyrell's ice cream, a salty caramel with chopped Milky Way bars, also tied for first for vanilla-based flavors.</h5>
-    						    <a href="/news/ice-cream-crankin/past-events/past-event" class="btn fancybox fancybox.iframe">Read More</a>
-    						</article>
+      						<article class="item y2014">
+      						  	<h4>2014</h4>
+      						  	<h5>Sandy Tyrell of Harpeth Presbyterian Church took home the Best of Show award for the 29th Purity Miss Martha's Ice Cream Crankin'. Purity Dairies will try to replicate her winning recipe, Salt Lick N Burnt Caramel, and add it to its lineup of ice cream flavors in 2015. Tyrell's ice cream, a salty caramel with chopped Milky Way bars, also tied for first for vanilla-based flavors.</h5>
+      						    <a href="/news/ice-cream-crankin/past-events/past-event.php" class="btn fancybox fancybox.iframe">Read More</a>
+      						</article>
+
+                  <article class="item y2013">
+                      <h4>2013</h4>
+                      <h5>For the second consecutive year, Mary Allen took home the Best of Show, this time with her ice cream flavor "Graham Ole Opry," which combines vanilla ice cream, brown sugar, swirls of caramel, chopped peanuts and chocolate with bits of graham crackers. She follows in the footsteps of her mother, Burkley, and sister, Sara, as past champions. Look for Graham Ole Opry to be available as a Purity flavor next year.</h5>
+                      <a href="/news/ice-cream-crankin/past-events/past-event.php" class="btn fancybox fancybox.iframe">Read More</a>
+                  </article>
 
     				    </div><!--items-->
 
@@ -133,7 +139,14 @@
 	});
 	$(window).load(function(){
 		$('.fancybox').fancybox();
+        $('.sponsors-crankin-page-past').flexslider({
+          minItems: 7,
+          maxItems: 7,
+          controlNav: false,
+          directionNav: true,
+        });
 	});
+
 
 
 </script>

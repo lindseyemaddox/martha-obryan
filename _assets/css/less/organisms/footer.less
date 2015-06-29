@@ -32,6 +32,10 @@ footer {
 			text-transform: uppercase;
 			font-size: 1em;
 			letter-spacing: 3px;
+			&[type=checkbox] {
+				width: 10%;
+				display: inline-block;
+			}
 		}
 		textarea {
 			width: 92%;
@@ -40,7 +44,7 @@ footer {
 			margin-bottom: 13px;
 			border: none;
 			resize: none;
-			height: 120px;
+			height: 80px;
 			.lato-light;
 			text-transform: uppercase;
 			font-size: 1em;
@@ -121,6 +125,12 @@ footer {
 			&:hover {
 				color: @black;
 			}
+		}
+		&.checkbox {
+			text-align: left;
+			display: inline-block;
+			margin-top: 5px;
+			vertical-align: top;
 		}
 	}
 }

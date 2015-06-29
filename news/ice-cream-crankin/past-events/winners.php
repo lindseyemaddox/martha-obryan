@@ -21,7 +21,7 @@
 
 	<section id="news-item">
 
-		<h1>[Newsletter Date] Newsletter</h4>
+		<h1>[Event Date] Purity Miss Martha's Ice Cream Crankin' and Summer Social</h4>
 
 		<h3><a href="#heading">anchor text to heading(s)</a></h3>
 
@@ -31,9 +31,9 @@
 			</div>
 		</div>
 	
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel ipsum et leo ultricies varius. Sed scelerisque diam ac lectus ullamcorper ultricies. Mauris rutrum pulvinar libero, et consectetur leo mollis eu. Morbi feugiat nunc et lacus laoreet tempor. Maecenas bibendum dui quis iaculis imperdiet. Maecenas non finibus ligula. Nam ut porta urna. Proin pulvinar libero odio. Maecenas fringilla mi vel feugiat efficitur. Ut at ex metus. Duis consequat massa vel dui ornare, consequat faucibus massa lacinia. Nunc aliquet, metus ut vehicula fringilla, neque ex tristique velit, id lobortis mi leo eu mi. Nunc nec orci sodales tortor placerat convallis eget at turpis.</p>
+		<p>Sandy Tyrell of Harpeth Presbyterian Church took home the Best of Show award for the 29th Purity Miss Martha's Ice Cream Crankin'. Purity Dairies will try to replicate her winning recipe, Salt Lick N Burnt Caramel, and add it to its lineup of ice cream flavors in 2015. Tyrell's ice cream, a salty caramel with chopped Milky Way bars, also tied for first for vanilla-based flavors.</p>
 
-		<p>Aenean eleifend erat eget ipsum condimentum euismod. Nulla consectetur enim ac pretium iaculis. Quisque porta fermentum convallis. Sed faucibus maximus ante at pharetra. Nulla tincidunt augue eget nisl placerat iaculis. Phasellus quis libero eget risus tempor laoreet sed eget nunc. Nulla facilisi. Proin id consectetur diam. Nunc condimentum augue vel sapien luctus auctor. Praesent scelerisque tempus tortor. Curabitur sit amet sagittis nibh. Donec leo risus, dapibus ac tincidunt sed, venenatis nec leo.</p>
+		<p><a href="/news/ice-cream-crankin/past-events/winners">Full List of Winners</a></p>
 
 		<h2 id="heading">Heading</h2>
 

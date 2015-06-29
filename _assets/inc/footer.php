@@ -14,6 +14,7 @@
                 <input type='text' name='phone' id='phone' size='10' placeholder='Phone'>
                 <input type='text' name='email' id='email' size='10' placeholder='Email'>
                 <textarea name='desc' id='desc' size='10'>How can we help?</textarea>
+                <input type='checkbox' checked name='newsletter' id='newsletter' size='10'><p class='checkbox'>I'd like to receive the newsletter.</p>
                 <button class='submit' type='submit' name='submit'>Send Form</button>
             </form>
 
@@ -64,7 +65,6 @@
           }
         });
         $('.sponsors').flexslider({
-          slideshowSpeed: 300,
           itemWidth: 100,
           itemMargin: 0,
           minItems: 2,
@@ -81,7 +81,7 @@
           minItems: 2,
           maxItems: 7,
           controlNav: false,
-          directionNav: false,
+          directionNav: true,
           animationLoop: true,
         });
         $('.sponsors-crankin-page').flexslider({
@@ -89,7 +89,7 @@
           minItems: 1,
           maxItems: 1,
           controlNav: false,
-          directionNav: false,
+          directionNav: true,
         });
         $('.jobs').flexslider({
           itemWidth: 100,
@@ -97,8 +97,9 @@
           minItems: 2,
           maxItems: 4,
           controlNav: false,
-          directionNav: false,
+          directionNav: true,
           animationLoop: true,
+          slideshow: false,
         });
         $('.leaders').flexslider({
           itemWidth: 100,
@@ -106,8 +107,9 @@
           minItems: 2,
           maxItems: 5,
           controlNav: false,
-          directionNav: false,
+          directionNav: true,
           animationLoop: true,
+          slideshow: false,
         });
       });
     </script>

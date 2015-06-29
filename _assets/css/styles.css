@@ -537,9 +537,23 @@ section.subpage ul li {
   font-size: 1.1428571428571428em;
   line-height: 1.375em;
 }
+section.subpage ul.flex-direction-nav li {
+  list-style-type: none;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+}
 section.subpage .btn {
   width: 185px;
   margin-bottom: 30px;
+}
+section.subpage-sort h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-size: 2.8571428571428568em;
+  margin: 67px 0 50px;
 }
 section#bio div.img {
   display: inline-block;
@@ -857,7 +871,9 @@ div.content.expand {
 .sponsors-crankin,
 .jobs,
 .leaders,
-.faculty {
+.faculty,
+.sponsors-crankin-page,
+.sponsors-crankin-page-past {
   margin: 0;
   padding: 0;
 }
@@ -866,12 +882,16 @@ div.content.expand {
 .sponsors-crankin .slides,
 .jobs .slides,
 .leaders .slides,
-.faculty .slides {
+.faculty .slides,
+.sponsors-crankin-page .slides,
+.sponsors-crankin-page-past .slides {
   padding: 0;
 }
 .flexslider .slides > li,
 .sponsors .slides > li,
 .sponsors-crankin .slides > li,
+.sponsors-crankin-page .slides > li,
+.sponsors-crankin-page-past .slides > li,
 .jobs .slides > li,
 .leaders .slides > li,
 .faculty .slides > li {
@@ -883,6 +903,8 @@ div.content.expand {
 .flexslider .slides img,
 .sponsors .slides img,
 .sponsors-crankin .slides img,
+.sponsors-crankin-page .slides img,
+.sponsors-crankin-page-past .slides img,
 .jobs .slides img,
 .leaders .slides img,
 .faculty .slides img {
@@ -916,7 +938,13 @@ html[xmlns] .slides {
 /* FlexSlider Default Theme
 *********************************/
 .flexslider,
-.sponsors {
+.sponsors,
+.sponsors-crankin,
+.jobs,
+.leaders,
+.faculty,
+.sponsors-crankin-page,
+.sponsors-crankin-page-past {
   position: relative;
   zoom: 1;
 }
@@ -951,15 +979,42 @@ html[xmlns] .slides {
   z-index: 10;
   cursor: pointer;
   text-indent: -9999px;
-  opacity: 0;
+  -webkit-transition: all .3s ease;
+}
+.leaders .flex-direction-nav a,
+.sponsors-crankin-page .flex-direction-nav a,
+.sponsors-crankin-page-past .flex-direction-nav a {
+  width: 30px;
+  height: 30px;
+  margin: -20px 0 0;
+  display: block;
+  background: url(/_assets/img/bg_direction_nav-dark.png) no-repeat 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+  text-indent: -9999px;
   -webkit-transition: all .3s ease;
 }
 .flex-direction-nav .flex-next {
   background-position: 100% 0;
   right: -36px;
 }
+.leaders .flex-direction-nav .flex-next,
+.sponsors-crankin-page .flex-direction-nav .flex-next,
+.sponsors-crankin-page-past .flex-direction-nav .flex-next {
+  background-position: 100% 0;
+  right: -36px;
+}
+.sponsors .flex-direction-nav .flex-next {
+  background-position: 100% 0;
+  right: -16px;
+}
 .flex-direction-nav .flex-prev {
   left: -36px;
+}
+.sponsors .flex-direction-nav .flex-prev {
+  left: -16px;
 }
 .flexslider:hover .flex-next {
   opacity: 0.8;
@@ -1537,6 +1592,10 @@ footer form input {
   font-size: 1em;
   letter-spacing: 3px;
 }
+footer form input[type=checkbox] {
+  width: 10%;
+  display: inline-block;
+}
 footer form textarea {
   width: 92%;
   background-color: #ffffff;
@@ -1544,7 +1603,7 @@ footer form textarea {
   margin-bottom: 13px;
   border: none;
   resize: none;
-  height: 120px;
+  height: 80px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -1635,6 +1694,12 @@ footer p a {
 footer p a:hover {
   color: #4d4d4d;
 }
+footer p.checkbox {
+  text-align: left;
+  display: inline-block;
+  margin-top: 5px;
+  vertical-align: top;
+}
 /******** END FOOTER STYLES *********/
 /*================================================*/
 /*================  PAGE STYLES  ================*/
@@ -1721,6 +1786,7 @@ div#home section#social div.fb-page,
 div#home section#social div.twitter {
   display: inline-block;
   width: 30%;
+  height: 396px;
 }
 div#home section#numbers {
   padding: 90px 0 78px;
@@ -1918,7 +1984,7 @@ div#home section#crankin div.bottom {
   clear: both;
   margin-top: 40px;
 }
-div#home section#crankin p.sponsors {
+div#home section#crankin p.sponsors-p {
   display: inline-block;
   width: 15%;
   margin-right: 3%;
@@ -1926,6 +1992,7 @@ div#home section#crankin p.sponsors {
   font-weight: 300;
   font-size: 1.7142857142857142em;
   line-height: 0.9166666666666666em;
+  position: inherit;
 }
 div#home section#crankin div.slider {
   display: inline-block;
@@ -2062,7 +2129,7 @@ div#outreach section#options article {
   margin: 0 1.2% 22px;
   padding: 15px 1.55%;
 }
-div#outreach section#options article h2 {
+div#outreach section#options article h4 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   color: #4d4d4d;
@@ -2071,7 +2138,7 @@ div#outreach section#options article h2 {
   font-size: 1.2857142857142856em;
   padding-bottom: 10px;
 }
-div#outreach section#options article h4 {
+div#outreach section#options article h5 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 0.8571428571428571em;
@@ -2271,6 +2338,38 @@ div#news div.slider {
   margin-left: 19%;
   vertical-align: middle;
 }
+section.newsletters aside.sorter {
+  width: 170px;
+  min-width: 170px;
+}
+section.newsletters article.item {
+  background-color: #4d4d4d;
+  padding: 3%;
+  width: 47%;
+  margin: 0 1.5% 20px;
+}
+section.newsletters article.item h4 {
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+section.newsletters article.item h5 {
+  color: #ffffff;
+  font-size: 0.875em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.2em;
+  padding-bottom: 15px;
+}
+section.newsletters article.item a.btn {
+  margin-top: 15px;
+}
+section.newsletters article.item a.btn:hover {
+  background-color: #b7b7b7;
+}
 section#news-item {
   padding: 20px;
 }
@@ -2279,10 +2378,10 @@ section#news-item h1 {
   font-weight: 700;
   font-size: 1.7142857142857142em;
   line-height: 0.9166666666666666em;
-  padding-bottom: 0;
+  padding-bottom: 20px;
 }
 section#news-item h2 {
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   color: #029494;
   font-size: 1.1428571428571428em;
   line-height: 2em;
@@ -2290,6 +2389,18 @@ section#news-item h2 {
   font-weight: 700;
   margin-top: 0;
   padding-bottom: 10px;
+}
+section#news-item h3 a {
+  letter-spacing: 2px;
+  color: #029494;
+  font-size: 1.1428571428571428em;
+  line-height: 2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+}
+section#news-item .videowrap {
+  margin: 30px 0;
 }
 section#news-item div.img {
   float: right;
@@ -2311,6 +2422,9 @@ section#news-item a.next-item {
 }
 section#news-item a.next-item:hover {
   color: #b7b7b7;
+}
+section#news-item .slider {
+  width: 100%;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/

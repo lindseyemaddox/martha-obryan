@@ -70,22 +70,66 @@ div#news {
 	}
 }
 
+section.newsletters {
+	aside.sorter {
+		width: 170px;
+		min-width: 170px;
+	}
+	article.item {
+		background-color: @black;
+		padding: 3%;
+		width: 47%;
+		margin: 0 1.5% 20px;
+		h4 {
+			text-align: right;
+			.lato-bold;
+			color: @white;
+			font-size: 1.5em;
+			padding-bottom: 20px;
+		}
+		h5 {
+			color: @white;
+			font-size: 0.875em;
+			.lato;
+			line-height: 1.2em;
+			padding-bottom: 15px;
+		}
+		a.btn {
+			margin-top: 15px;
+			&:hover {
+				background-color: @grey;
+			}
+		}
+	}
+}
+
 section#news-item {
 	padding: 20px;
 	h1 {
 			.lato-bold;
 			font-size: 1.7142857142857142em;
 			line-height: 0.9166666666666666em;
-			padding-bottom: 0;
+			padding-bottom: 20px;
 	}
 	h2 {
-		letter-spacing: 5px;
+		letter-spacing: 2px;
 		color: @green;
 		font-size: 1.1428571428571428em;
 		line-height: 2em;
 		.lato-bold;
 		margin-top: 0;
 		padding-bottom: 10px;
+	}
+	h3 a {
+		letter-spacing: 2px;
+		color: @green;
+		font-size: 1.1428571428571428em;
+		line-height: 2em;
+		.lato-bold;
+		margin-top: 0;
+	}
+	.videowrap {
+		margin: 30px 0;
 	}
 	div.img {
 		float: right;
@@ -106,5 +150,8 @@ section#news-item {
 		&:hover {
 			color: @grey;
 		}
+	}
+	.slider {
+		width: 100%;
 	}
 }

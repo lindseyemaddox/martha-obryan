@@ -34,7 +34,7 @@
 			<h3>The Martha O’Bryan Center Highway</h3>
 
 			<div class="img forty">
-				<img src="/_assets/img/inset-values.jpg" alt="child working on schoolwork" title="child working on schoolwork">
+				<img src="/_assets/img/inset-values.jpg" alt="child working" title="child working on schoolwork">
 				<p class="caption">Need a caption</p>
 			</div><!--img-->
 
