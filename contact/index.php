@@ -23,7 +23,25 @@
 
 			<h3>Need a subhead</h3>
 
-			<p>paragraph</p>
+			<article class="contact-item">
+				
+				<h4>Contact Martha O’Bryan Center</h4>
+
+				<h5>Have a quick question? Need a quick answer? Use our simple contact form.</h5>
+
+				<a class="btn">Contact Us</a>
+
+			</article><!--contact-item-->
+
+			<article class="contact-item">
+				
+				<h4>Sign Up to Receive the Newsletter</h4>
+
+				<h5>Receive news about events, volunteering and people at Martha O'Bryan Center</h5>
+
+				<a class="btn">Contact Us</a>
+
+			</article><!--contact-item-->
 
 	    </div><!--inner-->
 

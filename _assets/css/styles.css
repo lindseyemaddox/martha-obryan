@@ -870,6 +870,7 @@ div.content.expand {
 .sponsors,
 .sponsors-crankin,
 .jobs,
+.jobs-page,
 .leaders,
 .faculty,
 .sponsors-crankin-page,
@@ -881,6 +882,7 @@ div.content.expand {
 .sponsors .slides,
 .sponsors-crankin .slides,
 .jobs .slides,
+.jobs-page .slides,
 .leaders .slides,
 .faculty .slides,
 .sponsors-crankin-page .slides,
@@ -893,6 +895,7 @@ div.content.expand {
 .sponsors-crankin-page .slides > li,
 .sponsors-crankin-page-past .slides > li,
 .jobs .slides > li,
+.jobs-page .slides > li,
 .leaders .slides > li,
 .faculty .slides > li {
   display: none;
@@ -906,6 +909,7 @@ div.content.expand {
 .sponsors-crankin-page .slides img,
 .sponsors-crankin-page-past .slides img,
 .jobs .slides img,
+.jobs-page .slides img,
 .leaders .slides img,
 .faculty .slides img {
   width: 100%;
@@ -941,6 +945,7 @@ html[xmlns] .slides {
 .sponsors,
 .sponsors-crankin,
 .jobs,
+.jobs-page,
 .leaders,
 .faculty,
 .sponsors-crankin-page,
@@ -983,7 +988,8 @@ html[xmlns] .slides {
 }
 .leaders .flex-direction-nav a,
 .sponsors-crankin-page .flex-direction-nav a,
-.sponsors-crankin-page-past .flex-direction-nav a {
+.sponsors-crankin-page-past .flex-direction-nav a,
+.jobs-page .flex-direction-nav a {
   width: 30px;
   height: 30px;
   margin: -20px 0 0;
@@ -1002,7 +1008,8 @@ html[xmlns] .slides {
 }
 .leaders .flex-direction-nav .flex-next,
 .sponsors-crankin-page .flex-direction-nav .flex-next,
-.sponsors-crankin-page-past .flex-direction-nav .flex-next {
+.sponsors-crankin-page-past .flex-direction-nav .flex-next,
+.jobs-page .flex-direction-nav .flex-next {
   background-position: 100% 0;
   right: -36px;
 }
@@ -2390,7 +2397,7 @@ section#news-item h2 {
   margin-top: 0;
   padding-bottom: 10px;
 }
-section#news-item h3 a {
+section#news-item h3 {
   letter-spacing: 2px;
   color: #029494;
   font-size: 1.1428571428571428em;
@@ -2398,6 +2405,18 @@ section#news-item h3 a {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   margin-top: 0;
+}
+section#news-item h3 a {
+  color: #029494;
+  text-decoration: none;
+}
+section#news-item h4 {
+  letter-spacing: 1px;
+  color: #4d4d4d;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 section#news-item .videowrap {
   margin: 30px 0;
@@ -2409,6 +2428,11 @@ section#news-item div.img {
 }
 section#news-item div.img img {
   width: 100%;
+}
+section#news-item div.img.full {
+  width: 100%;
+  margin: 20px 0 20px 0;
+  float: none;
 }
 section#news-item a.next-item {
   display: block;
@@ -2423,8 +2447,214 @@ section#news-item a.next-item {
 section#news-item a.next-item:hover {
   color: #b7b7b7;
 }
-section#news-item .slider {
+section#news-item .slider p {
+  display: inline-block;
+  width: 30%;
+}
+section#news-item .slider .sponsors-crankin-page-past {
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+}
+section#news-item table.ice-cream {
+  margin-bottom: 30px;
+}
+section#news-item table.ice-cream td,
+section#news-item table.ice-cream th {
+  width: 25%;
+  text-align: left;
+  color: #4d4d4d;
+  font-size: 1em;
+  padding: 1%;
+  border: 1px solid #029494;
+}
+section#news-item table.ice-cream td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+section#news-item table.ice-cream th {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+section#news-item a.btn {
+  margin-bottom: 10px;
+}
+section#news-item ul {
+  padding: 0 0 20px 20px;
+}
+section#news-item ul li {
+  list-style-type: disc;
+  color: #4d4d4d;
+  padding: 5px 0 5px 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.1428571428571428em;
+  line-height: 1.375em;
+}
+div#careers section.header {
+  background: url(/_assets/img/header-careers.jpg) no-repeat center center transparent;
+  background-size: cover;
+  height: 536px;
+  position: relative;
+}
+div#careers section#options div.wrapper {
+  display: table;
+  height: 100%;
   width: 100%;
+  margin-top: 79px;
+}
+div#careers section#options div.main {
+  display: table-row;
+  height: 100%;
+}
+div#careers section#options div.main-scrollable {
+  height: 100%;
+  overflow-y: auto;
+}
+div#careers section#options article {
+  width: 47%;
+  margin: 0 1.2% 22px;
+  padding: 15px 1.55%;
+}
+div#careers section#options article h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #4d4d4d;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2857142857142856em;
+  padding-bottom: 10px;
+}
+div#careers section#options article h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 0.8571428571428571em;
+  line-height: 1.5em;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #4d4d4d;
+}
+div#careers section#options article .btn {
+  width: 100%;
+  margin-top: 5px;
+}
+div#careers section#options article.job {
+  padding: 0;
+}
+div#careers li.job,
+div#careers article.job {
+  margin-bottom: 40px;
+}
+div#careers li.job div.job-inner,
+div#careers article.job div.job-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 90%;
+  padding: 20px 10%;
+  background-color: #029494;
+}
+div#careers li.job p,
+div#careers article.job p {
+  color: #ffffff;
+  text-align: left;
+}
+div#careers li.job p.title,
+div#careers article.job p.title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.2857142857142856em;
+  line-height: 1.222222222222222em;
+  padding-bottom: 10px;
+  height: 76px;
+}
+div#careers li.job p.city,
+div#careers article.job p.city {
+  padding-bottom: 8px;
+}
+div#careers li.job p.location,
+div#careers article.job p.location,
+div#careers li.job p.city,
+div#careers article.job p.city {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.1428571428571428em;
+  font-size: 1em;
+}
+div#careers li.job p.location,
+div#careers article.job p.location {
+  padding-bottom: 0;
+}
+div#careers li.job p.desc,
+div#careers article.job p.desc {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.1428571428571428em;
+}
+div#careers li.job a.btn,
+div#careers article.job a.btn {
+  width: 100%;
+  color: #029494;
+  background-color: #ffffff;
+}
+div#careers li.job a.btn:hover,
+div#careers article.job a.btn:hover {
+  background-color: #706561;
+  color: #ffffff;
+}
+div#careers article.job div.job-inner {
+  background-color: #4d4d4d;
+  width: 100%;
+}
+div#careers article.job p.desc {
+  height: 100px;
+}
+div#careers article.job p.title {
+  height: 56px;
+}
+div#careers article.job a.btn {
+  color: #4d4d4d;
+  width: 100%;
+}
+div#careers article.job a.btn:hover {
+  background-color: #029494;
+}
+div#contact section.header {
+  background: url(/_assets/img/header-contact.jpg) no-repeat center center transparent;
+  background-size: cover;
+  height: 536px;
+  position: relative;
+}
+div#contact article.contact-item {
+  width: 23%;
+  display: inline-block;
+  margin: 0 1% 20px;
+  background-color: #029494;
+  padding: 2% 2% 0;
+}
+div#contact article.contact-item h4 {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.125em;
+  line-height: 1.3em;
+  padding-bottom: 10px;
+}
+div#contact article.contact-item h5 {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 0;
+}
+div#contact article.contact-item a.btn {
+  background-color: #ffffff;
+  color: #4d4d4d;
+}
+div#contact article.contact-item a.btn:hover {
+  background-color: #4d4d4d;
+  color: #ffffff;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/

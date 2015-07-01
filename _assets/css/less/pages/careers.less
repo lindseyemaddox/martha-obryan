@@ -1,0 +1,121 @@
+div#careers {
+	section.header {
+		background: url(/_assets/img/header-careers.jpg) no-repeat center center transparent;
+		background-size: cover;
+		height: 536px;
+		position: relative;
+	}
+	section#options {
+		div.wrapper {
+		    display: table;
+		    height: 100%;
+		    width: 100%;
+		    margin-top: 79px;	
+		}
+		div.main {
+		    display: table-row;
+		    height: 100%;
+		}
+		div.main-scrollable {
+		    height: 100%;
+		    overflow-y: auto;
+		}
+		article {
+			width: 47%;
+			margin: 0 1.2% 22px;
+			padding: 15px 1.55%;
+			h4 {
+				.lato-bold;
+				color: @black;
+				text-transform: uppercase;
+				text-align: center;
+				font-size: 1.2857142857142856em;
+				padding-bottom: 10px;
+			}
+			h5 {
+				.lato;
+				font-size: 0.8571428571428571em;
+				line-height: 1.5em;
+				text-align: center;
+				padding-bottom: 10px;
+				color: @black;
+			}
+			.btn {
+				width: 100%;
+				margin-top: 5px;
+			}
+			&.job {
+				padding: 0;
+			}
+		}
+	}
+	li.job, article.job {
+		margin-bottom: 40px;
+		div.job-inner {
+			vertical-align: top;
+			display: inline-block;
+			width: 90%;
+			padding: 20px 10%;
+			background-color: @green;
+		}
+		p {
+			color: @white;
+			text-align: left;
+		}
+		p.title {
+			.lato-bold;
+			font-size: 1.2857142857142856em;
+			line-height: 1.222222222222222em;
+			padding-bottom: 10px;
+			height: 76px;
+		}
+		p.city {
+			padding-bottom: 8px;
+		}
+		p.location, p.city {
+			.lato;
+			line-height: 1.1428571428571428em;
+			font-size: 1em;
+		}
+		p.location {
+			padding-bottom: 0;
+		}
+		p.desc {
+			.lato-light;
+			font-size: 1em;
+			line-height: 1.1428571428571428em;
+		}
+		a.btn {
+			width: 100%;
+			color: @green;
+			background-color: @white;
+			&:hover {
+				background-color: @brown;
+				color: @white;
+			}
+		}
+	}
+	article.job {
+		div.job-inner {
+			background-color: @black;
+			width: 100%;
+		}
+		p.desc {
+			height: 100px;
+		}
+		p.title {
+			height: 56px;
+		}
+		a.btn {
+			color: @black;
+			width: 100%;
+			&:hover {
+				background-color: @green;
+			}
+		}
+	}
+}
+
+
+
+

@@ -21,31 +21,97 @@
 
 	<section id="news-item">
 
-		<h1>[Event Date] Purity Miss Martha's Ice Cream Crankin' and Summer Social</h4>
-
-		<h3><a href="#heading">anchor text to heading(s)</a></h3>
-
-		<div class="videowrap">
-		    <div class="video widescreen">
-				<iframe width="100%" src="https://www.youtube.com/embed/JMS8D67WUis" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
+		<h1>[Event Date] Purity Miss Martha's Ice Cream Crankin' Winners</h4>
 	
-		<p>Sandy Tyrell of Harpeth Presbyterian Church took home the Best of Show award for the 29th Purity Miss Martha's Ice Cream Crankin'. Purity Dairies will try to replicate her winning recipe, Salt Lick N Burnt Caramel, and add it to its lineup of ice cream flavors in 2015. Tyrell's ice cream, a salty caramel with chopped Milky Way bars, also tied for first for vanilla-based flavors.</p>
+		<h2 id="heading">Vanilla-Based</h2>
 
-		<p><a href="/news/ice-cream-crankin/past-events/winners">Full List of Winners</a></p>
+		<table class="ice-cream">
+			<tr>
+				<th>Name</th>
+				<th>Name of Ice Cream</th>
+				<th>Affiliation</th>
+			</tr>
+			<tr>
+				<td>1. Amy Alley</td>
+				<td>Graham Ole Oreo</td>
+				<td>Glen Leven Presbyterian</td>
+			</tr>
+			<tr>
+				<td>2. Sandy Tyrell</td>
+				<td>Salt Lick and Burnt Caramel</td>
+				<td>Harpeth Presbyterian</td>
+			</tr>
+			<tr>
+				<td>3. Amy Alley</td>
+				<td>Music City Mash</td>
+				<td>Glen Leven Presbyterian</td>
+			</tr>
+		</table>
 
-		<h2 id="heading">Heading</h2>
+		<h2 id="heading">Chocolate-Based</h2>
 
-		<div class="img"><img src="/_assets/img/inset-family.jpg"></div>
+		<table class="ice-cream">
+			<tr>
+				<th>Name</th>
+				<th>Name of Ice Cream</th>
+				<th>Affiliation</th>
+			</tr>
+			<tr>
+				<td>1. Sue Veith</td>
+				<td>Tropic Thunder</td>
+				<td>Harpeth Presbyterian</td>
+			</tr>
+			<tr>
+				<td>2. Gary Fritz</td>
+				<td>Miss Rosie's Ginger Snap</td>
+				<td>Second Presbyterian</td>
+			</tr>
+			<tr>
+				<td>3. Michelle Witten</td>
+				<td>Dark Chocolate Berry</td>
+				<td>Priest Lake Presbyterian</td>
+			</tr>
+		</table>
 
-		<p>Nunc risus massa, aliquam id turpis at, sodales sagittis nunc. Sed rutrum neque et erat fermentum ullamcorper. Pellentesque nec sapien sit amet sapien ullamcorper viverra. Nullam pellentesque augue eget dapibus faucibus. Pellentesque feugiat tortor eu quam iaculis finibus. Vestibulum pretium dui quis turpis posuere suscipit. Mauris hendrerit turpis elit, et lacinia leo vulputate nec. Sed interdum velit quis lectus venenatis, et dapibus lorem auctor. Sed convallis magna magna, quis posuere diam eleifend vitae. Sed efficitur, elit nec iaculis ultrices, arcu ligula pellentesque quam, ac imperdiet felis justo in nisl. Maecenas a est euismod, suscipit ante eu, fringilla odio. Ut turpis sem, pretium et sapien in, accumsan laoreet lacus. Vestibulum quis pulvinar risus.</p>
+		<h2 id="heading">Other</h2>
 
-		<p>Aliquam fermentum nunc sed arcu laoreet mattis. Nulla facilisi. Nulla et porta enim, in accumsan est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce quam risus, commodo sodales enim a, suscipit consectetur tellus. Suspendisse non odio neque. Aliquam sit amet tellus non ipsum tempus ultrices. Pellentesque eget nisl efficitur, tincidunt eros quis, rutrum dui. Duis gravida mauris neque, non eleifend arcu rutrum non. Nulla pulvinar ornare velit, et rhoncus urna.</p>
+		<table class="ice-cream">
+			<tr>
+				<th>Name</th>
+				<th>Name of Ice Cream</th>
+				<th>Affiliation</th>
+			</tr>
+			<tr>
+				<td>1. Amber King</td>
+				<td>Mint to Be</td>
+				<td>Gullett, Sanford, Robinson &amp; Martin PLLC</td>
+			</tr>
+			<tr>
+				<td>2. Karen Kelley</td>
+				<td>Desserted Island</td>
+				<td>Friend of Martha O'Bryan Center</td>
+			</tr>
+			<tr>
+				<td>3. Beth Vorhaus</td>
+				<td>C3 (Chocolate, Coffee &amp; Caramel)</td>
+				<td>First Presbyterian</td>
+			</tr>
+		</table>
 
-		<p>Ut ligula turpis, semper a sem id, malesuada egestas diam. Maecenas et aliquet velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam velit urna, tempus at rutrum vel, blandit ac enim. Nam id pharetra lorem. Maecenas tincidunt massa ex, ut ornare felis laoreet ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam vitae est sit amet velit venenatis condimentum ut in neque. Fusce egestas viverra tellus ac lobortis. Nam imperdiet nibh tristique ligula iaculis, hendrerit tincidunt est pulvinar. Mauris pellentesque dui ipsum, non iaculis lorem molestie vel. Vivamus feugiat mauris erat, a accumsan dui hendrerit quis. Vestibulum fermentum elementum varius. Vivamus vel dapibus velit, sit amet semper tellus. Pellentesque tincidunt rhoncus elit, at convallis lectus lacinia non. </p>
+		<h2 id="heading">Best of Show</h2>
 
-		<a class="next-item" href="/news/newsletters/newsletter.php">"Next Newsletter Title" &gt;</a>
+		<table class="ice-cream">
+			<tr>
+				<th>Name</th>
+				<th>Name of Ice Cream</th>
+				<th>Affiliation</th>
+			</tr>
+			<tr>
+				<td>Sandy Tyrell</td>
+				<td>Salt Lick and Burnt Caramel</td>
+				<td>Harpeth Presbyterian</td>
+			</tr>
+		</table>
 
 	</section><!--bio-->
 

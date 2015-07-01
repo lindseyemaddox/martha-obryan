@@ -21,10 +21,10 @@
 
 /* FlexSlider Necessary Styles
 *********************************/ 
-.flexslider, .sponsors, .sponsors-crankin, .jobs, .leaders, .faculty, .sponsors-crankin-page, .sponsors-crankin-page-past {margin: 0; padding: 0;}
-.flexslider .slides, .sponsors .slides, .sponsors-crankin .slides, .jobs .slides, .leaders .slides, .faculty .slides, .sponsors-crankin-page .slides, .sponsors-crankin-page-past .slides {padding: 0;}
-.flexslider .slides > li, .sponsors .slides > li, .sponsors-crankin .slides > li, .sponsors-crankin-page .slides > li, .sponsors-crankin-page-past .slides > li, .jobs .slides > li, .leaders .slides > li, .faculty .slides > li {display: none; -webkit-backface-visibility: hidden; padding: 0;} /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides img, .sponsors .slides img, .sponsors-crankin .slides img, .sponsors-crankin-page .slides img, .sponsors-crankin-page-past .slides img, .jobs .slides img, .leaders .slides img, .faculty .slides img {width: 100%; display: block;}
+.flexslider, .sponsors, .sponsors-crankin, .jobs, .jobs-page, .leaders, .faculty, .sponsors-crankin-page, .sponsors-crankin-page-past {margin: 0; padding: 0;}
+.flexslider .slides, .sponsors .slides, .sponsors-crankin .slides, .jobs .slides, .jobs-page .slides, .leaders .slides, .faculty .slides, .sponsors-crankin-page .slides, .sponsors-crankin-page-past .slides {padding: 0;}
+.flexslider .slides > li, .sponsors .slides > li, .sponsors-crankin .slides > li, .sponsors-crankin-page .slides > li, .sponsors-crankin-page-past .slides > li, .jobs .slides > li,  .jobs-page .slides > li, .leaders .slides > li, .faculty .slides > li {display: none; -webkit-backface-visibility: hidden; padding: 0;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img, .sponsors .slides img, .sponsors-crankin .slides img, .sponsors-crankin-page .slides img, .sponsors-crankin-page-past .slides img, .jobs .slides img,  .jobs-page .slides img, .leaders .slides img, .faculty .slides img {width: 100%; display: block;}
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */
@@ -40,7 +40,7 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider, .sponsors, .sponsors-crankin, .jobs, .leaders, .faculty, .sponsors-crankin-page, .sponsors-crankin-page-past {position: relative; zoom: 1;}
+.flexslider, .sponsors, .sponsors-crankin, .jobs, .jobs-page, .leaders, .faculty, .sponsors-crankin-page, .sponsors-crankin-page-past {position: relative; zoom: 1;}
 .flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
 .loading .flex-viewport {max-height: 300px; overflow: hidden;}
 .flexslider .slides {zoom: 1;}
@@ -50,9 +50,9 @@ html[xmlns] .slides {display: block;}
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
 .flex-direction-nav a {width: 30px; height: 30px; margin: -20px 0 0; display: block; background: url(/_assets/img/bg_direction_nav.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; -webkit-transition: all .3s ease;}
-.leaders .flex-direction-nav a, .sponsors-crankin-page .flex-direction-nav a, .sponsors-crankin-page-past .flex-direction-nav a {width: 30px; height: 30px; margin: -20px 0 0; display: block; background: url(/_assets/img/bg_direction_nav-dark.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; -webkit-transition: all .3s ease;}
+.leaders .flex-direction-nav a, .sponsors-crankin-page .flex-direction-nav a, .sponsors-crankin-page-past .flex-direction-nav a, .jobs-page .flex-direction-nav a  {width: 30px; height: 30px; margin: -20px 0 0; display: block; background: url(/_assets/img/bg_direction_nav-dark.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; -webkit-transition: all .3s ease;}
 .flex-direction-nav .flex-next {background-position: 100% 0; right: -36px; }
-.leaders .flex-direction-nav .flex-next, .sponsors-crankin-page .flex-direction-nav .flex-next, .sponsors-crankin-page-past .flex-direction-nav .flex-next {background-position: 100% 0; right: -36px; }
+.leaders .flex-direction-nav .flex-next, .sponsors-crankin-page .flex-direction-nav .flex-next, .sponsors-crankin-page-past .flex-direction-nav .flex-next, .jobs-page .flex-direction-nav .flex-next {background-position: 100% 0; right: -36px; }
 .sponsors .flex-direction-nav .flex-next {background-position: 100% 0; right: -16px; }
 .flex-direction-nav .flex-prev {left: -36px;}
 .sponsors .flex-direction-nav .flex-prev {left: -16px;}

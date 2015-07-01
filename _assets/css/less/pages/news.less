@@ -120,13 +120,24 @@ section#news-item {
 		margin-top: 0;
 		padding-bottom: 10px;
 	}
-	h3 a {
+	h3 {
 		letter-spacing: 2px;
 		color: @green;
 		font-size: 1.1428571428571428em;
 		line-height: 2em;
 		.lato-bold;
 		margin-top: 0;
+		a {
+			color: @green;
+			text-decoration: none;
+		}
+	}
+	h4 {
+		letter-spacing: 1px;
+		color: @black;
+		font-size: 1em;
+		line-height: 1.5em;
+		.lato-bold;
 	}
 	.videowrap {
 		margin: 30px 0;
@@ -137,6 +148,11 @@ section#news-item {
 		margin: 0 0 20px 3%;
 		img {
 			width: 100%;
+		}
+		&.full {
+			width: 100%;
+			margin: 20px 0 20px 0;
+			float: none;
 		}
 	}
 	a.next-item {
@@ -152,6 +168,45 @@ section#news-item {
 		}
 	}
 	.slider {
-		width: 100%;
+		p {
+			display: inline-block;
+			width: 30%;
+		}
+		.sponsors-crankin-page-past {
+			width: 20%;
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+	table.ice-cream {
+		margin-bottom: 30px;
+		td, th {
+			width: 25%;
+			text-align: left;
+			color: @black;
+			font-size: 1em;
+			padding: 1%;
+			border: 1px solid @green;
+		}
+		td {
+			.lato;
+		}
+		th {
+			.lato-bold;
+		}
+	}
+	a.btn {
+		margin-bottom: 10px;
+	}
+	ul {
+		padding: 0 0 20px 20px;
+		li {
+			list-style-type: disc;
+			color: @black;
+			padding: 5px 0 5px 20px;
+			.lato;
+			font-size: 1.1428571428571428em;
+			line-height: 1.375em;
+		}
 	}
 }

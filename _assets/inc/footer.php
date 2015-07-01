@@ -101,6 +101,16 @@
           animationLoop: true,
           slideshow: false,
         });
+        $('.jobs-page').flexslider({
+          itemWidth: 100,
+          itemMargin: 0,
+          minItems: 2,
+          maxItems: 4,
+          controlNav: false,
+          directionNav: true,
+          animationLoop: true,
+          slideshow: true,
+        });
         $('.leaders').flexslider({
           itemWidth: 100,
           itemMargin: 0,

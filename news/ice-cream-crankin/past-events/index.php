@@ -139,12 +139,6 @@
 	});
 	$(window).load(function(){
 		$('.fancybox').fancybox();
-        $('.sponsors-crankin-page-past').flexslider({
-          minItems: 7,
-          maxItems: 7,
-          controlNav: false,
-          directionNav: true,
-        });
 	});
 
 
