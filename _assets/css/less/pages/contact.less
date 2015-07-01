@@ -6,7 +6,7 @@ div#contact {
 		position: relative;
 	}
 	article.contact-item {
-		width: 23%;
+		width: 22.7%;
 		display: inline-block;
 		margin: 0 1% 20px;
 		background-color: @green;
@@ -17,6 +17,7 @@ div#contact {
 			font-size: 1.125em;
 			line-height: 1.3em;
 			padding-bottom: 10px;
+			height: 50px;
 		}
 		h5 {
 			color: @white;
@@ -31,6 +32,35 @@ div#contact {
 			&:hover {
 				background-color: @black;
 				color: @white;
+			}
+		}
+	}
+	div.contact-info {
+		margin-top: 50px;
+		h6 {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			.lato-bold;
+			color: @black;
+			a {
+				color: @black;
+				text-decoration: none;
+				&:hover {
+					color: @green;
+				}
+			}
+		}
+		article {
+			display: inline-block;
+			width: 47%;
+			vertical-align: top;
+			&#address {
+				margin-right: 5%;
+			}
+			&#map {
+				img {
+					width: 100%;
+				}
 			}
 		}
 	}

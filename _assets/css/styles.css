@@ -2626,7 +2626,7 @@ div#contact section.header {
   position: relative;
 }
 div#contact article.contact-item {
-  width: 23%;
+  width: 22.7%;
   display: inline-block;
   margin: 0 1% 20px;
   background-color: #029494;
@@ -2639,6 +2639,7 @@ div#contact article.contact-item h4 {
   font-size: 1.125em;
   line-height: 1.3em;
   padding-bottom: 10px;
+  height: 50px;
 }
 div#contact article.contact-item h5 {
   color: #ffffff;
@@ -2655,6 +2656,34 @@ div#contact article.contact-item a.btn {
 div#contact article.contact-item a.btn:hover {
   background-color: #4d4d4d;
   color: #ffffff;
+}
+div#contact div.contact-info {
+  margin-top: 50px;
+}
+div#contact div.contact-info h6 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #4d4d4d;
+}
+div#contact div.contact-info h6 a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+div#contact div.contact-info h6 a:hover {
+  color: #029494;
+}
+div#contact div.contact-info article {
+  display: inline-block;
+  width: 47%;
+  vertical-align: top;
+}
+div#contact div.contact-info article#address {
+  margin-right: 5%;
+}
+div#contact div.contact-info article#map img {
+  width: 100%;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
