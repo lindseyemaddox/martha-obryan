@@ -20,7 +20,7 @@ function firstLoad() {
 
 // function to set dom vars, etc that will not change
 function initVars() {
-	$nav 	= $('nav ul, div.content, #menu span');
+	$nav 	= $('nav ul, div.content, #menu span, header nav a.logo');
 	$showMenu 	= $('a#menu');
 }
 

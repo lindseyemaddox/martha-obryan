@@ -7,6 +7,7 @@
 				<a class="logo" href="/"><img src="/_assets/img/logo.png"></a>
 				<a id="menu" href="#"><span class="icon-menu"></span></a>
 				<ul id="subnav">
+					<li><a href="/">Home</a></li>
 					<li><a href="/outreach/">Outreach</a>
 						<ul>
 							<li><a href="/outreach/community/">Clinical Services, Community, and Families</a>
@@ -95,7 +96,7 @@
 							<li><a href="/members/board/">Board Access</a></li>
 						</ul>
 					</li>
-					<li><a href="/privacy/">Privacy Statement</a></li>
+					<li><a href="/privacy">Privacy Statement</a></li>
 				</ul>
 			</nav>
 		</div><!--inner-->	

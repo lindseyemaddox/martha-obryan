@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19033",
 "files": {
+	"\/_assets\/css\/less\/css\/chosen.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/css\/less\/css\/chosen.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_assets\/css\/less\/master.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -108,7 +117,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/css\/less\/organisms\/chosen.less",
 		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/chosen.css",
@@ -342,6 +351,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/_assets\/css\/less\/pages\/members.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/members.less",
+		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/members.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/_assets\/css\/less\/pages\/news.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -392,6 +421,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/sitemap.less",
 		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/sitemap.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/_assets\/css\/less\/pages\/store.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/store.less",
+		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/store.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -491,6 +540,28 @@
 		"initialSize": 74541,
 		"inputAbbreviatedPath": "\/_assets\/img\/bkgd-work.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/bkgd-work.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/chosen-sprite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 646,
+		"inputAbbreviatedPath": "\/_assets\/img\/chosen-sprite.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/chosen-sprite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/chosen-sprite@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 872,
+		"inputAbbreviatedPath": "\/_assets\/img\/chosen-sprite@2x.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/chosen-sprite@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -825,6 +896,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/header-careers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115212,
+		"inputAbbreviatedPath": "\/_assets\/img\/header-careers.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/header-careers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/header-contact.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -832,6 +914,17 @@
 		"initialSize": 108812,
 		"inputAbbreviatedPath": "\/_assets\/img\/header-contact.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/header-contact.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/header-members.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 191052,
+		"inputAbbreviatedPath": "\/_assets\/img\/header-members.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/header-members.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -854,6 +947,17 @@
 		"initialSize": 152390,
 		"inputAbbreviatedPath": "\/_assets\/img\/header-outreach.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/header-outreach.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/header-store.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143864,
+		"inputAbbreviatedPath": "\/_assets\/img\/header-store.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/header-store.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1250,6 +1354,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_assets\/js\/chosen.jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/js\/chosen.jquery.min.js",
+		"outputAbbreviatedPath": "\/_assets\/js\/min\/chosen.jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_assets\/js\/fancybox.jquery.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1311,6 +1426,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/js\/jquery.easing.1.3.js",
 		"outputAbbreviatedPath": "\/_assets\/js\/min\/jquery.easing.1.3-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_assets\/js\/jquery.maskedinput.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/js\/jquery.maskedinput.js",
+		"outputAbbreviatedPath": "\/_assets\/js\/min\/jquery.maskedinput-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1481,6 +1607,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contact\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contact\/simple.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact\/simple.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

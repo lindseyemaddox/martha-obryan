@@ -64,6 +64,228 @@ div#contact {
 			}
 		}
 	}
+	div.form-simple {
+		margin-top: 70px;
+
+	}
+	p {
+		font-size: 0.875em;
+		line-height: 1.5714285714285714em;
+		.lato;
+		color: @black;
+		padding-bottom: 20px;
+	}
+	div.left, div.right {
+		display: inline-block;
+		width: 47%;
+		vertical-align: top;
+	}
+	div.left {
+		margin-right: 5%;
+	}
+	p.label {
+		text-transform: uppercase;
+		color: @black;
+		letter-spacing: 3px;
+		.lato-light;
+		display: block;
+		font-size: 1.5em;
+		line-height: 1.5em;
+		padding: 10px 0 0;
+	}
+	input, textarea {
+		width: 100%;
+		resize: none;
+		border: 1px solid @grey;
+		outline: none;
+		height: 55px;
+	}
+	textarea {
+		height: 140px;
+		display: block;
+		margin-bottom: 24px;
+		.lato;
+		font-size: 1em;
+		color: @grey;
+		padding: 20px;
+	}
+	.g-recaptcha {
+		margin-bottom: 15px;
+	}
+	input[type='text'], .floating-placeholder {
+		.lato;
+		font-size: 1em;
+		line-height: 3.6em;
+		height: 2.6em;
+		margin: 0;
+		padding: 0;
+		-webkit-font-smoothing: antialiased;
+		margin-bottom: 20px;
+		color: @black;
+	}
+	.floating-placeholder input[type='text']:focus + label {
+		color: @grey;
+	}
+	.floating-placeholder input[value] + label {
+		color: red;
+	}
+	.floating-placeholder {
+		position: relative;
+		display: inline-block;
+		min-width: 300px;
+		width: 100%;
+	}
+	.floating-placeholder input[type='text'] {
+		font-size: 1.5em;
+		outline: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		background: transparent;
+		z-index: 2;
+		text-indent: 20px;
+		width: 100%;
+	}
+	.floating-placeholder label {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 20px;
+		font-size: 1em;
+		z-index: 1;
+		-webkit-transform-origin: 0 0em;
+		-moz-transform-origin: 0 0em;
+		-ms-transform-origin: 0 0em;
+		-o-transform-origin: 0 0em;
+		transform-origin: 0 0em;
+		-webkit-transition: -webkit-transform 160ms, color 200ms;
+		-moz-transition: -moz-transform 160ms, color 200ms;
+		-o-transition: -o-transform 160ms, color 200ms;
+		transition: transform 160ms, color 200ms;
+		-webkit-transform: scale(1, 1) rotateY(0);
+		-moz-transform: scale(1, 1) rotateY(0);
+		-ms-transform: scale(1, 1) rotateY(0);
+		-o-transform: scale(1, 1) rotateY(0);
+		transform: scale(1, 1) rotateY(0);
+		color: #999;
+	}
+	.floating-placeholder-float label {
+		-webkit-transform: scale(0.55, 0.55) rotateY(0);
+		-moz-transform: scale(0.55, 0.55) rotateY(0);
+		-ms-transform: scale(0.55, 0.55) rotateY(0);
+		-o-transform: scale(0.55, 0.55) rotateY(0);
+		transform: scale(0.55, 0.55) rotateY(0);
+	}
+	.floating-placeholder-float input {
+		line-height: 3.4em;
+	}
+	div.radios, div.checks {
+		margin-top: 10px;
+	}
+	div.selects {
+
+	}
+	@gray-light: #f0f0f0;
+	@gray-dark: #696d6e;
+	@bg: #1c659d;
+	input[type="radio"], input[type="checkbox"] {
+	  display: none;
+	  & + label {
+	  	.lato;
+	  	text-transform: uppercase;
+	  	color: @grey;
+	    position: relative;
+	    display: inline-block;
+	    padding-left: 1.5em;
+	    cursor: pointer;
+	    line-height: 1em;
+	    transition: all .3s ease-in-out;
+	    &:before, &:after {
+	      content: '';
+	      position: absolute;
+	      top: 0;
+	      left: 0;
+	      width: 1em;
+	      height: 1em;
+	      text-align: center;
+	      color: @grey;
+	      font-family: Times;
+	      border-radius: 50%;
+	      transition: all .3s ease;
+	    }
+	  }
+	}
+	input[type="radio"] + label {
+	  &:before {
+	    transition: all .3s ease;
+	    border: 1px solid @grey;
+	    box-shadow:
+	      inset 0 0 0 0.2em @white,
+	  }
+	  &:hover:before {
+	    transition: all .3s ease;
+	    box-shadow:
+	      inset 0 0 0 0.3em @grey,
+	      inset 0 0 0 1em @white;
+	  }
+	}
+	input[type="radio"]:checked + label {
+	  &:before {
+	    transition: all .3s ease;
+	    box-shadow:
+	      inset 0 0 0 0.2em @grey,
+	      inset 0 0 0 1em @green;
+	  }
+	}
+	input[type="checkbox"] + label {
+	    display: block;
+	    margin-bottom: 22px;
+	  &:before {
+	    content: '✗';
+	    border-radius: 0px;
+	    background-color: @white;
+	    color: @white;
+	    border: 1px solid @grey;
+	  }
+	  &:hover:before {
+	    color: @grey;
+	  }
+	}
+	input[type="checkbox"]:checked + label {
+	  &:before {
+	    background-color: @grey;
+	    color: @green;
+	  }
+	}
+	button {
+		background-color: @green;
+		color: @white;
+		.lato-light;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+		padding: 13px 0;
+		text-decoration: none;
+		border: none;
+		width: 100%;
+		&:hover {
+			background-color: @black;
+		}
+	}
+	hr {
+		border-top: 1px solid @grey;
+		border-bottom: none;
+		margin: 70px 0 50px;
+	}
+	h2 {
+		font-size: 2em;
+		text-align: center;
+		color: @green;
+		margin-bottom: 30px;
+	}
 }
 
 

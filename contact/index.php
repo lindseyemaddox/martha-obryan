@@ -29,7 +29,7 @@
 
 				<h5>Have a quick question? Need a quick answer? Use our simple contact form.</h5>
 
-				<a class="btn">Contact Us</a>
+				<a class="btn" href="/contact/simple">Contact Us</a>
 
 			</article><!--contact-item-->
 
@@ -39,7 +39,7 @@
 
 				<h5>Receive news about events, volunteering and people at Martha O'Bryan Center.</h5>
 
-				<a class="btn">Contact Us</a>
+				<a class="btn" href="/contact/newsletter">Newsletter</a>
 
 			</article><!--contact-item-->
 
@@ -49,7 +49,7 @@
 
 				<h5>Would you like to help? We welcome both individual and group volunteers.</h5>
 
-				<a class="btn">Volunteer</a>
+				<a class="btn" href="/contact/volunteer">Volunteer</a>
 
 			</article><!--contact-item-->
 
@@ -59,7 +59,7 @@
 
 				<h5>Each session includes a history and overview of the work of the Martha O'Bryan Center.</h5>
 
-				<a class="btn">Book Tour</a>
+				<a class="btn" href="/contact/tour">Book Tour</a>
 
 			</article><!--contact-item-->
 
@@ -69,7 +69,7 @@
 
 				<h5>We are grateful to all who support Martha O'Bryan by making a tax-deductible gift.</h5>
 
-				<a class="btn">Donate Now</a>
+				<a class="btn" href="/contact/donate">Donate Now</a>
 
 			</article><!--contact-item-->
 
@@ -79,7 +79,7 @@
 
 				<h5>We value the security of our donors and strive to safeguard your information.</h5>
 
-				<a class="btn">Patronage</a>
+				<a class="btn" href="/contact/patronage">Patronage</a>
 
 			</article><!--contact-item-->
 
@@ -89,7 +89,7 @@
 
 				<h5>Please take 5-7 minutes to let us know about your volunteer experience.</h5>
 
-				<a class="btn">Feedback</a>
+				<a class="btn" href="/contact/feedback">Feedback</a>
 
 			</article><!--contact-item-->
 
@@ -99,7 +99,7 @@
 
 				<h5>Martha O’Bryan Center maintains several wish lists that help support our center.</h5>
 
-				<a class="btn">Feedback</a>
+				<a class="btn" href="/contact/wish-lists">Wish Lists</a>
 
 			</article><!--contact-item-->
 
