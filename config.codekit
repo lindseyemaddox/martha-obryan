@@ -544,6 +544,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/calendar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1138,
+		"inputAbbreviatedPath": "\/_assets\/img\/calendar.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/calendar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/chosen-sprite.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1072,6 +1083,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/logo-k.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9886,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-k.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-k.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/logo-sitemason.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1226,6 +1248,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/slider-adulted.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93529,
+		"inputAbbreviatedPath": "\/_assets\/img\/slider-adulted.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/slider-adulted.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/slider-girl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 176369,
+		"inputAbbreviatedPath": "\/_assets\/img\/slider-girl.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/slider-girl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/slider-girls.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1233,6 +1277,50 @@
 		"initialSize": 305615,
 		"inputAbbreviatedPath": "\/_assets\/img\/slider-girls.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/slider-girls.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/slider-girls2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153199,
+		"inputAbbreviatedPath": "\/_assets\/img\/slider-girls2.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/slider-girls2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/slider-woman.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106780,
+		"inputAbbreviatedPath": "\/_assets\/img\/slider-woman.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/slider-woman.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/tshirt-btl-mens.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50369,
+		"inputAbbreviatedPath": "\/_assets\/img\/tshirt-btl-mens.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/tshirt-btl-mens.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/tshirt-btl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73980,
+		"inputAbbreviatedPath": "\/_assets\/img\/tshirt-btl.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/tshirt-btl.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1620,74 +1708,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/contact\/wish-lists\/adult-education.php": {
+	"\/contact\/wish-lists.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact\/wish-lists\/adult-education.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/contact\/wish-lists\/children.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact\/wish-lists\/children.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/contact\/wish-lists\/cwa-cayce.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact\/wish-lists\/cwa-cayce.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/contact\/wish-lists\/index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact\/wish-lists\/index.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/contact\/wish-lists\/infants.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact\/wish-lists\/infants.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/contact\/wish-lists\/reading.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact\/wish-lists\/reading.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/contact\/wish-lists\/top-floor.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact\/wish-lists\/top-floor.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/contact\/wish-lists\/youth.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact\/wish-lists\/youth.php",
+		"inputAbbreviatedPath": "\/contact\/wish-lists.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

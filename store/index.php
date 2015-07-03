@@ -19,11 +19,33 @@
 
 		<div class="inner">
 		
-			<h2>Need a header</h2>
+			<h2>Break the Line T-shirts: Only $15!</h2>
 
-			<h3>Need a subhead</h3>
+			<p>Show your support for the Martha O'Bryan Center with a Break the Line T-shirt, which look great or make a great gift!</p>
 
-			<p>paragraph</p>
+			<div class="img"><img src="/_assets/img/tshirt-btl.jpg" alt="Break the Line tshirt"></div><!--img-->
+
+		    <form>
+		        <div class='left'>
+		        	<p class="label">Adult unisex sizes: choose your size and quantity.</p>
+		        	<div class="four">
+						<div class="floating-placeholder"><input type="text" name="small" id='small' size="10"><label for='small'>Small</label></div>
+						<div class="floating-placeholder"><input type="text" name="medium" id='medium' size="10"><label for='medium'>Medium</label></div>
+						<div class="floating-placeholder"><input type="text" name="large" id='large' size="10"><label for='large'>Large</label></div>
+						<div class="floating-placeholder"><input type="text" name="xl" id='xl' size="10"><label for='xl'>XL</label></div>
+					</div><!--four-->
+		    	</div><!--left-->
+		    	<div class='right'>
+		        	<p class="label">Adult women's sizes: sizes run small. Order 2 sizes larger.</p>
+		        	<div class="four">
+						<div class="floating-placeholder"><input type="text" name="w-small" id='w-small' size="10"><label for='w-small'>Small</label></div>
+						<div class="floating-placeholder"><input type="text" name="w-medium" id='w-medium' size="10"><label for='w-medium'>Medium</label></div>
+						<div class="floating-placeholder"><input type="text" name="w-large" id='w-large' size="10"><label for='w-large'>Large</label></div>
+						<div class="floating-placeholder"><input type="text" name="w-xl" id='w-xl' size="10"><label for='w-xl'>XL</label></div>
+					</div><!--four-->
+				</div><!--right-->
+		        <button class='submit spacer' type='submit' name='submit'>Calculate and Continue</button>
+		      </form>
 
 	    </div><!--inner-->
 
@@ -42,5 +64,35 @@
 	</section><!--crumbs-->
 
 </div><!--outreach-->
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			function updateText(event){
+					var input=$(this);
+					setTimeout(function(){
+						var val=input.val();
+						if(val!="")
+							input.parent().addClass("floating-placeholder-float");
+						else
+							input.parent().removeClass("floating-placeholder-float");
+					},1)
+				}
+				$(".floating-placeholder input").keydown(updateText);
+				$(".floating-placeholder input").change(updateText);
+				$("input:text").val("");
+
+				$('input[placeholder="mm/dd/yyyy"]').bind('keyup',function(){
+					var strokes = $(this).val().length;
+					if(strokes === 2 || strokes === 5){
+							var thisVal = $(this).val();
+							thisVal += '/';
+							$(this).val(thisVal);
+					}
+			});
+
+		});
+
+	</script>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>

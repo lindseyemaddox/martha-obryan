@@ -33,16 +33,16 @@
 	  		<ul class="slides">
 	
 	    		<li>
-	    	    	<img src="/_assets/img/slider-girls.jpg" />
+	    	    	<img src="/_assets/img/slider-adulted.jpg" />
 	    		</li>
 	    		<li>
-	    	    	<img src="/_assets/img/slider-girls.jpg" />
+	    	    	<img src="/_assets/img/slider-girls2.jpg" />
 	    		</li>
 	    		<li>
-	    	    	<img src="/_assets/img/slider-girls.jpg" />
+	    	    	<img src="/_assets/img/slider-girl.jpg" />
 	    		</li>
 	    		<li>
-	    	    	<img src="/_assets/img/slider-girls.jpg" />
+	    	    	<img src="/_assets/img/slider-woman.jpg" />
 	    		</li>
 	
 	        </ul>

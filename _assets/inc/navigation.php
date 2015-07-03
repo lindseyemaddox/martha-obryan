@@ -75,19 +75,11 @@
 					</li>
 					<li><a href="/contact/">Contact Us</a>
 						<ul>
-							<li><a href="/contact/donate/">Donate</a></li>
-							<li><a href="/contact/volunteer/">Volunteer</a></li>
-							<li><a href="/contact/wish-lists/">Wish Lists</a>
-								<ul>
-									<li><a href="/contact/wish-lists/children/">Young Children, Parents &amp; Families</a></li>
-									<li><a href="/contact/wish-lists/infants/">Infants, Toddlers &amp; Pre-K</a></li>
-									<li><a href="/contact/wish-lists/reading/">Reading Achievement Program</a></li>
-									<li><a href="/contact/wish-lists/youth/">Youth Development (K-8)</a></li>
-									<li><a href="/contact/wish-lists/cwa-cayce/">CWA Cayce Learning Center</a></li>
-									<li><a href="/contact/wish-lists/top-floor/">Top Floor @ Stratford (High School &amp; College)</a></li>
-									<li><a href="/contact/wish-lists/adult-education/">Adult Education &amp; GED</a></li>
-								</ul>
-							</li>
+							<li><a href="/contact/donate">Donate</a></li>
+							<li><a href="/contact/tour">Schedule a Tour</a></li>
+							<li><a href="/contact/volunteer">Volunteer</a></li>
+							<li><a href="/contact/feedback">Volunteer Feedback</a></li>
+							<li><a href="/contact/wish-lists">Wish Lists</a></li>
 						</ul>
 					</li>
 					<li><a href="/store/">Store</a></li>

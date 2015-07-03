@@ -1,4 +1,4 @@
-div#contact {
+div#contact, div#store {
 	section.header {
 		background: url(/_assets/img/header-contact.jpg) no-repeat center center transparent;
 		background-size: cover;
@@ -66,7 +66,9 @@ div#contact {
 	}
 	div.form-simple {
 		margin-top: 70px;
-
+	}
+	div.form-donate {
+		margin-bottom: 50px;
 	}
 	p {
 		font-size: 0.875em;
@@ -93,6 +95,9 @@ div#contact {
 		line-height: 1.5em;
 		padding: 10px 0 0;
 	}
+	.spacer {
+		margin-top: 30px;
+	}
 	input, textarea {
 		width: 100%;
 		resize: none;
@@ -107,7 +112,11 @@ div#contact {
 		.lato;
 		font-size: 1em;
 		color: @grey;
-		padding: 20px;
+		padding: 5%;
+		width: 90%;
+		&.smaller {
+			height: 100px;
+		}
 	}
 	.g-recaptcha {
 		margin-bottom: 15px;
@@ -132,7 +141,6 @@ div#contact {
 	.floating-placeholder {
 		position: relative;
 		display: inline-block;
-		min-width: 300px;
 		width: 100%;
 	}
 	.floating-placeholder input[type='text'] {
@@ -181,7 +189,7 @@ div#contact {
 		line-height: 3.4em;
 	}
 	div.radios, div.checks {
-		margin-top: 10px;
+		margin: 10px 0 10px;
 	}
 	div.radios label {
 		padding-right: 30px;
@@ -283,12 +291,50 @@ div#contact {
 		border-bottom: none;
 		margin: 70px 0 50px;
 	}
-	h2 {
+	h2.sub {
 		font-size: 2em;
 		text-align: center;
 		color: @green;
 		margin-bottom: 30px;
 	}
+	img.ui-datepicker-trigger {
+		float: right;
+		margin: 12px;
+	}
+	div.availability {
+		margin-bottom: 20px;
+		div.left, div.right {
+			width: 40%;
+			min-width: 0px;
+			margin-right: 5%;
+		}
+		div.right {
+			margin-right: 2%;
+		}
+		div.radios {
+			display: inline-block;
+			input[type="radio"] + label {
+				display: block;
+				padding-right: 0;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	article.item {
+		width: 22.7%;
+		display: inline-block;
+		margin: 0 1% 20px;
+		background-color: @green;
+		padding: 2%;
+		h4 {
+			color: @white;
+			text-align: center;
+			.lato-bold;
+			font-size: 1.125em;
+			line-height: 1.3em;
+			height: 50px;
+		}
+	}	
 }
 
 
