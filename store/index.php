@@ -27,7 +27,7 @@
 
 		    <form>
 		        <div class='left'>
-		        	<p class="label">Adult unisex sizes: choose your size and quantity.</p>
+		        	<p class="label">Adult unisex sizes: enter quantity in the appropriate box.</p>
 		        	<div class="four">
 						<div class="floating-placeholder"><input type="text" name="small" id='small' size="10"><label for='small'>Small</label></div>
 						<div class="floating-placeholder"><input type="text" name="medium" id='medium' size="10"><label for='medium'>Medium</label></div>
@@ -45,7 +45,33 @@
 					</div><!--four-->
 				</div><!--right-->
 		        <button class='submit spacer' type='submit' name='submit'>Calculate and Continue</button>
+
+		        <hr/>
+
+		        <div class='left'>
+
+			        <div class="floating-placeholder"><input type="text" name="total-shirts" id='total-shirts' size="10"><label for='total-shirts'>Total number of shirts (calculated)</label></div>
+			        <div class="spacer"></div>
+					<div class="radios">
+						<input type="radio" id="shipping" name="fullfilment" checked><label for="shipping">I'll pay $5 per shirt for shipping</label>
+						<div class="spacer"></div>
+						<input type="radio" id="pickup" name="fullfilment"><label for="pickup">I'll pick it up at Martha O'Bryan Center</label>
+					</div><!--radios-->
+
+		    	</div><!--left-->
+		    	<div class='right'>
+
+			        <div class="floating-placeholder"><input type="text" name="subtotal" id='subtotal' size="10"><label for='subtotal'>Subtotal (calculated)</label></div>
+			        <div class="spacer"></div>
+			        <div class="floating-placeholder"><input type="text" name="subtotal-shipping" id='subtotal-shipping' size="10"><label for='subtotal-shipping'>Shipping Subtotal (calculated)</label></div>
+
+		    	</div><!--right-->
+
+		        <button class='submit spacer' type='submit' name='submit'>Continue to Billing</button>
+
 		      </form>
+
+<!--forward to billing area of contact form?-->
 
 	    </div><!--inner-->
 
@@ -57,7 +83,7 @@
 			
 			<div class="left"><a href="/contact/wish-lists/adult-education/">&lt; Adult Education &amp; GED</a></div><!--left-->
 
-			<div class="right"><a href="/members/">Members &gt;</a></div><!--right-->
+			<div class="right"><a href="/privacy">Privacy Statement &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

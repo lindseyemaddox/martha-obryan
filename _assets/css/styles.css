@@ -3298,6 +3298,12 @@ div#contact div.checks,
 div#store div.checks {
   margin: 10px 0 10px;
 }
+div#contact div.radios .spacer,
+div#store div.radios .spacer,
+div#contact div.checks .spacer,
+div#store div.checks .spacer {
+  margin-top: 15px;
+}
 div#contact div.radios label,
 div#store div.radios label {
   padding-right: 30px;
