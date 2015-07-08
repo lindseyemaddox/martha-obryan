@@ -33,13 +33,13 @@
 	  		<ul class="slides">
 	
 	    		<li>
-	    	    	<img src="/_assets/img/slider-adulted.jpg" />
-	    		</li>
-	    		<li>
 	    	    	<img src="/_assets/img/slider-girls2.jpg" />
 	    		</li>
 	    		<li>
 	    	    	<img src="/_assets/img/slider-girl.jpg" />
+	    		</li>
+	    		<li>
+	    	    	<img src="/_assets/img/slider-adulted.jpg" />
 	    		</li>
 	    		<li>
 	    	    	<img src="/_assets/img/slider-woman.jpg" />
@@ -67,7 +67,7 @@
 
 				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
 
-				<a class="btn" href="/outreach/community/family/">Learn More</a>
+				<a class="btn" href="/outreach/community/family">Learn More</a>
 
 			</article><!--three-->
 
@@ -79,7 +79,7 @@
 
 				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
 
-				<a class="btn" href="/contact/donate/">Donate</a>
+				<a class="btn" href="/contact/simple">Donate</a>
 
 			</article><!--three-->
 
@@ -91,7 +91,7 @@
 
 				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
 
-				<a class="btn" href="/contact/volunteer/">Volunteer</a>
+				<a class="btn" href="/contact/simple">Volunteer</a>
 
 			</article><!--three-->
 
@@ -747,6 +747,14 @@ $(function() {
 	      
 	  }
 	});
+
+	$(function(){
+		SyntaxHighlighter.all();
+	});
+	$(window).load(function(){
+		$('.fancybox').fancybox();
+	});
+	
 });
 
 

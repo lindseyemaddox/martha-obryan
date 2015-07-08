@@ -15,7 +15,7 @@
 
 	</section><!--header-->
 
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subnav-outreach.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subnav-community.php'); ?>
 
 	<section class="subpage">
 
@@ -125,7 +125,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/community/family/">Learn More</a>
+				<a class="btn" href="/outreach/community/family">Learn More</a>
 
 			</article><!--three-->
 
@@ -135,25 +135,13 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/community/counseling/">Learn More</a>
+				<a class="btn" href="/outreach/community/counseling">Learn More</a>
 
 			</article><!--three-->
 
 		</div><!--inner-->
 
 	</section><!--tertiary-nav-->
-
-	<section id="crumbs">
-		
-		<div class="inner">
-			
-			<div class="left"><a href="/outreach/">&lt; Outreach</a></div><!--left-->
-
-			<div class="right"><a href="/outreach/early-learning/">Early Learning Center &gt;</a></div><!--right-->
-
-		</div><!--inner-->
-
-	</section><!--crumbs-->
 
 </div><!--outreach-->
 

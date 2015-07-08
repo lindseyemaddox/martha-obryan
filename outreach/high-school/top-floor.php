@@ -25,7 +25,21 @@
 
 			<h3>Need a subhead</h3>
 
-			<p>paragraph</p>
+			<p>Expansion of K-8 Education program, dedicated to serving high school students and young adults, ages 14 to 26. </p>
+
+			<div class="videowrap">
+			    <div class="video widescreen">
+					<iframe src="https://player.vimeo.com/video/30835088" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<ul>
+				<li>Participants receive core academic support (literacy, math, science, and foreign language), ACT preparation, college application assistance (financial aid, application process, entrance exams, and college field trips) and post-secondary support </li>
+    			<li>Transitional coaches make visits to home and school to help build strong communication and academic support systems among youth, parents and school staff </li>
+    			<li>Students on average have increased their ACT scores by 2.8 points</li>
+    			<li>Program replication at Maplewood High School – “College Zone” January 2013</li>
+    			<li>Only 40% of Stratford students continue on to post-secondary institutions (up 26% since the opening of the Top Floor). Through MOBC’s Post Secondary Success Initiative, this year the Center is following 53 new students (traditional freshmen) and 40 returners (sophomores; although due to remedial classes, most credits don’t show this) in college.</li>
+			</li>
 
 	    </div><!--inner-->
 
@@ -37,7 +51,7 @@
 			
 			<div class="left"><a href="/outreach/high-school/">&lt; High School Education and Academic Student Unions</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/high-school/college-zone/">College Zone and Maplewood &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/high-school/college-zone.php">College Zone and Maplewood &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

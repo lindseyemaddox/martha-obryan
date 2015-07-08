@@ -120,7 +120,7 @@
 
 				<article id="map">
 					
-					<a href="https://www.google.com/maps/place/711+S+7th+St,+Nashville,+TN+37206/@36.1664483,-86.75512,17z/data=!3m1!4b1!4m2!3m1!1s0x88646630dd5f4d3d:0x1948db65d0e42022" target="_blank"><img src="/_assets/img/map.jpg" title="map" alt="map"></a>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.004369232587!2d-86.75511999999999!3d36.1664483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88646630dd5f4d3d%3A0x1948db65d0e42022!2s711+S+7th+St%2C+Nashville%2C+TN+37206!5e0!3m2!1sen!2sus!4v1434047592560" width="100%" height="367" frameborder="0" style="border:0"></iframe>
 
 				</article><!--map-->
 

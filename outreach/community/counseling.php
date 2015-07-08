@@ -15,7 +15,7 @@
 
 	</section><!--header-->
 
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subnav-outreach.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subnav-community.php'); ?>
 
 	<section class="subpage">
 

@@ -15,7 +15,7 @@
 
 	</section><!--header-->
 
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subnav-outreach.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subnav-engagement.php'); ?>
 
 	<section class="subpage">
 
@@ -31,31 +31,13 @@
 
 	</section><!--subpage-->
 
-	<section id="tertiary-nav">
-
-		<div class="inner">
-			
-			<article class="three">
-				
-				<p class="heading">Promise Neighborhood</p>
-
-				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
-
-				<a class="btn" href="/outreach/community/engagement/promise-neighborhood/">Learn More</a>
-
-			</article><!--three-->
-
-		</div><!--inner-->
-
-	</section><!--tertiary-nav-->
-
 	<section id="crumbs">
 		
 		<div class="inner">
 			
 			<div class="left"><a href="/outreach/community/">&lt; Clinical Services, Community, and Families</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/community/engagement/promise-neighborhood/">Promise Neighborhood &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/community/engagement/promise-neighborhood.php">Promise Neighborhood &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

@@ -74,3 +74,10 @@ function placeholderSupported() {
     test = document.createElement('input');
     return ('placeholder' in test);
 }
+
+$(function() {
+	if($("#home").length > 0) {
+	} else {
+		$('#subpage-nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+	}
+});

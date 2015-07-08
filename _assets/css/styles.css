@@ -1968,6 +1968,10 @@ div.videowrap {
   left: 0;
   top: 0;
 }
+#map iframe {
+  position: inherit;
+  height: 190px;
+}
 /* fixes for IE5/6 */
 * html .video {
   margin-bottom: 45px;
@@ -2002,6 +2006,9 @@ section#subpage-nav ul li a {
   text-decoration: none;
 }
 section#subpage-nav ul li a:hover {
+  color: #b7b7b7;
+}
+section#subpage-nav ul li a:visited {
   color: #b7b7b7;
 }
 section#subpage-nav ul li:last-child {
@@ -3199,7 +3206,7 @@ div#store textarea {
 }
 div#contact textarea,
 div#store textarea {
-  height: 140px;
+  height: 115px;
   display: block;
   margin-bottom: 24px;
   font-family: 'Lato', sans-serif;

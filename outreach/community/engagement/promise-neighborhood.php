@@ -15,6 +15,8 @@
 
 	</section><!--header-->
 
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subnav-engagement.php'); ?>
+
 	<section class="subpage">
 
 		<div class="inner">
@@ -25,7 +27,7 @@
 
 			<div class="videowrap">
 			    <div class="video widescreen">
-				<iframe src="https://player.vimeo.com/video/31614132" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/31614132">Promise Neighborhood: We Can Do It in Nashville</a> from <a href="https://vimeo.com/marthaobryan">Martha O&#039;Bryan Center</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+					<iframe src="https://player.vimeo.com/video/31614132" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/31614132">Promise Neighborhood: We Can Do It in Nashville</a> from <a href="https://vimeo.com/marthaobryan">Martha O&#039;Bryan Center</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 				</div>
 			</div>
 
@@ -43,7 +45,7 @@
 			
 			<div class="left"><a href="/outreach/community/engagement/">&lt; Community Engagement</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/community/family/">Family Engagement &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/community/family">Family Engagement &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

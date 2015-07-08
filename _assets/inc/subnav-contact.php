@@ -4,8 +4,8 @@
 	
 		<ul>
 			<li><a href="/contact/">Contact Us</a></li>
-			<li><a href="/contact/donate">Donate Now</a></li>
-			<li><a href="/contact/volunteer">Volunteer</a></li>
+			<li><a href="/contact/simple">Donate Now</a></li>
+			<li><a href="/contact/simple">Volunteer</a></li>
 			<li><a href="/contact/wish-lists">Wish Lists</a></li>
 		</ul>
 

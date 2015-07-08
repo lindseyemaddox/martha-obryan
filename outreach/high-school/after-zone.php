@@ -23,9 +23,15 @@
 		
 			<h2>Nashville After Zone Alliance</h2>
 
-			<h3>Need a subhead</h3>
+			<h3>NAZA</h3>
 
-			<p>paragraph</p>
+			<ul>
+    			<li>Network of coordinated afterschool programming for Metro Nashville middle school students.</li>
+    			<li>The primary customers are 5th through 8th grade students living and attending public schools in East Nashville, specifically the Stratford and Maplewood high school clusters. </li>
+    			<li>Allows Martha O’Bryan to create and manage a network of community partners who are aligned behind a common goal of high importance to the wider community operated by 6 non-profits at 8 sites </li>
+    		</ul>
+
+    		<p><a href="http://www.nashvillez.org/zones/northeast" target="_blank">Visit NAZA site.</a></p>
 
 	    </div><!--inner-->
 

@@ -16,13 +16,13 @@
 
 	</section><!--header-->
 
-    <?php //require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subnav-outreach.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/subnav-outreach.php'); ?>
 
 	<section id="options" class="subpage-sort">
 		
 		<div class="inner">
 
-            <h2>Need a heading that says "these are the outreach categories"</h2>
+            <h2>Need H2</h2>
 			
 			<div class="wrapper">
 
@@ -51,6 +51,12 @@
 
     			    	<div id="items" class="clearfix">
 
+                            <article class="item community">
+                              <h4>Clinical Services, Community, and Families Overview</h4>
+                              <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
+                              <a href="/outreach/community/" class="btn">Learn More</a>
+                            </article>
+
     						<article class="item community">
     						  <h4>Community Engagement</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
@@ -60,91 +66,115 @@
     						<article class="item community">
     						  <h4>Family Engagement</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/community/family/" class="btn">Learn More</a>
+    						  <a href="/outreach/community/family" class="btn">Learn More</a>
     						</article>
 
     						<article class="item community">
     						  <h4>Counseling &amp; Pastoral Care</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/community/counseling/" class="btn">Learn More</a>
+    						  <a href="/outreach/community/counseling" class="btn">Learn More</a>
     						</article>
 
     						<article class="item early-learning">
     						  <h4>Early Learning Center</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/early-learning/" class="btn">Learn More</a>
+    						  <a href="/outreach/early-learning" class="btn">Learn More</a>
     						</article>
 
     						<article class="item k8-education">
     						  <h4>K-8 Education</h4>
     						  <h5>Formerly known as THRIVE and RAP, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/k8-education/" class="btn">Learn More</a>
+    						  <a href="/outreach/k8-education" class="btn">Learn More</a>
     						</article>
+
+                            <article class="item high-school">
+                              <h4>High School Education and Academic Student Unions Overview</h4>
+                              <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
+                              <a href="/outreach/high-school/" class="btn">Learn More</a>
+                            </article>
 
     						<article class="item high-school">
     						  <h4>Top Floor at Stratford</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/high-school/top-floor/" class="btn">Learn More</a>
+    						  <a href="/outreach/high-school/top-floor" class="btn">Learn More</a>
     						</article>
 
     						<article class="item high-school">
     						  <h4>College Zone at Maplewood</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/high-school/college-zone/" class="btn">Learn More</a>
+    						  <a href="/outreach/high-school/college-zone" class="btn">Learn More</a>
     						</article>
 
     						<article class="item high-school">
     						  <h4>Nashville After Zone Alliance</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/high-school/after-zone/" class="btn">Learn More</a>
+    						  <a href="/outreach/high-school/after-zone" class="btn">Learn More</a>
     						</article>
+
+                            <article class="item college">
+                              <h4>College and Career Overview</h4>
+                              <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
+                              <a href="/outreach/college/" class="btn">Learn More</a>
+                            </article>
 
     						<article class="item college">
     						  <h4>Post-Secondary Success Initiative</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/college/post-secondary/" class="btn">Learn More</a>
+    						  <a href="/outreach/college/post-secondary" class="btn">Learn More</a>
     						</article>
 
     						<article class="item college">
     						  <h4>Chapter 2</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/college/chapter-2/" class="btn">Learn More</a>
+    						  <a href="/outreach/college/chapter-2" class="btn">Learn More</a>
     						</article>
 
     						<article class="item college">
     						  <h4>Adult Education</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/college/adult-education/" class="btn">Learn More</a>
+    						  <a href="/outreach/college/adult-education" class="btn">Learn More</a>
     						</article>
+
+                            <article class="item high-performers">
+                              <h4>High Performing Schools Overview</h4>
+                              <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
+                              <a href="/outreach/high-performers/" class="btn">Learn More</a>
+                            </article>
 
     						<article class="item high-performers">
     						  <h4>East End Preparatory School</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/high-performers/east-end-prep/" class="btn">Learn More</a>
+    						  <a href="/outreach/high-performers/east-end-prep" class="btn">Learn More</a>
     						</article>
 
     						<article class="item high-performers">
     						  <h4>Explore! Community School</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/high-performers/explore/" class="btn">Learn More</a>
+    						  <a href="/outreach/high-performers/explore" class="btn">Learn More</a>
     						</article>
+
+                            <article class="item other">
+                              <h4>Other Outreach Overview</h4>
+                              <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
+                              <a href="/outreach/other/" class="btn">Learn More</a>
+                            </article>
 
     						<article class="item other">
     						  <h4>Summer Social Justice Institute</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/other/social-justice-institute/" class="btn">Learn More</a>
+    						  <a href="/outreach/other/social-justice-institute" class="btn">Learn More</a>
     						</article>
 
     						<article class="item other">
     						  <h4>Recruit 2 Mission</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/other/recruit-2/" class="btn">Learn More</a>
+    						  <a href="/outreach/other/recruit-2" class="btn">Learn More</a>
     						</article>
 
     						<article class="item other">
     						  <h4>Break the Line podcast</h4>
     						  <h5>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo.</h5>
-    						  <a href="/outreach/other/break-the-line/" class="btn">Learn More</a>
+    						  <a href="/outreach/other/break-the-line" class="btn">Learn More</a>
     						</article>
 
     				    </div><!--items-->
