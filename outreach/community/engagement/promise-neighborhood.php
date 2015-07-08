@@ -21,9 +21,17 @@
 		
 			<h2>Promise Neighborhood</h2>
 
-			<h3>Need a subhead</h3>
+			<h3>A Blueprint for Community Investment</h3>
 
-			<p>paragraph</p>
+			<div class="videowrap">
+			    <div class="video widescreen">
+				<iframe src="https://player.vimeo.com/video/31614132" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/31614132">Promise Neighborhood: We Can Do It in Nashville</a> from <a href="https://vimeo.com/marthaobryan">Martha O&#039;Bryan Center</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+				</div>
+			</div>
+
+			<p>The U.S. Department of Education awarded the Nashville Promise Neighborhood Initiative a $500,000 grant, which will put into motion a revolutionary strategy to improve schools and communities. The revolution begins in East Nashville and is defined by the borders of the Stratford High School cluster. The Promise Neighborhood in East Nashville is the blueprint for other community investments in our city.</p>
+
+			<p><a href="http://www.nashvillepromise.org/" target="_blank">Visit Nashville Promise Neighborhood</a> or <a href="mailto:bbakoyema@marthaobryan.org">email Bryn Bakoyema</a> to learn more.</p>
 
 	    </div><!--inner-->
 

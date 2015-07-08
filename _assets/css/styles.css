@@ -425,6 +425,9 @@ body {
 .clear {
   clear: both;
 }
+a {
+  color: #029494;
+}
 a:hover {
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
