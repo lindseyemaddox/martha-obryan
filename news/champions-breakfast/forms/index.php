@@ -21,11 +21,11 @@
 
 		<div class="inner">
 		
-			<h2>Patrons</h2>
+			<h2>Forms</h2>
 
 			<h3>Need a subhead</h3>
 
-			<p>paragraph</p>
+			<p><a href="/news/champions-breakfast/forms/pledge.pdf" target="_blank">Pledge Form</a></p>
 
 	    </div><!--inner-->
 
@@ -35,9 +35,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/news/ice-cream-crankin/forms/">&lt; Entry Forms</a></div><!--left-->
+			<div class="left"><a href="/news/ice-cream-crankin/past-events/">&lt; Past Events</a></div><!--left-->
 
-			<div class="right"><a href="/news/newsletters/">Newsletters &gt;</a></div><!--right-->
+			<div class="right"><a href="/news/ice-cream-crankin/patrons/">Patrons &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

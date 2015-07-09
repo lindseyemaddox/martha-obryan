@@ -21,12 +21,6 @@
 
             <div class="footer-right">
               
-                <div class="item"><a href="/store/"><span class="icon-basket"></span><p>Martha O'Bryan Store</p></a></div>
-
-                <div class="item"><a href="/contact/wish-lists"><span class="icon-present"></span><p>Wish Lists</p></a></div>
-
-                <div class="item"><a href="/privacy" class="fancybox fancybox.iframe"><span class="icon-lock"></span><p>Privacy &amp; Transparency Statement</p></a></div>
-
                 <p class="ours">Our Sponsors</p>
 
                 <section class="slider">
@@ -44,6 +38,12 @@
                         </ul>
                     </div>
                 </section>
+
+                <div class="item"><a href="/careers/"><span class="icon-careers"></span><p>Careers</p></a></div>
+
+                <div class="item"><a href="/site-map.php"><span class="icon-sitemap"></span><p>Site Map</p></a></div>
+
+                <div class="item"><a href="/privacy" class="fancybox fancybox.iframe"><span class="icon-lock"></span><p>Privacy &amp; Transparency Statement</p></a></div>
 
             </div><!--footer-right-->
 
@@ -86,6 +86,13 @@
           animationLoop: true,
         });
         $('.sponsors-crankin-page').flexslider({
+          slideshowSpeed: 4000,
+          minItems: 1,
+          maxItems: 1,
+          controlNav: false,
+          directionNav: true,
+        });
+        $('.sponsors-champions-page').flexslider({
           slideshowSpeed: 4000,
           minItems: 1,
           maxItems: 1,

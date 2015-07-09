@@ -60,35 +60,34 @@
 							<li><a href="/values/whistleblower-policy">Whistleblower Policy</a></li>
 						</ul>
 					</li>
-					<li><a href="/careers/">Careers</a></li>
 					<li><a href="/news/">News and Events</a>
 						<ul>
 							<li><a href="/news/ice-cream-crankin/">Ice Cream Crankin’</a>
 								<ul>
 									<li><a href="/news/ice-cream-crankin/past-events/">Past Events</a></li>
-									<li><a href="/news/ice-cream-crankin/forms">Entry Forms</a></li>
+									<li><a href="/news/ice-cream-crankin/forms/">Entry Forms</a></li>
 									<li><a href="/news/ice-cream-crankin/patrons">Patrons</a></li>
+								</ul>
+							</li>
+							<li><a href="/news/champions-breakfast/">Champions Breakfast</a>
+								<ul>
+									<li><a href="/news/champions-breakfast/forms/">Forms</a></li>
 								</ul>
 							</li>
 							<li><a href="/news/newsletters/">Newsletters</a></li>
 						</ul>
 					</li>
+					<li><a href="/wish-lists.php">Wish Lists</a></li>
+					<li><a href="/store/">Store</a></li>
+					<li><a href="/careers/">Careers</a></li>
 					<li><a href="/contact/">Contact Us</a>
 						<ul>
 							<li><a href="/contact/donate">Donate</a></li>
 							<li><a href="/contact/tour">Schedule a Tour</a></li>
 							<li><a href="/contact/volunteer">Volunteer</a></li>
 							<li><a href="/contact/feedback">Volunteer Feedback</a></li>
-							<li><a href="/contact/wish-lists">Wish Lists</a></li>
 						</ul>
 					</li>
-					<li><a href="/store/">Store</a></li>
-					<li><a href="/members/">Members</a>
-						<ul>
-							<li><a href="/members/board">Board Access</a></li>
-						</ul>
-					</li>
-					<li><a href="/privacy">Privacy Statement</a></li>
 				</ul>
 			</nav>
 		</div><!--inner-->	

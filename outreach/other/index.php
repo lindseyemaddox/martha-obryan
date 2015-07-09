@@ -41,7 +41,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/other/social-justice-institute/">Learn More</a>
+				<a class="btn" href="/outreach/other/social-justice-institute.php">Learn More</a>
 
 			</article><!--three-->
 
@@ -51,7 +51,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/other/recruit-2/">Learn More</a>
+				<a class="btn" href="/outreach/other/recruit-2.php">Learn More</a>
 
 			</article><!--three-->
 
@@ -61,7 +61,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/other/break-the-line/">Learn More</a>
+				<a class="btn" href="/outreach/other/break-the-line.php">Learn More</a>
 
 			</article><!--three-->
 

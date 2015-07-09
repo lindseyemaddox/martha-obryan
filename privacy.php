@@ -1,33 +1,44 @@
-<!doctype html>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
-<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
-<!--[if lt IE 9 ]><html lang="en" class="ie8"><![endif]-->
-<!--[if lt IE 8 ]><html lang="en" class="ie7"><![endif]-->
-<!--[if (gt IE 7)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
+<div id="values" class="sub">
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<section class="header">
+	
+		<div class="gradient"></div>
 
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="/_assets/css/styles.css" media="screen">
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+		<div class="inner">
+			
+			<h1>Privacy</h1>
 
-	<!-- JavaScript -->
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		</div><!--inner-->
 
-</head>
-<body>
+	</section><!--header-->
 
-	<section id="news-item">
+	<section class="subpage">
 
-		<h1>Privacy &amp; Transparency Statement</h4>
-
-		<h2>Need h2</h5>
+		<div class="inner">
+		
+		<h2>Privacy &amp; Transparency Statement</h5>
 
 		<p>Need statement</p>
 
-	</section><!--bio-->
+		</div><!--inner-->
 
-</body>
-</html>
+	</section><!--tertiary-nav-->
+
+	<section id="crumbs">
+		
+		<div class="inner">
+			
+			<div class="left"><a href="/outreach/other/break-the-line.php">&lt; Break the Line podcast</a></div><!--left-->
+
+			<div class="right"><a href="/values/leadership.php">Board of Directors, Leadership Team &gt;</a></div><!--right-->
+
+		</div><!--inner-->
+
+	</section><!--crumbs-->
+
+</div><!--outreach-->
+
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>

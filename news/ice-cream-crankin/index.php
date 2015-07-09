@@ -87,7 +87,7 @@
 
 				<p class="desc">Sandy Tyrell of Harpeth Presbyterian Church took home the Best of Show...</p>
 
-				<a class="btn" href="/news/ice-cream-crankin/past-events">Read More</a>
+				<a class="btn" href="/news/ice-cream-crankin/past-events/">Read More</a>
 
 			</article><!--three-->
 
@@ -97,7 +97,7 @@
 
 				<p class="desc">Martha O'Bryan Center is offering a unique opportunity to support...</p>
 
-				<a class="btn" href="/news/ice-cream-crankin/forms">Read More</a>
+				<a class="btn" href="/news/ice-cream-crankin/forms/">Read More</a>
 
 			</article><!--three-->
 
@@ -107,7 +107,7 @@
 
 				<p class="desc">Crankin’ Details: Who, What, Where, When, and How you can help, details...</p>
 
-				<a class="btn" href="/news/ice-cream-crankin/patrons">Read More</a>
+				<a class="btn" href="/news/ice-cream-crankin/patrons.php">Read More</a>
 
 			</article><!--three-->
 

@@ -58,7 +58,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/values/whistleblower-policy/">Learn More</a>
+				<a class="btn" href="/values/whistleblower-policy.php">Learn More</a>
 
 			</article><!--three-->
 
@@ -68,7 +68,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/values/target-service-population/">Learn More</a>
+				<a class="btn" href="/values/target-service-population.php">Learn More</a>
 
 			</article><!--three-->
 
@@ -78,7 +78,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/values/strategic-partnerships/">Learn More</a>
+				<a class="btn" href="/values/strategic-partnerships.php">Learn More</a>
 
 			</article><!--three-->
 
@@ -90,9 +90,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/other/break-the-line/">&lt; Break the Line podcast</a></div><!--left-->
+			<div class="left"><a href="/outreach/other/break-the-line.php">&lt; Break the Line podcast</a></div><!--left-->
 
-			<div class="right"><a href="/values/leadership/">Board of Directors, Leadership Team &gt;</a></div><!--right-->
+			<div class="right"><a href="/values/leadership.php">Board of Directors, Leadership Team &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

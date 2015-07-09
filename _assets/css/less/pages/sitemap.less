@@ -2,12 +2,20 @@
 	Sitemap Styler 	 
 */
 
+#sitemap-cont {
+	padding: 15px 0;
+	font-size: 0.8571428571428571em;
+	.lato-bold;
+	width: 30%;
+	margin: 0 auto;
+}
+
 #sitemap, #sitemap ul, #sitemap li{
 	margin:0;
 	padding:0;
 	list-style:none;
 }
-#sitemap{background:url(/_assets/img/line1.gif) repeat-y;}
+#sitemap{background:url(/_assets/img/line1.png) repeat-y;}
 #sitemap li{
 	line-height:20px;
 	margin-top:1px;
@@ -20,19 +28,26 @@
 	display:inline;
 }
 
-#sitemap li a{padding-left:28px;}
-#sitemap li span{float:left;position:absolute;top:5px;left:5px;width:13px;height:13px;cursor:auto;font-size:0;}
-#sitemap li span, #sitemap li span.collapsed{background:url(/_assets/img/collapsed.gif) no-repeat 0 0;} 
-#sitemap li span.expanded{background:url(/_assets/img/expanded.gif) no-repeat 0 0;}
+#sitemap li a{padding-left:28px; color: @brown; text-decoration: none; 
+	&:hover {
+		color: @green;
+	}
+	&.h1 {
+		color: @white;
+	}
+}
+#sitemap li span{float:left;position:absolute;top:0px;left:2px;width:20px;height:20px;cursor:auto;font-size:0; cursor: pointer;}
+#sitemap li span, #sitemap li span.collapsed{background:url(/_assets/img/collapsed.png) no-repeat 0 0;} 
+#sitemap li span.expanded{background:url(/_assets/img/expanded.png) no-repeat 0 0;}
 
 /* sub levels */
 
 #sitemap li ul{	
 	margin-left:28px;
-	background:url(/_assets/img/line1.gif) repeat-y;
+	background:url(/_assets/img/line1.png) repeat-y;
 }
 #sitemap li li{	
-	background:url(/_assets/img/line2.gif) no-repeat 0 0;
+	background:url(/_assets/img/line2.png) no-repeat 0 0;
 }
 
 /* etc. */
@@ -51,4 +66,3 @@
 #sitemap, #sitemap ul{min-height:1%;}
 * html #sitemap, * html #sitemap ul{height:1%;}
  /*  */
-#sitemap ul{display:none;}

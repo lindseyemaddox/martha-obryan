@@ -32,4 +32,4 @@ this.sitemapstyler = function(){
 	};	
 };
 
-window.onload = sitemapstyler;
+$( document ).ready(sitemapstyler) ;

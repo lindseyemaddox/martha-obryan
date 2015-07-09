@@ -41,7 +41,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/high-performers/east-end-prep/">Learn More</a>
+				<a class="btn" href="/outreach/high-performers/east-end-prep.php">Learn More</a>
 
 			</article><!--three-->
 
@@ -51,7 +51,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/high-performers/explore/">Learn More</a>
+				<a class="btn" href="/outreach/high-performers/explore.php">Learn More</a>
 
 			</article><!--three-->
 
