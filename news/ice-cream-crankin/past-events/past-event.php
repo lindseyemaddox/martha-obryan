@@ -23,7 +23,9 @@
 
 	<section id="news-item">
 
-		<h1>[Event Date] Purity Miss Martha's Ice Cream Crankin' and Summer Social</h4>
+		<h1>[Event Date] Purity Miss Martha's Ice Cream Crankin' and Summer Social</h1>
+
+        <h2>Winners</h2>
 
 		<div class="videowrap">
 		    <div class="video widescreen">

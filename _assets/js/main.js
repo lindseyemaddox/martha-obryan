@@ -76,8 +76,18 @@ function placeholderSupported() {
 }
 
 $(function() {
+
 	if($("#home").length > 0) {
+
 	} else {
-		$('#subpage-nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+		$('#subpage-nav a[href^="/' + location.pathname.split("/")[3] + '"]').addClass('active');
 	}
+
+	if ($('#subpage-nav a').hasClass('active')) {
+		$('#subpage-nav li').addClass('green');
+	} else {
+		$('#subpage-nav li').removeClass('green');
+	}
+	return false;
+
 });

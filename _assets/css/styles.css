@@ -2019,9 +2019,10 @@ div.videowrap {
 }
 section#subpage-nav {
   background-color: #4d4d4d;
+  height: 45px;
 }
 section#subpage-nav ul li {
-  display: inline-block;
+  float: left;
   border-left: 1px solid #ffffff;
   padding: 12px;
   font-family: 'Lato', sans-serif;
@@ -2042,6 +2043,12 @@ section#subpage-nav ul li a:visited {
 }
 section#subpage-nav ul li:last-child {
   border-right: 1px solid #ffffff;
+}
+section#subpage-nav ul li.green {
+  background-color: #029494;
+}
+section#subpage-nav ul li.green a {
+  color: #ffffff;
 }
 /******** START MAIN FOOTER STYLES *********/
 footer {

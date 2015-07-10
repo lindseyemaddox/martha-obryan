@@ -19,7 +19,7 @@
 
 		<div class="inner">
 		
-			<h2>Need a header</h2>
+			<h2>Board Access</h2>
 
 			<h3>Need a subhead</h3>
 
@@ -33,9 +33,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/members/board/">&lt; Board Access</a></div><!--left-->
+			<div class="left"><a href="/privacy/">&lt; Privacy Statement</a></div><!--left-->
 
-			<div class="right"><a href="/privacy/">Privacy Statement &gt;</a></div><!--right-->
+			<div class="right"><a href="/news/">News &amp; Events &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

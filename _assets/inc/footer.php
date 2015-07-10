@@ -47,7 +47,7 @@
 
             </div><!--footer-right-->
 
-            <p>&copy;<?php echo date("Y"); ?> MARTHA O'BRYAN CENTER  |  <a href="/members/board">Board Access</a>  |  711 South Seventh Street, Nashville, TN  |  37206-3895  |  Phone <a href="tel:16152541791">615-254-1791</a>  |  Fax 615-242-3411</p>
+            <p>&copy;<?php echo date("Y"); ?> MARTHA O'BRYAN CENTER  |  <a href="/members/">Board Access</a>  |  711 South Seventh Street, Nashville, TN  |  37206-3895  |  Phone <a href="tel:16152541791">615-254-1791</a>  |  Fax 615-242-3411</p>
 
         </div><!--inner-->
 

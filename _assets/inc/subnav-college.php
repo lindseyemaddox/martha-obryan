@@ -12,4 +12,4 @@
 
 	</div><!--inner-->
 
-</section><!--subnav-cont-->
+</div><!--subnav-cont-->

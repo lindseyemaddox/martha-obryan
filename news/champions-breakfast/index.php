@@ -26,7 +26,7 @@
 			<h3>Presented by Caterpillar Financial</h3>
 
 			<a class="btn row" href="/contact/champions">Make a Donation</a>
-			<a class="btn row" href="/contact/champions">Pledge Form</a>
+			<a class="btn row" href="/news/champions-breakfast/forms/">Pledge Form</a>
 
             <div class="slider">
 

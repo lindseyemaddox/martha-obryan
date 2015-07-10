@@ -21,7 +21,7 @@
 
 	<section id="news-item">
 
-		<h1>[Event Date] Purity Miss Martha's Ice Cream Crankin' Winners</h4>
+		<h1>[Event Date] Purity Miss Martha's Ice Cream Crankin' Winners</h1>
 	
 		<h2 id="heading">Vanilla-Based</h2>
 

@@ -21,9 +21,9 @@
 
 		<div class="inner">
 		
-			<h2>Forms</h2>
+			<h2>2014 Champions Breakfast</h2>
 
-			<h3>Need a subhead</h3>
+			<h3>Forms</h3>
 
 			<p><a href="/news/champions-breakfast/forms/pledge.pdf" target="_blank">Pledge Form</a></p>
 

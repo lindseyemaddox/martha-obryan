@@ -10,7 +10,7 @@
 
 		<div class="inner">
 			
-			<h1>Contact Us</h1>
+			<h1>Wish Lists</h1>
 
 		</div><!--inner-->
 
@@ -22,7 +22,7 @@
 		
 		<div class="inner">
 
-            <h2>Wish Lists</h2>
+            <h2>Need header</h2>
 
             <p>Donations are welcome for the following items listed below. Please call ahead at (615) 254-1791 so we can plan for your arrival. You can also make a secure donation with your credit card. Thank you for supporting the Martha O'Bryan Center.</p>
 			
