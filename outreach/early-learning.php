@@ -37,7 +37,7 @@
 			
 			<div class="left"><a href="/outreach/community/">&lt; Clinical Services, Community, and Families</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/k8-education/">K-8 Education &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/k8-education.php">K-8 Education &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

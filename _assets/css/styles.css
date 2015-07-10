@@ -805,13 +805,13 @@ div.content.expand {
   background: transparent url("/_assets/img/line1.png") repeat-y scroll right 0%;
 }
 #subnav li {
-  line-height: 20px;
+  line-height: 2em;
   margin-top: 1px;
   position: relative;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 12px;
+  font-size: 1.3em;
   text-align: right;
   padding-right: 12px;
 }
@@ -834,7 +834,7 @@ div.content.expand {
 #subnav li span {
   float: right;
   position: absolute;
-  top: 0px;
+  top: 8px;
   right: 2px;
   width: 20px;
   height: 20px;
@@ -855,7 +855,11 @@ div.content.expand {
   background: transparent url(/_assets/img/line1.png) repeat-y scroll right 0%;
 }
 #subnav li li {
-  background: transparent url(/_assets/img/line2.png) no-repeat scroll right 0;
+  background: transparent url(/_assets/img/line2.png) no-repeat scroll right 8px;
+  font-size: 1em;
+}
+#subnav li li li {
+  font-size: 1em;
 }
 /* etc. */
 /* float fix */

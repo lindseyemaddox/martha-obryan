@@ -45,7 +45,7 @@
 			
 			<div class="left"><a href="/outreach/community/engagement/">&lt; Community Engagement</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/community/family">Family Engagement &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/community/family.php">Family Engagement &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

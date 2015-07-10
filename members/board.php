@@ -33,7 +33,7 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/privacy/">&lt; Privacy Statement</a></div><!--left-->
+			<div class="left"><a href="/privacy.php">&lt; Privacy Statement</a></div><!--left-->
 
 			<div class="right"><a href="/news/">News &amp; Events &gt;</a></div><!--right-->
 

@@ -151,7 +151,7 @@
 			
 			<div class="left"><a href="/outreach/other/">&lt; Other Outreach</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/other/recruit-2/">Recruit 2 Mission &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/other/recruit-2.php">Recruit 2 Mission &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

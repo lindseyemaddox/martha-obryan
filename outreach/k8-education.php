@@ -54,9 +54,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/early-learning/">&lt; Early Learning Center</a></div><!--left-->
+			<div class="left"><a href="/outreach/early-learning.php">&lt; Early Learning Center</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/high-school/">High School Education and Academic Student Unions &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/high-school/">High School Education &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

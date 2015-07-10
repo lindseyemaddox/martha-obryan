@@ -73,14 +73,9 @@
 
 		<p>The above qualifications express the minimum standards of education and/or experience for this position. Other combinations of education and experience, if evaluated as equivalent, may be taken into consideration.</p>
 
-		<a class="btn" href="/contact/careers">Apply</a>
+		<a class="btn" href="/contact/careers.php">Apply</a>
 
-		<a class="btn" href="contact/careers">Send this Job to a Friend</a>
-
-		<a class="btn" href="/search">Search</a>
-
-
-		<a class="next-item" href="/careers/job">"Next Job Item Title" &gt;</a>
+		<a class="next-item" href="/careers/job.php">"Next Job Item Title" &gt;</a>
 
 	</section><!--bio-->
 

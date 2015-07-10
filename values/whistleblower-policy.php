@@ -41,7 +41,7 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/values/strategic-partnerships/">&lt; Strategic Partnerships</a></div><!--left-->
+			<div class="left"><a href="/values/strategic-partnerships.php">&lt; Strategic Partnerships</a></div><!--left-->
 
 			<div class="right"><a href="/careers/">Careers &gt;</a></div><!--right-->
 

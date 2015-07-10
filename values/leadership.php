@@ -561,7 +561,7 @@
 			
 			<div class="left"><a href="/values/">&lt; Our Values</a></div><!--left-->
 
-			<div class="right"><a href="/values/target-service-population/">Target Service Population &gt;</a></div><!--right-->
+			<div class="right"><a href="/values/target-service-population.php">Target Service Population &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

@@ -47,9 +47,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/values/leadership/">&lt; Board of Directors, Leadership Team</a></div><!--left-->
+			<div class="left"><a href="/values/leadership.php">&lt; Board of Directors, Leadership Team</a></div><!--left-->
 
-			<div class="right"><a href="/values/strategic-partnerships/">Strategic Partnerships &gt;</a></div><!--right-->
+			<div class="right"><a href="/values/strategic-partnerships.php">Strategic Partnerships &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

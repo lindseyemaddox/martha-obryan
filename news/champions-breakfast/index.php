@@ -76,7 +76,7 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/news/">&lt; News and Events</a></div><!--left-->
+			<div class="left"><a href="/news/ice-cream-crankin/">&lt; Ice Cream Crankin'</a></div><!--left-->
 
 			<div class="right"><a href="/news/newsletters/">Newsletters &gt;</a></div><!--right-->
 

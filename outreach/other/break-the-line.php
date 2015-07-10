@@ -35,7 +35,7 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/other/recruit-2/">&lt; Recruit 2 Mission</a></div><!--left-->
+			<div class="left"><a href="/outreach/other/recruit-2.php">&lt; Recruit 2 Mission</a></div><!--left-->
 
 			<div class="right"><a href="/values/">Our Values &gt;</a></div><!--right-->
 

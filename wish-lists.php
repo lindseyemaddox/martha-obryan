@@ -137,7 +137,7 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/contact/volunteer/">&lt; Volunteer</a></div><!--left-->
+			<div class="left"><a href="/contact/simple.php">&lt; Volunteer</a></div><!--left-->
 
 			<div class="right"><a href="/store/">Store &gt;</a></div><!--right-->
 

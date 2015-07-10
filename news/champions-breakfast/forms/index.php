@@ -35,9 +35,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/news/ice-cream-crankin/past-events/">&lt; Past Events</a></div><!--left-->
+			<div class="left"><a href="/news/champions-breakfast/">&lt; Champions Breakfast</a></div><!--right-->
 
-			<div class="right"><a href="/news/ice-cream-crankin/patrons/">Patrons &gt;</a></div><!--right-->
+			<div class="right"><a href="/news/champions-breakfast/pledge.pdf">Pledge Now &gt;</a></div><!--left-->
 
 		</div><!--inner-->
 

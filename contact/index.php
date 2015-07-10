@@ -136,7 +136,7 @@
 			
 			<div class="left"><a href="/news/">&lt; News &amp; Events</a></div><!--left-->
 
-			<div class="right"><a href="/privacy">Privacy &amp; Transparency Statement &gt;</a></div><!--right-->
+			<div class="right"><a href="/privacy.php">Privacy &amp; Transparency Statement &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

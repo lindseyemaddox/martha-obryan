@@ -41,7 +41,7 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/high-school/college-zone/">&lt; College Zone and Maplewood</a></div><!--left-->
+			<div class="left"><a href="/outreach/high-school/college-zone.php">&lt; College Zone and Maplewood</a></div><!--left-->
 
 			<div class="right"><a href="/outreach/college/">College and Career &gt;</a></div><!--right-->
 

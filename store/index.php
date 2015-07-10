@@ -81,9 +81,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/contact/wish-lists/adult-education/">&lt; Adult Education &amp; GED</a></div><!--left-->
+			<div class="left"><a href="/wish-lists.php">&lt; Adult Education &amp; GED</a></div><!--left-->
 
-			<div class="right"><a href="/privacy">Privacy Statement &gt;</a></div><!--right-->
+			<div class="right"><a href="/privacy.php">Privacy Statement &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

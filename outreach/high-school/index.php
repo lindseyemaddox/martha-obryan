@@ -73,7 +73,7 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/k8-education/">&lt; K-8 Education</a></div><!--left-->
+			<div class="left"><a href="/outreach/k8-education.php">&lt; K-8 Education</a></div><!--left-->
 
 			<div class="right"><a href="/outreach/college/">College and Career &gt;</a></div><!--right-->
 

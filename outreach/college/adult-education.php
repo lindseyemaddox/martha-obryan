@@ -53,7 +53,7 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/college/chapter-2">&lt; Chapter 2</a></div><!--left-->
+			<div class="left"><a href="/outreach/college/chapter-2.php">&lt; Chapter 2</a></div><!--left-->
 
 			<div class="right"><a href="/outreach/high-performers/">High Performing Schools &gt;</a></div><!--right-->
 

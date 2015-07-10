@@ -35,7 +35,7 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/high-performers/east-end-prep/">&lt; East End Preparatory School</a></div><!--left-->
+			<div class="left"><a href="/outreach/high-performers/east-end-prep.php">&lt; East End Preparatory School</a></div><!--left-->
 
 			<div class="right"><a href="/outreach/other/">Other Outreach &gt;</a></div><!--right-->
 

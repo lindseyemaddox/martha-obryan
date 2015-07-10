@@ -41,7 +41,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/college/post-secondary">Learn More</a>
+				<a class="btn" href="/outreach/college/post-secondary.php">Learn More</a>
 
 			</article><!--three-->
 
@@ -51,7 +51,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/college/chapter-2">Learn More</a>
+				<a class="btn" href="/outreach/college/chapter-2.php">Learn More</a>
 
 			</article><!--three-->
 
@@ -61,7 +61,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/college/adult-education">Learn More</a>
+				<a class="btn" href="/outreach/college/adult-education.php">Learn More</a>
 
 			</article><!--three-->
 

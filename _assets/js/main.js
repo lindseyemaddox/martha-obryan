@@ -5,24 +5,26 @@
 // set initial variables
 var $showMenu,
 	$header,
-	$content;
+	$content,
+	$url,
+	$activeURL;
 
-$(function() {
-	firstLoad();
-});
+// function to set dom vars, etc that will not change
+function initVars() {
+	$nav 		= $('nav ul, div.content, #menu span, header nav a.logo');
+	$showMenu 	= $('a#menu');
+	
+	
+}
 
 function firstLoad() {
 	initVars();
 	showMenu();
-	checkScreenSize();
 	initPlaceholders();
 }
-
-// function to set dom vars, etc that will not change
-function initVars() {
-	$nav 	= $('nav ul, div.content, #menu span, header nav a.logo');
-	$showMenu 	= $('a#menu');
-}
+$(function() {
+	firstLoad();
+});
 
 // show hide left menu
 function showMenu(){
@@ -75,19 +77,4 @@ function placeholderSupported() {
     return ('placeholder' in test);
 }
 
-$(function() {
 
-	if($("#home").length > 0) {
-
-	} else {
-		$('#subpage-nav a[href^="/' + location.pathname.split("/")[3] + '"]').addClass('active');
-	}
-
-	if ($('#subpage-nav a').hasClass('active')) {
-		$('#subpage-nav li').addClass('green');
-	} else {
-		$('#subpage-nav li').removeClass('green');
-	}
-	return false;
-
-});

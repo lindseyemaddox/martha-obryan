@@ -35,9 +35,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/other/social-justice-institute/">&lt; Summer Social Justice Institute</a></div><!--left-->
+			<div class="left"><a href="/outreach/other/social-justice-institute.php">&lt; Summer Social Justice Institute</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/other/break-the-line/">Break the Line podcast &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/other/break-the-line.php">Break the Line podcast &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

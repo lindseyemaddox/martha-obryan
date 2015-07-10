@@ -479,7 +479,7 @@
 			
 			<div class="left"><a href="/news/">&lt; News &amp; Events</a></div><!--left-->
 
-			<div class="right"><a href="/contact/wish-lists">Wish Lists &gt;</a></div><!--right-->
+			<div class="right"><a href="/wish-lists.php">Wish Lists &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

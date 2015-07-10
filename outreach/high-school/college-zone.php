@@ -35,9 +35,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/high-school/top-floor/">&lt; Top Floor at Stratford</a></div><!--left-->
+			<div class="left"><a href="/outreach/high-school/top-floor.php">&lt; Top Floor at Stratford</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/high-school/after-zone/">Nashville After Zone Alliance &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/high-school/after-zone.php">Nashville After Zone Alliance &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

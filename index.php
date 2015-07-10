@@ -64,7 +64,7 @@
 
 				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
 
-				<a class="btn" href="/outreach/community/family">Learn More</a>
+				<a class="btn" href="/outreach/community/family.php">Learn More</a>
 
 			</article><!--three-->
 
@@ -76,7 +76,7 @@
 
 				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
 
-				<a class="btn" href="/contact/simple">Donate</a>
+				<a class="btn" href="/contact/simple.php">Donate</a>
 
 			</article><!--three-->
 
@@ -88,7 +88,7 @@
 
 				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
 
-				<a class="btn" href="/contact/simple">Volunteer</a>
+				<a class="btn" href="/contact/simple.php">Volunteer</a>
 
 			</article><!--three-->
 

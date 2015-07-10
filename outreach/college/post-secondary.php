@@ -37,7 +37,7 @@
 			
 			<div class="left"><a href="/outreach/college/">&lt; College and Career</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/college/chapter-2">Chapter 2 &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/college/chapter-2.php">Chapter 2 &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

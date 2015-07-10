@@ -125,7 +125,7 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/community/family">Learn More</a>
+				<a class="btn" href="/outreach/community/family.php">Learn More</a>
 
 			</article><!--three-->
 
@@ -135,13 +135,25 @@
 
 				<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor lorem, congue at mauris nec. </p>
 
-				<a class="btn" href="/outreach/community/counseling">Learn More</a>
+				<a class="btn" href="/outreach/community/counseling.php">Learn More</a>
 
 			</article><!--three-->
 
 		</div><!--inner-->
 
 	</section><!--tertiary-nav-->
+
+	<section id="crumbs">
+		
+		<div class="inner">
+			
+			<div class="left"><a href="/outreach/college/">&lt; College and Career</a></div><!--left-->
+
+			<div class="right"><a href="/outreach/high-performers/">High Performing Schools &gt;</a></div><!--right-->
+
+		</div><!--inner-->
+
+	</section><!--crumbs-->
 
 </div><!--outreach-->
 

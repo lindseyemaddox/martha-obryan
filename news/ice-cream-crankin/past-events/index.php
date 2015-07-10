@@ -79,7 +79,7 @@
     
     <div class="inner">
       
-      <div class="left"><a href="/news/ice-cream-crankin/">&lt; Miss Martha's Ice Cream Crankin' & Summer Social</a></div><!--left-->
+      <div class="left"><a href="/news/ice-cream-crankin/">&lt; Ice Cream Crankin'</a></div><!--left-->
 
       <div class="right"><a href="/contact/">Contact Us &gt;</a></div><!--right-->
 

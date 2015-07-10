@@ -35,9 +35,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/values/target-service-population/">&lt; Target Service Population</a></div><!--left-->
+			<div class="left"><a href="/values/target-service-population.php">&lt; Target Service Population</a></div><!--left-->
 
-			<div class="right"><a href="/values/whistleblower-policy/">Whistleblower Policy &gt;</a></div><!--right-->
+			<div class="right"><a href="/values/whistleblower-policy.php">Whistleblower Policy &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

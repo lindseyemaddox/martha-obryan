@@ -37,7 +37,7 @@
 			
 			<div class="left"><a href="/outreach/high-performers/">&lt; High Performing Schools</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/high-performers/explore/">Explore! Community School &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/high-performers/explore.php">Explore! Community School &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

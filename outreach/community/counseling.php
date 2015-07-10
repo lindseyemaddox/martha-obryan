@@ -35,9 +35,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/community/family/">&lt; Family Engagement</a></div><!--left-->
+			<div class="left"><a href="/outreach/community/family.php">&lt; Family Engagement</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/early-learning/">Early Learning Center &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/early-learning.php">Early Learning Center &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 

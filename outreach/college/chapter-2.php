@@ -35,9 +35,9 @@
 		
 		<div class="inner">
 			
-			<div class="left"><a href="/outreach/college/post-secondary/">&lt; Post-Secondary Success Initiative</a></div><!--left-->
+			<div class="left"><a href="/outreach/college/post-secondary.php">&lt; Post-Secondary Success Initiative</a></div><!--left-->
 
-			<div class="right"><a href="/outreach/college/adult-education/">Adult Education &gt;</a></div><!--right-->
+			<div class="right"><a href="/outreach/college/adult-education.php">Adult Education &gt;</a></div><!--right-->
 
 		</div><!--inner-->
 
