@@ -3,10 +3,10 @@
 	<div class="inner">
 	
 		<ul>
-			<li><a href="/contact/">Contact Us</a></li>
-			<li><a href="/contact/simple.php">Donate Now</a></li>
+			<li><a href="/contact/">Contact <br/>Us</a></li>
+			<li><a href="/contact/simple.php">Donate <br/>Now</a></li>
 			<li><a href="/contact/simple.php">Volunteer</a></li>
-			<li><a href="/wish-lists.php">Wish Lists</a></li>
+			<li><a href="/wish-lists.php">Wish <br/>Lists</a></li>
 		</ul>
 
 	</div><!--inner-->

@@ -2034,6 +2034,7 @@ section#subpage-nav ul li {
   text-transform: uppercase;
   font-size: 0.74em;
   line-height: 1em;
+  height: 45px;
 }
 section#subpage-nav ul li a {
   color: #ffffff;
