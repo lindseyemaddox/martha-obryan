@@ -707,9 +707,13 @@ header nav a.logo {
   display: block;
   width: 151px;
 }
+header nav a.logo img {
+  width: 100%;
+}
 header nav a.logo.expand {
   background: url(/_assets/img/logo-k.png) no-repeat center center transparent;
   height: 146px;
+  background-size: contain;
 }
 header nav a.logo.expand img {
   height: 0;
@@ -753,7 +757,7 @@ header nav > ul > li a {
 }
 header nav > ul.expand {
   top: 190px;
-  height: 1100px;
+  height: 1888px;
 }
 div.content {
   background: url(/_assets/img/overlay.png) repeat left top transparent;
@@ -768,7 +772,7 @@ div.content {
   transition: all 400ms ease;
 }
 div.content.expand {
-  height: 1900px;
+  height: 2080px;
 }
 /*
 	subnav Styler 	 
@@ -1146,16 +1150,6 @@ html[xmlns] .slides {
 .flex-control-thumbs .flex-active {
   opacity: 1;
   cursor: default;
-}
-@media screen and (max-width: 860px) {
-  .flex-direction-nav .flex-prev {
-    opacity: 1;
-    left: 0;
-  }
-  .flex-direction-nav .flex-next {
-    opacity: 1;
-    right: 0;
-  }
 }
 #container {
   margin: 0 2.5%;
@@ -2023,11 +2017,9 @@ div.videowrap {
 }
 section#subpage-nav {
   background-color: #4d4d4d;
-  height: 45px;
 }
 section#subpage-nav ul li {
   float: left;
-  border-left: 1px solid #ffffff;
   padding: 12px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -2045,9 +2037,6 @@ section#subpage-nav ul li a:hover {
 }
 section#subpage-nav ul li a:visited {
   color: #b7b7b7;
-}
-section#subpage-nav ul li:last-child {
-  border-right: 1px solid #ffffff;
 }
 section#subpage-nav ul li.green {
   background-color: #029494;
@@ -2071,6 +2060,9 @@ footer div.map iframe {
   position: inherit;
   width: 100%;
   height: 367px;
+}
+footer div.map img {
+  width: 100%;
 }
 footer form {
   width: 30%;
@@ -3578,8 +3570,201 @@ div#members section.header {
 /*================  RESPONSIVE STYLES  ================*/
 /*====================================================*/
 /*Contains ALL responsive code. Must be imported last so that it is the last css read.*/
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 13.5px;
+  }
+  div#home h1 {
+    width: 60%;
+    margin: 0 20%;
+    line-height: 1.1em;
+  }
+  div#home div.h1-container {
+    height: 135px;
+  }
+  div.gradient {
+    height: 430px;
+  }
+  div#outreach section.header {
+    height: 480px;
+  }
+  div.sub h1 {
+    top: 410px;
+  }
+}
 @media screen and (max-width: 1200px) {
   html {
-    font-size: 14px;
+    font-size: 13px;
+  }
+  div#home section#crankin p.sponsors-p {
+    font-size: 1.2em;
+  }
+  div#outreach section.header {
+    height: 430px;
+  }
+  div.sub h1 {
+    top: 360px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 12.5px;
+  }
+  div#home h1 {
+    width: 70%;
+    margin: 0 15%;
+  }
+  div#home div.h1-container {
+    height: 125px;
+  }
+  div#home section#form .btn {
+    padding: 23px 0;
+  }
+  div#outreach section.header {
+    height: 380px;
+  }
+  div.sub h1 {
+    top: 310px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 12px;
+  }
+  div#home section#crankin p.sponsors-p {
+    display: none;
+  }
+  div#home section#crankin div.slider {
+    width: 100%;
+  }
+  div#home section#crankin div.crankin {
+    width: 100%;
+    margin: 0 0 40px;
+  }
+  div#home section#crankin div.crankin img {
+    max-width: 467px;
+    margin: 0 auto;
+    display: block;
+  }
+  div#home section#crankin div.right {
+    width: 100%;
+  }
+  footer div.map {
+    display: none;
+  }
+  footer form {
+    width: 50%;
+    margin-right: 12%;
+  }
+}
+@media screen and (max-width: 900px) {
+  #subnav li ul {
+    display: none!important;
+  }
+  #subnav li span,
+  #subnav li span.collapsed,
+  #subnav li span.expanded {
+    background: none!important;
+    display: none;
+  }
+  header nav a.logo {
+    width: 90px;
+  }
+  div#home h1 {
+    font-size: 1.5em;
+  }
+  div#home div.h1-container {
+    height: 110px;
+  }
+  #social #container {
+    display: none;
+  }
+  div#home section#social div.fb-page,
+  div#home section#social div.twitter {
+    width: 45%;
+  }
+  div#home section#social div.fb-page {
+    margin-right: 9%;
+  }
+  div#outreach section.header {
+    height: 330px;
+  }
+  div.sub h1 {
+    top: 260px;
+  }
+}
+@media screen and (max-width: 800px) {
+  div#home h1 {
+    font-size: 1.2em;
+  }
+  div#home div.h1-container {
+    height: 80px;
+  }
+  .flex-control-nav {
+    bottom: 7px;
+  }
+  div#home section#we article.three {
+    width: 100%;
+    margin: 0 0 50px;
+  }
+  div#home section#we {
+    margin-bottom: 40px;
+  }
+  div#home section#numbers article.four {
+    width: 100%;
+    margin: 0 0 50px;
+  }
+  div#home section#work,
+  div#home section#form,
+  div#home section#leaders {
+    display: none;
+  }
+  footer div.footer-right div.item span,
+  footer div.footer-right div.item a p {
+    width: 100%;
+    text-align: center;
+  }
+  footer div.footer-right div.item a p {
+    margin-top: 12px;
+  }
+  aside.sorter {
+    display: none;
+  }
+  div#items {
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  div#home div.h1-container {
+    display: none;
+  }
+  div#outreach section#options article {
+    width: 100%;
+    margin: 0 0 22px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .flex-control-nav {
+    display: none;
+  }
+  div#home section#social div.fb-page,
+  div#home section#social div.twitter {
+    width: 100%;
+    margin-right: 0;
+  }
+  div#home section#social div.fb-page {
+    margin-bottom: 30px;
+  }
+  footer form {
+    width: 100%;
+    margin: 0 0 50px;
+  }
+  footer div.footer-right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .fb_iframe_widget iframe {
+    width: 240px;
   }
 }

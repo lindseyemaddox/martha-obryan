@@ -12,6 +12,8 @@
 			<li><a href="/outreach/high-performers/">High Performing <br/>Schools</a></li>
 			<li><a href="/outreach/other/">Other <br/>Outreach</a></li>
 		</ul>
+		
+		<div class="clear"></div>
 
 	</div><!--inner-->
 

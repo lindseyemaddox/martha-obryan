@@ -10,6 +10,8 @@
 			<li><a href="/outreach/other/break-the-line.php">Break the Line <br/>podcast</a></li>
 		</ul>
 
+		<div class="clear"></div>
+
 	</div><!--inner-->
 
 </section><!--subnav-cont-->

@@ -10,6 +10,8 @@
 			<li><a href="/values/whistleblower-policy.php">Whistleblower <br/>Policy</a></li>
 		</ul>
 
+		<div class="clear"></div>
+
 	</div><!--inner-->
 
 </section><!--subnav-cont-->

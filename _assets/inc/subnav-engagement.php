@@ -9,6 +9,8 @@
 			<li><a href="/outreach/community/engagement/promise-neighborhood.php">Promise <br/>Neighborhood</a></li>
 		</ul>
 
+		<div class="clear"></div>
+
 	</div><!--inner-->
 
 </section><!--subnav-cont-->

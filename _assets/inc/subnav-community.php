@@ -10,6 +10,8 @@
 			<li><a href="/outreach/community/engagement/">Community <br/>Engagement</a></li>
 		</ul>
 
+		<div class="clear"></div>
+
 	</div><!--inner-->
 
 </section><!--subnav-cont-->

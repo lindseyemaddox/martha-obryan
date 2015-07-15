@@ -9,6 +9,8 @@
 			<li><a href="/outreach/high-performers/explore.php">Explore! <br/>Community School</a></li>
 		</ul>
 
+		<div class="clear"></div>
+
 	</div><!--inner-->
 
 </section><!--subnav-cont-->

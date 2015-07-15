@@ -10,6 +10,8 @@
 			<li><a href="/outreach/college/adult-education.php">Adult <br/>Education</a></li>
 		</ul>
 
+		<div class="clear"></div>
+
 	</div><!--inner-->
 
 </div><!--subnav-cont-->

@@ -9,6 +9,8 @@
 			<li><a href="/news/newsletters/">Newsletters<br/>&nbsp;</a></li>
 		</ul>
 
+		<div class="clear"></div>
+
 	</div><!--inner-->
 
 </section><!--subnav-cont-->

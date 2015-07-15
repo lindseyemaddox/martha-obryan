@@ -9,6 +9,8 @@
 			<li><a href="/wish-lists.php">Wish <br/>Lists</a></li>
 		</ul>
 
+		<div class="clear"></div>
+
 	</div><!--inner-->
 
 </section><!--subnav-cont-->

@@ -10,6 +10,8 @@
 			<li><a href="/outreach/high-school/after-zone.php">Nashville After <br/>Zone Alliance</a></li>
 		</ul>
 
+		<div class="clear"></div>
+
 	</div><!--inner-->
 
 </section><!--subnav-cont-->
