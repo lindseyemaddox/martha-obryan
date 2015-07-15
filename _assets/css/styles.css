@@ -3626,6 +3626,9 @@ div#members section.header {
   div.sub h1 {
     top: 310px;
   }
+  div.img.sixty {
+    width: 40%;
+  }
 }
 @media screen and (max-width: 1000px) {
   html {
@@ -3733,6 +3736,18 @@ div#members section.header {
   div#items {
     display: block;
   }
+  section#tertiary-nav article.three {
+    width: 100%;
+    margin: 0 0 40px;
+  }
+}
+@media screen and (max-width: 700px) {
+  div#outreach div.faculty p.name {
+    font-size: .75em;
+  }
+  div#outreach div.faculty a.bio {
+    font-size: .85em;
+  }
 }
 @media screen and (max-width: 600px) {
   div#home div.h1-container {
@@ -3741,6 +3756,10 @@ div#members section.header {
   div#outreach section#options article {
     width: 100%;
     margin: 0 0 22px;
+  }
+  section#crumbs {
+    visibility: hidden;
+    margin-top: 40px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -3766,5 +3785,13 @@ div#members section.header {
 @media screen and (max-width: 400px) {
   .fb_iframe_widget iframe {
     width: 240px;
+  }
+  div.img.sixty,
+  div.img.forty {
+    width: 100%;
+    margin-left: 0;
+  }
+  div.img p.caption {
+    margin-bottom: 30px;
   }
 }
