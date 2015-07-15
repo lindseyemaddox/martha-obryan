@@ -3284,13 +3284,15 @@ div#store .g-recaptcha {
 }
 div#contact input[type='text'],
 div#store input[type='text'],
+div#contact input[type='file'],
+div#store input[type='file'],
 div#contact .floating-placeholder,
 div#store .floating-placeholder {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 3.6em;
-  height: 2.6em;
+  height: 55px;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -3518,6 +3520,22 @@ div#store div.availability div.radios input[type="radio"] + label {
   display: block;
   padding-right: 0;
   margin-bottom: 10px;
+}
+div#contact div.availability-job,
+div#store div.availability-job {
+  margin-bottom: 20px;
+}
+div#contact div.availability-job div.left,
+div#store div.availability-job div.left,
+div#contact div.availability-job div.right,
+div#store div.availability-job div.right {
+  width: 47%;
+  min-width: 0px;
+  margin-right: 5%;
+}
+div#contact div.availability-job div.right,
+div#store div.availability-job div.right {
+  margin-right: 0;
 }
 div#contact article.item,
 div#store article.item {

@@ -121,11 +121,11 @@ div#contact, div#store {
 	.g-recaptcha {
 		margin-bottom: 15px;
 	}
-	input[type='text'], .floating-placeholder {
+	input[type='text'], input[type='file'], .floating-placeholder {
 		.lato;
 		font-size: 1em;
 		line-height: 3.6em;
-		height: 2.6em;
+		height: 55px;
 		margin: 0;
 		padding: 0;
 		-webkit-font-smoothing: antialiased;
@@ -321,6 +321,17 @@ div#contact, div#store {
 				padding-right: 0;
 				margin-bottom: 10px;
 			}
+		}
+	}
+	div.availability-job {
+		margin-bottom: 20px;
+		div.left, div.right {
+			width: 47%;
+			min-width: 0px;
+			margin-right: 5%;
+		}
+		div.right {
+			margin-right: 0;
 		}
 	}
 	article.item {

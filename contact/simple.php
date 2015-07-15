@@ -57,6 +57,7 @@
 							  <input type="checkbox" id="tour" name="check-action"><label for="tour">I’d like to schedule a tour.</label>
 							  <input type="checkbox" id="volunteer" name="check-action"><label for="volunteer">I’d like to volunteer.</label>
 							  <input type="checkbox" id="volunteer-feedback" name="check-action"><label for="volunteer-feedback">I’d like to submit volunteer feedback.</label>
+							  <input type="checkbox" id="job" name="check-action"><label for="job">I’d like to apply for a job.</label>
 						</div><!--checks-->
 					</div><!--right-->
 			        <button class='submit spacer' type='submit' name='submit'>Enter Information and Continue</button>
@@ -495,7 +496,7 @@
 						<textarea type="text" name="expectations" id='expectations' size="10" placeholder="Please describe your expectations."></textarea>
 			        	<p class="label">Were Your Expectations Met?</p>
 						<div class="radios">
-							<input type="radio" id="expectations-yes" name="expectations-met" checked><label for="expectations-yes">Yes</label>
+							<input type="radio" id="expectations-yes" name="expectations-met"><label for="expectations-yes">Yes</label>
 							<input type="radio" id="expectations-mostly" name="expectations-met"><label for="expectations-mostly">Mostly</label>
 							<input type="radio" id="expectations-somewhat" name="expectations-met"><label for="expectations-somewhat">Somewhat</label>
 							<input type="radio" id="expectations-no" name="expectations-met"><label for="expectations-no">No</label>
@@ -512,7 +513,7 @@
 						<textarea type="text" name="suggestions" id='suggestions' size="10" placeholder="Let us know how we can improve."></textarea>
 						<p class="label">There are occasions when Martha O'Bryan Center needs volunteers on short notice. Shifts vary in length and responsibility. We are creating a list of volunteers who would be willing to be contacted in these situations. Would you be willing to be contacted in the event Martha O'Bryan Center needs a volunteer on short notice? </p>
 						<div class="radios">
-							<input type="radio" id="short-yes" name="short-notice" checked><label for="short-yes">Yes</label>
+							<input type="radio" id="short-yes" name="short-notice"><label for="short-yes">Yes</label>
 							<input type="radio" id="short-no" name="short-notice"><label for="short-no">No</label>
 						</div><!--radios-->
 					</div><!--right-->
@@ -520,9 +521,232 @@
 				    <button class='submit' type='submit' name='submit'>Submit Feedback</button>
 			      </form>
 
-			</div><!--form-tour-->
+			</div><!--form-feedback-->
 
-<!--end feedback form-->
+<!--end feedback form start apply form-->
+
+			<div class="form-apply">
+
+				<h2 class="sub">Submit Documents</h2>
+
+				<form action="upload.php" method="post" enctype="multipart/form-data">
+					<div class="left">
+			        	<p class="label">Select Opening</p>
+				        <select data-placeholder="Opening" style="width: 100%" class="chosen-select-no-results">
+				            <option value=""></option>
+				            <option>[populate these with job titles]</option>
+				        </select>
+			    	</div><!--left-->
+			    	<div class='right'>
+			        	<p class="label">Upload Cover Letter</p>
+						<input type="file" name="coverLetter" id='coverLetter' size="10">
+			        	<p class="label">Upload Resume</p>
+						<input type="file" name="resume" id='resume' size="10">
+			    	</div>
+				    <button class='submit' type='submit' name='submit'>Submit Documents and Continue</button>
+				</form>
+
+			</div><!--form-apply-->
+
+			<hr/>
+
+			<div class="form-details">
+
+				<h2 class="sub">Job Application</h2>
+				<p>Please note: convictions are not necessarily barriers to this employment opportunity.</p>
+
+				<form>
+					<div class="left">
+			        	<p class="label">Are you 18 years of age or older?</p>
+						<div class="radios">
+							<input type="radio" id="eighteen-yes" name="eighteen"><label for="eighteen-yes">Yes</label>
+							<input type="radio" id="eighteen-no" name="eighteen"><label for="eighteen-no">No</label>
+						</div><!--radios-->
+			        	<p class="label">Can you submit legal verification of your right to be employed in the United States?</p>
+						<div class="radios">
+							<input type="radio" id="verification-yes" name="verification"><label for="verification-yes">Yes</label>
+							<input type="radio" id="verification-no" name="verification"><label for="verification-no">No</label>
+						</div><!--radios-->
+			        	<p class="label">Have you ever been convicted of any crime (excluding minor traffic violations) including DWI? </p>
+						<div class="radios">
+							<input type="radio" id="conviction-yes" name="conviction"><label for="conviction-yes">Yes</label>
+							<input type="radio" id="conviction-no" name="conviction"><label for="conviction-no">No</label>
+						</div><!--radios-->
+			        	<p class="label">Are you presently charged with any violation of the law other than traffic violations?</p>
+						<div class="radios">
+							<input type="radio" id="charged-yes" name="charged"><label for="charged-yes">Yes</label>
+							<input type="radio" id="charged-no" name="charged"><label for="charged-no">No</label>
+						</div><!--radios-->
+			        	<p class="label">If your response to either of the last two questions was "Yes," give the date, place and nature of each such conviction or pending charge.</p>
+						<textarea type="text" name="conviction-explain" id='conviction-explain' size="10" placeholder="Please explain."></textarea>
+					</div><!--left-->
+					<div class="right">
+			        	<p class="label">Do you have any obligations or conditions which would limit your ability to work overtime?</p>
+						<div class="radios">
+							<input type="radio" id="overtime-yes" name="overtime"><label for="overtime-yes">Yes</label>
+							<input type="radio" id="overtime-no" name="overtime"><label for="overtime-no">No</label>
+						</div><!--radios-->
+			        	<p class="label">If yes, please explain.</p>
+						<textarea type="text" name="overtime-explain" id='overtime-explain' size="10" placeholder="Please explain."></textarea>
+			        	<p class="label">Are there any days or hours you would be unable or unwilling to work?</p>
+						<div class="radios">
+							<input type="radio" id="unable-yes" name="unable"><label for="unable-yes">Yes</label>
+							<input type="radio" id="unable-no" name="unable"><label for="unable-no">No</label>
+						</div><!--radios-->
+			        	<p class="label">If yes, please specify those days or hours you would be unable or unwilling to work.</p>
+						<textarea type="text" name="unable-explain" id='unable-explain' size="10" placeholder="Please explain."></textarea>
+					</div><!--right-->
+
+				    <button class='submit' type='submit' name='submit'>Submit Information and Continue</button>
+
+				</form>
+
+				<h2 class="sub">Future Employment</h2>
+
+				<form>
+					<div class="left">
+   			        	<p class="label">When are you available to start?</p>
+						<div class="floating-placeholder"><input type="text" name="start" id='start' size="10" class="datepicker"><label for='start'>00/00/0000</label></div>
+   			        	<p class="label">What is your minimum required salary per month?</p>
+						<div class="floating-placeholder"><input type="text" name="salary" id='salary' size="10"><label for='salary'>$0/month</label></div>
+			        	<p class="label">Do you expect to be engaged in any other business or employment?</p>
+						<div class="radios">
+							<input type="radio" id="engaged-yes" name="engaged"><label for="engaged-yes">Yes</label>
+							<input type="radio" id="engaged-no" name="engaged"><label for="engaged-no">No</label>
+						</div><!--radios-->
+			        	<p class="label">If yes, please explain.</p>
+						<textarea type="text" name="engaged-explain" id='engaged-explain' size="10" placeholder="Please explain."></textarea>
+					</div><!--left-->
+					<div class="right">
+			        	<p class="label">Is there any reason you would be unable or unwilling to perform any of the tasks required by the job you are applying for?</p>
+						<div class="radios">
+							<input type="radio" id="tasks-yes" name="tasks"><label for="tasks-yes">Yes</label>
+							<input type="radio" id="tasks-no" name="tasks"><label for="tasks-no">No</label>
+						</div><!--radios-->
+			        	<p class="label">If yes, please explain.</p>
+						<textarea type="text" name="tasks-explain" id='tasks-explain' size="10" placeholder="Please explain."></textarea>
+			        	<p class="label">Is there any reason you would be unable or unwilling to report to work on time every day on a regular and consistent basis?</p>
+						<div class="radios">
+							<input type="radio" id="report-yes" name="report"><label for="report-yes">Yes</label>
+							<input type="radio" id="report-no" name="report"><label for="report-no">No</label>
+						</div><!--radios-->
+					</div><!--right-->
+
+				    <button class='submit' type='submit' name='submit'>Submit Information and Continue</button>
+
+				</form>
+
+				<h2 class="sub">Education</h2>
+
+				<form>
+
+					<p>You may use this section to describe your education history if it is not on your resume.</p>
+
+					<div class="left">
+
+   			        	<p class="label">High School</p>
+						<div class="floating-placeholder"><input type="text" name="high-school" id='high-school' size="10"><label for='high-school'>High School</label></div>
+			        	<p class="label">Did you graduate?</p>
+						<div class="radios">
+							<input type="radio" id="graduate-yes" name="graduate"><label for="graduate-yes">Yes</label>
+							<input type="radio" id="graduate-no" name="graduate"><label for="graduate-no">No</label>
+						</div><!--radios-->
+   			        	<p class="label">College or Trade School</p>
+						<div class="floating-placeholder"><input type="text" name="college" id='college' size="10"><label for='college'>College</label></div>
+			        	<p class="label">Did you graduate?</p>
+						<div class="radios">
+							<input type="radio" id="college-yes" name="college"><label for="college-yes">Yes</label>
+							<input type="radio" id="college-no" name="college"><label for="college-no">No</label>
+						</div><!--radios-->
+					</div><!--left-->
+					<div class="right">
+   			        	<p class="label">Graduate School and Dates Attended</p>
+						<div class="floating-placeholder"><input type="text" name="graduate" id='graduate' size="10"><label for='graduate'>school, date</label></div>
+			        	<p class="label">Did you graduate?</p>
+						<div class="radios">
+							<input type="radio" id="graduate-yes" name="graduategraduate"><label for="graduate-yes">Yes</label>
+							<input type="radio" id="graduate-no" name="graduategraduate"><label for="graduate-no">No</label>
+						</div><!--radios-->
+			        	<p class="label">Other Education or Training</p>
+						<textarea type="text" name="education-explain" id='education-explain' size="10" placeholder="List other education."></textarea>
+					</div><!--right-->
+
+				    <button class='submit' type='submit' name='submit'>Submit Education and Continue</button>
+
+				</form>
+
+				<h2 class="sub">Work History</h2>
+
+				<p>You may provide information about your duties and accomplishments if not already on your resume. Please type "N/A" in applicable fields if there is no prior employment.</p>
+
+				<form>
+
+					<div class="left">
+   			        	<p class="label">Last/Current Employer</p>
+						<div class="floating-placeholder"><input type="text" name="current" id='current' size="10"><label for='current'>last or current employer</label></div>
+   			        	<p class="label">City and State</p>
+						<div class="floating-placeholder"><input type="text" name="current-citystate" id='current-citystate' size="10"><label for='current-citystate'>City, State</label></div>
+			        	<p class="label">Dates of Employment</p>
+						<div class="availability-job">
+							<div class="floating-placeholder left"><input type="text" name="job-start" id='job-start' size="10" class="datepicker"><label for='start'>start</label></div>
+							<div class="floating-placeholder right"><input type="text" name="job-end" id='job-end' size="10" class="datepicker"><label for='end'>end</label></div>
+						</div><!--availability-job-->
+   			        	<p class="label">Job Title</p>
+						<div class="floating-placeholder"><input type="text" name="job-title" id='job-title' size="10"><label for='job-title'>Job Title</label></div>
+   			        	<p class="label">Pay Rate</p>
+						<div class="floating-placeholder left"><input type="text" name="job-start-pay" id='job-start-pay' size="10"><label for='job-start-pay'>starting pay</label></div>
+						<div class="floating-placeholder right"><input type="text" name="job-end-pay" id='job-end-pay' size="10"><label for='job-end-pay'>ending pay</label></div>
+			        	<p class="label">Job Duties and Responsibilities</p>
+						<textarea type="text" name="responsibilites" id='responsibilites' size="10" placeholder="List duties and responsibilities."></textarea>
+			        	<p class="label">Job Accomplishments</p>
+						<textarea type="text" name="accomplishments" id='accomplishments' size="10" placeholder="List accomplishments."></textarea>
+   			        	<p class="label">Prior Employer</p>
+						<div class="floating-placeholder"><input type="text" name="prior" id='prior' size="10"><label for='prior'>prior employer</label></div>
+   			        	<p class="label">City and State</p>
+						<div class="floating-placeholder"><input type="text" name="prior-citystate" id='prior-citystate' size="10"><label for='prior-citystate'>City, State</label></div>
+			        	<p class="label">Dates of Employment</p>
+						<div class="availability-job">
+							<div class="floating-placeholder left"><input type="text" name="prior-job-start" id='prior-job-start' size="10" class="datepicker"><label for='start'>start</label></div>
+							<div class="floating-placeholder right"><input type="text" name="prior-job-end" id='prior-job-end' size="10" class="datepicker"><label for='end'>end</label></div>
+						</div><!--availability-job-->
+   			        	<p class="label">Job Title</p>
+						<div class="floating-placeholder"><input type="text" name="prior-job-title" id='prior-job-title' size="10"><label for='prior-job-title'>Job Title</label></div>
+   			        	<p class="label">Pay Rate</p>
+						<div class="floating-placeholder left"><input type="text" name="prior-job-start-pay" id='prior-job-start-pay' size="10"><label for='prior-job-start-pay'>starting pay</label></div>
+						<div class="floating-placeholder right"><input type="text" name="prior-job-end-pay" id='prior-job-end-pay' size="10"><label for='prior-job-end-pay'>ending pay</label></div>
+			        	<p class="label">Job Duties and Responsibilities</p>
+						<textarea type="text" name="prior-responsibilites" id='prior-responsibilites' size="10" placeholder="List duties and responsibilities."></textarea>
+			        	<p class="label">Job Accomplishments</p>
+						<textarea type="text" name="prior-accomplishments" id='prior-accomplishments' size="10" placeholder="List accomplishments."></textarea>
+					</div><!--left-->
+					<div class="right">
+   			        	<p class="label">Prior Employer</p>
+						<div class="floating-placeholder"><input type="text" name="prior2" id='prior2' size="10"><label for='prior2'>prior employer</label></div>
+   			        	<p class="label">City and State</p>
+						<div class="floating-placeholder"><input type="text" name="prior-citystate2" id='prior-citystate2' size="10"><label for='prior-citystate2'>City, State</label></div>
+			        	<p class="label">Dates of Employment</p>
+						<div class="availability-job">
+							<div class="floating-placeholder left"><input type="text" name="prior-job-start2" id='prior-job-start2' size="10" class="datepicker"><label for='start'>start</label></div>
+							<div class="floating-placeholder right"><input type="text" name="prior-job-end2" id='prior-job-end2' size="10" class="datepicker"><label for='end'>end</label></div>
+						</div><!--availability-job-->
+   			        	<p class="label">Job Title</p>
+						<div class="floating-placeholder"><input type="text" name="prior-job-title2" id='prior-job-title2' size="10"><label for='prior-job-title2'>Job Title</label></div>
+   			        	<p class="label">Pay Rate</p>
+						<div class="floating-placeholder left"><input type="text" name="prior-job-start-pay2" id='prior-job-start-pay2' size="10"><label for='prior-job-start-pay2'>starting pay</label></div>
+						<div class="floating-placeholder right"><input type="text" name="prior-job-end-pay2" id='prior-job-end-pay2' size="10"><label for='prior-job-end-pay2'>ending pay</label></div>
+			        	<p class="label">Job Duties and Responsibilities</p>
+						<textarea type="text" name="prior-responsibilites2" id='prior-responsibilites2' size="10" placeholder="List duties and responsibilities."></textarea>
+			        	<p class="label">Job Accomplishments</p>
+						<textarea type="text" name="prior-accomplishments2" id='prior-accomplishments2' size="10" placeholder="List accomplishments."></textarea>
+			        	<p class="label">Please provide the names, titles, phone numbers and email addresses of 3 professional references. References will not be contacted until the final stages of the recruitment process.</p>
+						<textarea type="text" name="prior-responsibilites2" id='prior-responsibilites2' size="10" placeholder="John Smith, Job Title, (615) 555-5555, name@domain.com"></textarea>
+					</div><!--right-->
+
+				    <button class='submit' type='submit' name='submit'>Submit Work History and Complete</button>
+
+				</form>
+
+			</div><!--form-application-details-->
 
 	    </div><!--inner-->
 
