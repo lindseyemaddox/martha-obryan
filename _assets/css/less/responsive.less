@@ -14,7 +14,7 @@
 		height: 430px;
 	}
 // SECTION HEAD CHANGE HERE
-	div#outreach section.header {
+	div#outreach section.header, div#values section.header, div#news section.header {
 		height: 480px;
 	}
 	div.sub h1 {
@@ -30,7 +30,7 @@
 		font-size: 1.2em;
 	}
 // SECTION HEAD CHANGE HERE
-	div#outreach section.header {
+	div#outreach section.header, div#values section.header, div#news section.header {
 		height: 430px;
 	}
 	div.sub h1 {
@@ -53,7 +53,7 @@
 		padding: 23px 0;
 	}
 // SECTION HEAD CHANGE HERE
-	div#outreach section.header {
+	div#outreach section.header, div#values section.header, div#news section.header {
 		height: 380px;
 	}
 	div.sub h1 {
@@ -122,11 +122,15 @@
 		margin-right: 9%;
 	}
 // SECTION HEAD CHANGE HERE
-	div#outreach section.header {
+	div#outreach section.header, div#values section.header, div#news section.header {
 		height: 330px;
 	}
 	div.sub h1 {
 		top: 260px;
+	}
+	section#leadership article.item {
+		width: 100%;
+		margin: 0 0 30px;
 	}
 }
 
@@ -171,6 +175,12 @@
 		width: 100%;
 		margin: 0 0 40px;
 	}
+	section.subpage .btn {
+		width: 32%;
+	}
+	section.newsletters article.item {
+		width: 46%;
+	}
 }
 
 @media screen and (max-width: 700px) {
@@ -179,6 +189,9 @@
 	}
 	div#outreach div.faculty a.bio {
 		font-size: .85em;
+	}
+	div#news div.slider p {
+		display: none;
 	}
 }
 
@@ -214,6 +227,19 @@
 	footer div.footer-right {
 		width: 100%;
 	}
+	div.sub h1 {
+		font-size: 2em;
+	}
+	section.subpage .btn {
+		width: 100%;
+	}
+	div#news img.logo {
+		width: 100%;
+	}
+	div#news div.slider {
+		width: 100%;
+		margin-left: 0;
+	}
 }
 
 @media screen and (max-width: 400px) {
@@ -226,6 +252,14 @@
 	}
 	div.img p.caption {
 		margin-bottom: 30px;
+	}
+	section#leadership article.item img {
+		width: 80%;
+		margin: 0 10% 20px;
+	}
+	section#leadership article.item div.text {
+		width: 100%;
+		text-align: center;
 	}
 }
 
