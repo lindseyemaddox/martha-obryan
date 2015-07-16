@@ -3587,11 +3587,16 @@ div#members section.header {
   }
   div#outreach section.header,
   div#values section.header,
-  div#news section.header {
+  div#news section.header,
+  div#contact section.header,
+  div#store section.header {
     height: 480px;
   }
   div.sub h1 {
     top: 410px;
+  }
+  section.newsletters article.item {
+    width: 46%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -3603,7 +3608,9 @@ div#members section.header {
   }
   div#outreach section.header,
   div#values section.header,
-  div#news section.header {
+  div#news section.header,
+  div#contact section.header,
+  div#store section.header {
     height: 430px;
   }
   div.sub h1 {
@@ -3626,7 +3633,9 @@ div#members section.header {
   }
   div#outreach section.header,
   div#values section.header,
-  div#news section.header {
+  div#news section.header,
+  div#contact section.header,
+  div#store section.header {
     height: 380px;
   }
   div.sub h1 {
@@ -3665,6 +3674,10 @@ div#members section.header {
     width: 50%;
     margin-right: 12%;
   }
+  div#contact article.item,
+  div#store article.item {
+    width: 31%;
+  }
 }
 @media screen and (max-width: 900px) {
   #subnav li ul {
@@ -3697,7 +3710,9 @@ div#members section.header {
   }
   div#outreach section.header,
   div#values section.header,
-  div#news section.header {
+  div#news section.header,
+  div#contact section.header,
+  div#store section.header {
     height: 330px;
   }
   div.sub h1 {
@@ -3782,6 +3797,10 @@ div#members section.header {
     visibility: hidden;
     margin-top: 40px;
   }
+  section.newsletters article.item {
+    width: 100%;
+    margin: 0 0 20px;
+  }
 }
 @media screen and (max-width: 500px) {
   .flex-control-nav {
@@ -3835,5 +3854,9 @@ div#members section.header {
   section#leadership article.item div.text {
     width: 100%;
     text-align: center;
+  }
+  div#contact article.item,
+  div#store article.item {
+    width: 47%;
   }
 }
