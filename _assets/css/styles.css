@@ -3589,7 +3589,8 @@ div#members section.header {
   div#values section.header,
   div#news section.header,
   div#contact section.header,
-  div#store section.header {
+  div#store section.header,
+  div#careers section.header {
     height: 480px;
   }
   div.sub h1 {
@@ -3610,7 +3611,8 @@ div#members section.header {
   div#values section.header,
   div#news section.header,
   div#contact section.header,
-  div#store section.header {
+  div#store section.header,
+  div#careers section.header {
     height: 430px;
   }
   div.sub h1 {
@@ -3635,7 +3637,8 @@ div#members section.header {
   div#values section.header,
   div#news section.header,
   div#contact section.header,
-  div#store section.header {
+  div#store section.header,
+  div#careers section.header {
     height: 380px;
   }
   div.sub h1 {
@@ -3712,7 +3715,8 @@ div#members section.header {
   div#values section.header,
   div#news section.header,
   div#contact section.header,
-  div#store section.header {
+  div#store section.header,
+  div#careers section.header {
     height: 330px;
   }
   div.sub h1 {
@@ -3780,6 +3784,9 @@ div#members section.header {
     width: 100%;
     margin-right: 0;
   }
+  div.jobs-page {
+    display: none;
+  }
 }
 @media screen and (max-width: 700px) {
   div#outreach div.faculty p.name {
@@ -3840,6 +3847,10 @@ div#members section.header {
   div#news div.slider {
     width: 100%;
     margin-left: 0;
+  }
+  div#careers section#options article {
+    width: 100%;
+    margin: 0 0 22px;
   }
 }
 @media screen and (max-width: 400px) {
