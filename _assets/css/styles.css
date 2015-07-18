@@ -3158,6 +3158,7 @@ div#contact article.contact-item a.btn,
 div#store article.contact-item a.btn {
   background-color: #ffffff;
   color: #4d4d4d;
+  width: 90%;
 }
 div#contact article.contact-item a.btn:hover,
 div#store article.contact-item a.btn:hover {
@@ -3681,6 +3682,9 @@ div#members section.header {
   div#store article.item {
     width: 31%;
   }
+  div#contact article.contact-item {
+    width: 47.7%;
+  }
 }
 @media screen and (max-width: 900px) {
   #subnav li ul {
@@ -3798,6 +3802,14 @@ div#members section.header {
   div#news div.slider p {
     display: none;
   }
+  div#contact article.contact-item {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  div#contact article.contact-item h4,
+  div#store article.contact-item h4 {
+    height: auto;
+  }
 }
 @media screen and (max-width: 600px) {
   div#home div.h1-container {
@@ -3814,6 +3826,10 @@ div#members section.header {
   section.newsletters article.item {
     width: 100%;
     margin: 0 0 20px;
+  }
+  div#contact div.contact-info article {
+    width: 100%;
+    margin: 0 0 30px;
   }
 }
 @media screen and (max-width: 500px) {
