@@ -3773,6 +3773,13 @@ div#members section.header {
   section.newsletters article.item {
     width: 46%;
   }
+  div#contact div.left,
+  div#store div.left,
+  div#contact div.right,
+  div#store div.right {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 @media screen and (max-width: 700px) {
   div#outreach div.faculty p.name {
@@ -3858,5 +3865,12 @@ div#members section.header {
   div#contact article.item,
   div#store article.item {
     width: 47%;
+  }
+  div#store div.four .floating-placeholder {
+    width: 21%;
+  }
+  div#contact .floating-placeholder label,
+  div#store .floating-placeholder label {
+    left: 10px;
   }
 }
