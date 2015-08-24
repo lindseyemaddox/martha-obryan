@@ -478,6 +478,10 @@ div.sub h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
+div.sub h1 a {
+  text-decoration: none;
+  color: #fff;
+}
 .header .inner {
   position: relative;
 }
@@ -1988,7 +1992,7 @@ div.videowrap {
   padding-bottom: 75%;
   /* default padding equal to video height (4:3) - h / w */
 }
-.video iframe {
+div.video iframe {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2018,19 +2022,27 @@ div.videowrap {
 section#subpage-nav {
   background-color: #4d4d4d;
 }
+section#subpage-nav ul {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+}
 section#subpage-nav ul li {
-  float: left;
+  display: inline-block;
   padding: 12px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 0.74em;
   line-height: 1em;
-  height: 45px;
+  min-height: 45px;
+  max-width: 15%;
+  vertical-align: text-top;
 }
 section#subpage-nav ul li a {
   color: #ffffff;
   text-decoration: none;
+  display: block;
 }
 section#subpage-nav ul li a:hover {
   color: #b7b7b7;
@@ -2043,6 +2055,21 @@ section#subpage-nav ul li.green {
 }
 section#subpage-nav ul li.green a {
   color: #ffffff;
+}
+section#subpage-nav.third {
+  background: #ccc;
+}
+section#subpage-nav.third li a {
+  color: #4d4d4d;
+}
+section#subpage-nav.third li a:visited {
+  color: #666;
+}
+section#subpage-nav.third li.green {
+  background: #ddd;
+}
+section#subpage-nav.third li.green a {
+  color: #4d4d4d;
 }
 /******** START MAIN FOOTER STYLES *********/
 footer {
@@ -2820,6 +2847,18 @@ div#news div#pagination {
   font-weight: 400;
   letter-spacing: 8px;
 }
+div#news div#pagination ul,
+div#news div#pagination li {
+  margin: 0;
+  padding: 0;
+}
+div#news div#pagination li {
+  list-style-type: none;
+  display: inline;
+}
+div#news div#pagination .pagination-info {
+  margin: 0 0 20px 0;
+}
 div#news div#pagination a {
   color: #b7b7b7;
   text-decoration: none;
@@ -2846,17 +2885,20 @@ div#news div.slider {
   margin-left: 19%;
   vertical-align: middle;
 }
-section.newsletters aside.sorter {
+section.newsletters aside.sorter,
+#newsletter aside.sorter {
   width: 170px;
   min-width: 170px;
 }
-section.newsletters article.item {
+section.newsletters article.item,
+#newsletter article.item {
   background-color: #4d4d4d;
   padding: 3%;
-  width: 47%;
+  width: 46%;
   margin: 0 1.5% 20px;
 }
-section.newsletters article.item h4 {
+section.newsletters article.item h4,
+#newsletter article.item h4 {
   text-align: right;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -2864,7 +2906,10 @@ section.newsletters article.item h4 {
   font-size: 1.5em;
   padding-bottom: 20px;
 }
-section.newsletters article.item h5 {
+section.newsletters article.item h5,
+#newsletter article.item h5,
+section.newsletters article.item li,
+#newsletter article.item li {
   color: #ffffff;
   font-size: 0.875em;
   font-family: 'Lato', sans-serif;
@@ -2872,10 +2917,12 @@ section.newsletters article.item h5 {
   line-height: 1.2em;
   padding-bottom: 15px;
 }
-section.newsletters article.item a.btn {
+section.newsletters article.item a.btn,
+#newsletter article.item a.btn {
   margin-top: 15px;
 }
-section.newsletters article.item a.btn:hover {
+section.newsletters article.item a.btn:hover,
+#newsletter article.item a.btn:hover {
   background-color: #b7b7b7;
 }
 section#news-item {
@@ -3121,14 +3168,16 @@ div#careers article.job a.btn:hover {
   background-color: #029494;
 }
 div#contact section.header,
-div#store section.header {
+div#store section.header,
+div.sub section.header {
   background: url(/_assets/img/header-contact.jpg) no-repeat center center transparent;
   background-size: cover;
   height: 536px;
   position: relative;
 }
 div#contact article.contact-item,
-div#store article.contact-item {
+div#store article.contact-item,
+div.sub article.contact-item {
   width: 22.7%;
   display: inline-block;
   margin: 0 1% 20px;
@@ -3136,7 +3185,8 @@ div#store article.contact-item {
   padding: 2% 2% 0;
 }
 div#contact article.contact-item h4,
-div#store article.contact-item h4 {
+div#store article.contact-item h4,
+div.sub article.contact-item h4 {
   color: #ffffff;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -3146,7 +3196,8 @@ div#store article.contact-item h4 {
   height: 50px;
 }
 div#contact article.contact-item h5,
-div#store article.contact-item h5 {
+div#store article.contact-item h5,
+div.sub article.contact-item h5 {
   color: #ffffff;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -3155,22 +3206,26 @@ div#store article.contact-item h5 {
   margin-top: 0;
 }
 div#contact article.contact-item a.btn,
-div#store article.contact-item a.btn {
+div#store article.contact-item a.btn,
+div.sub article.contact-item a.btn {
   background-color: #ffffff;
   color: #4d4d4d;
   width: 90%;
 }
 div#contact article.contact-item a.btn:hover,
-div#store article.contact-item a.btn:hover {
+div#store article.contact-item a.btn:hover,
+div.sub article.contact-item a.btn:hover {
   background-color: #4d4d4d;
   color: #ffffff;
 }
 div#contact div.contact-info,
-div#store div.contact-info {
+div#store div.contact-info,
+div.sub div.contact-info {
   margin-top: 50px;
 }
 div#contact div.contact-info h6,
-div#store div.contact-info h6 {
+div#store div.contact-info h6,
+div.sub div.contact-info h6 {
   font-size: 1.5em;
   line-height: 1.5em;
   font-family: 'Lato', sans-serif;
@@ -3178,38 +3233,46 @@ div#store div.contact-info h6 {
   color: #4d4d4d;
 }
 div#contact div.contact-info h6 a,
-div#store div.contact-info h6 a {
+div#store div.contact-info h6 a,
+div.sub div.contact-info h6 a {
   color: #4d4d4d;
   text-decoration: none;
 }
 div#contact div.contact-info h6 a:hover,
-div#store div.contact-info h6 a:hover {
+div#store div.contact-info h6 a:hover,
+div.sub div.contact-info h6 a:hover {
   color: #029494;
 }
 div#contact div.contact-info article,
-div#store div.contact-info article {
+div#store div.contact-info article,
+div.sub div.contact-info article {
   display: inline-block;
   width: 47%;
   vertical-align: top;
 }
 div#contact div.contact-info article#address,
-div#store div.contact-info article#address {
+div#store div.contact-info article#address,
+div.sub div.contact-info article#address {
   margin-right: 5%;
 }
 div#contact div.contact-info article#map img,
-div#store div.contact-info article#map img {
+div#store div.contact-info article#map img,
+div.sub div.contact-info article#map img {
   width: 100%;
 }
 div#contact div.form-simple,
-div#store div.form-simple {
+div#store div.form-simple,
+div.sub div.form-simple {
   margin-top: 70px;
 }
 div#contact div.form-donate,
-div#store div.form-donate {
+div#store div.form-donate,
+div.sub div.form-donate {
   margin-bottom: 50px;
 }
 div#contact p,
-div#store p {
+div#store p,
+div.sub p {
   font-size: 0.875em;
   line-height: 1.5714285714285714em;
   font-family: 'Lato', sans-serif;
@@ -3219,18 +3282,22 @@ div#store p {
 }
 div#contact div.left,
 div#store div.left,
+div.sub div.left,
 div#contact div.right,
-div#store div.right {
+div#store div.right,
+div.sub div.right {
   display: inline-block;
   width: 47%;
   vertical-align: top;
 }
 div#contact div.left,
-div#store div.left {
+div#store div.left,
+div.sub div.left {
   margin-right: 5%;
 }
 div#contact p.label,
-div#store p.label {
+div#store p.label,
+div.sub p.label {
   text-transform: uppercase;
   color: #4d4d4d;
   letter-spacing: 3px;
@@ -3242,13 +3309,16 @@ div#store p.label {
   padding: 10px 0 0;
 }
 div#contact .spacer,
-div#store .spacer {
+div#store .spacer,
+div.sub .spacer {
   margin-top: 30px;
 }
 div#contact input,
 div#store input,
+div.sub input,
 div#contact textarea,
-div#store textarea {
+div#store textarea,
+div.sub textarea {
   width: 100%;
   resize: none;
   border: 1px solid #b7b7b7;
@@ -3256,7 +3326,8 @@ div#store textarea {
   height: 55px;
 }
 div#contact textarea,
-div#store textarea {
+div#store textarea,
+div.sub textarea {
   height: 115px;
   display: block;
   margin-bottom: 24px;
@@ -3268,19 +3339,27 @@ div#store textarea {
   width: 90%;
 }
 div#contact textarea.smaller,
-div#store textarea.smaller {
+div#store textarea.smaller,
+div.sub textarea.smaller {
   height: 100px;
 }
 div#contact .g-recaptcha,
-div#store .g-recaptcha {
+div#store .g-recaptcha,
+div.sub .g-recaptcha {
   margin-bottom: 15px;
 }
 div#contact input[type='text'],
 div#store input[type='text'],
+div.sub input[type='text'],
 div#contact input[type='file'],
 div#store input[type='file'],
+div.sub input[type='file'],
+div#contact input[type='password'],
+div#store input[type='password'],
+div.sub input[type='password'],
 div#contact .floating-placeholder,
-div#store .floating-placeholder {
+div#store .floating-placeholder,
+div.sub .floating-placeholder {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1em;
@@ -3293,21 +3372,28 @@ div#store .floating-placeholder {
   color: #4d4d4d;
 }
 div#contact .floating-placeholder input[type='text']:focus + label,
-div#store .floating-placeholder input[type='text']:focus + label {
+div#store .floating-placeholder input[type='text']:focus + label,
+div.sub .floating-placeholder input[type='text']:focus + label {
   color: #b7b7b7;
 }
 div#contact .floating-placeholder input[value] + label,
-div#store .floating-placeholder input[value] + label {
+div#store .floating-placeholder input[value] + label,
+div.sub .floating-placeholder input[value] + label {
   color: red;
 }
 div#contact .floating-placeholder,
-div#store .floating-placeholder {
+div#store .floating-placeholder,
+div.sub .floating-placeholder {
   position: relative;
   display: inline-block;
   width: 100%;
 }
 div#contact .floating-placeholder input[type='text'],
-div#store .floating-placeholder input[type='text'] {
+div#store .floating-placeholder input[type='text'],
+div.sub .floating-placeholder input[type='text'],
+div#contact .floating-placeholder input[type='password'],
+div#store .floating-placeholder input[type='password'],
+div.sub .floating-placeholder input[type='password'] {
   font-size: 1.5em;
   outline: none;
   position: absolute;
@@ -3320,7 +3406,8 @@ div#store .floating-placeholder input[type='text'] {
   width: 100%;
 }
 div#contact .floating-placeholder label,
-div#store .floating-placeholder label {
+div#store .floating-placeholder label,
+div.sub .floating-placeholder label {
   display: block;
   position: absolute;
   top: 0;
@@ -3344,7 +3431,8 @@ div#store .floating-placeholder label {
   color: #999;
 }
 div#contact .floating-placeholder-float label,
-div#store .floating-placeholder-float label {
+div#store .floating-placeholder-float label,
+div.sub .floating-placeholder-float label {
   -webkit-transform: scale(0.55, 0.55) rotateY(0);
   -moz-transform: scale(0.55, 0.55) rotateY(0);
   -ms-transform: scale(0.55, 0.55) rotateY(0);
@@ -3352,35 +3440,45 @@ div#store .floating-placeholder-float label {
   transform: scale(0.55, 0.55) rotateY(0);
 }
 div#contact .floating-placeholder-float input,
-div#store .floating-placeholder-float input {
+div#store .floating-placeholder-float input,
+div.sub .floating-placeholder-float input {
   line-height: 3.4em;
 }
 div#contact div.radios,
 div#store div.radios,
+div.sub div.radios,
 div#contact div.checks,
-div#store div.checks {
+div#store div.checks,
+div.sub div.checks {
   margin: 10px 0 10px;
 }
 div#contact div.radios .spacer,
 div#store div.radios .spacer,
+div.sub div.radios .spacer,
 div#contact div.checks .spacer,
-div#store div.checks .spacer {
+div#store div.checks .spacer,
+div.sub div.checks .spacer {
   margin-top: 15px;
 }
 div#contact div.radios label,
-div#store div.radios label {
+div#store div.radios label,
+div.sub div.radios label {
   padding-right: 30px;
 }
 div#contact input[type="radio"],
 div#store input[type="radio"],
+div.sub input[type="radio"],
 div#contact input[type="checkbox"],
-div#store input[type="checkbox"] {
+div#store input[type="checkbox"],
+div.sub input[type="checkbox"] {
   display: none;
 }
 div#contact input[type="radio"] + label,
 div#store input[type="radio"] + label,
+div.sub input[type="radio"] + label,
 div#contact input[type="checkbox"] + label,
-div#store input[type="checkbox"] + label {
+div#store input[type="checkbox"] + label,
+div.sub input[type="checkbox"] + label {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -3394,12 +3492,16 @@ div#store input[type="checkbox"] + label {
 }
 div#contact input[type="radio"] + label:before,
 div#store input[type="radio"] + label:before,
+div.sub input[type="radio"] + label:before,
 div#contact input[type="checkbox"] + label:before,
 div#store input[type="checkbox"] + label:before,
+div.sub input[type="checkbox"] + label:before,
 div#contact input[type="radio"] + label:after,
 div#store input[type="radio"] + label:after,
+div.sub input[type="radio"] + label:after,
 div#contact input[type="checkbox"] + label:after,
-div#store input[type="checkbox"] + label:after {
+div#store input[type="checkbox"] + label:after,
+div.sub input[type="checkbox"] + label:after {
   content: '';
   position: absolute;
   top: 0;
@@ -3413,28 +3515,33 @@ div#store input[type="checkbox"] + label:after {
   transition: all .3s ease;
 }
 div#contact input[type="radio"] + label:before,
-div#store input[type="radio"] + label:before {
+div#store input[type="radio"] + label:before,
+div.sub input[type="radio"] + label:before {
   transition: all .3s ease;
   border: 1px solid #b7b7b7;
   box-shadow: inset 0 0 0 0.2em #ffffff;
 }
 div#contact input[type="radio"] + label:hover:before,
-div#store input[type="radio"] + label:hover:before {
+div#store input[type="radio"] + label:hover:before,
+div.sub input[type="radio"] + label:hover:before {
   transition: all .3s ease;
   box-shadow: inset 0 0 0 0.3em #b7b7b7, inset 0 0 0 1em #ffffff;
 }
 div#contact input[type="radio"]:checked + label:before,
-div#store input[type="radio"]:checked + label:before {
+div#store input[type="radio"]:checked + label:before,
+div.sub input[type="radio"]:checked + label:before {
   transition: all .3s ease;
   box-shadow: inset 0 0 0 0.2em #b7b7b7, inset 0 0 0 1em #029494;
 }
 div#contact input[type="checkbox"] + label,
-div#store input[type="checkbox"] + label {
+div#store input[type="checkbox"] + label,
+div.sub input[type="checkbox"] + label {
   display: block;
   margin-bottom: 22px;
 }
 div#contact input[type="checkbox"] + label:before,
-div#store input[type="checkbox"] + label:before {
+div#store input[type="checkbox"] + label:before,
+div.sub input[type="checkbox"] + label:before {
   content: '✗';
   border-radius: 0px;
   background-color: #ffffff;
@@ -3442,16 +3549,19 @@ div#store input[type="checkbox"] + label:before {
   border: 1px solid #b7b7b7;
 }
 div#contact input[type="checkbox"] + label:hover:before,
-div#store input[type="checkbox"] + label:hover:before {
+div#store input[type="checkbox"] + label:hover:before,
+div.sub input[type="checkbox"] + label:hover:before {
   color: #b7b7b7;
 }
 div#contact input[type="checkbox"]:checked + label:before,
-div#store input[type="checkbox"]:checked + label:before {
+div#store input[type="checkbox"]:checked + label:before,
+div.sub input[type="checkbox"]:checked + label:before {
   background-color: #b7b7b7;
   color: #029494;
 }
 div#contact button,
-div#store button {
+div#store button,
+div.sub button {
   background-color: #029494;
   color: #ffffff;
   font-family: 'Lato', sans-serif;
@@ -3467,71 +3577,86 @@ div#store button {
   width: 100%;
 }
 div#contact button:hover,
-div#store button:hover {
+div#store button:hover,
+div.sub button:hover {
   background-color: #4d4d4d;
 }
 div#contact hr,
-div#store hr {
+div#store hr,
+div.sub hr {
   border-top: 1px solid #b7b7b7;
   border-bottom: none;
   margin: 70px 0 50px;
 }
 div#contact h2.sub,
-div#store h2.sub {
+div#store h2.sub,
+div.sub h2.sub {
   font-size: 2em;
   text-align: center;
   color: #029494;
   margin-bottom: 30px;
 }
 div#contact img.ui-datepicker-trigger,
-div#store img.ui-datepicker-trigger {
+div#store img.ui-datepicker-trigger,
+div.sub img.ui-datepicker-trigger {
   float: right;
   margin: 12px;
 }
 div#contact div.availability,
-div#store div.availability {
+div#store div.availability,
+div.sub div.availability {
   margin-bottom: 20px;
 }
 div#contact div.availability div.left,
 div#store div.availability div.left,
+div.sub div.availability div.left,
 div#contact div.availability div.right,
-div#store div.availability div.right {
+div#store div.availability div.right,
+div.sub div.availability div.right {
   width: 40%;
   min-width: 0px;
   margin-right: 5%;
 }
 div#contact div.availability div.right,
-div#store div.availability div.right {
+div#store div.availability div.right,
+div.sub div.availability div.right {
   margin-right: 2%;
 }
 div#contact div.availability div.radios,
-div#store div.availability div.radios {
+div#store div.availability div.radios,
+div.sub div.availability div.radios {
   display: inline-block;
 }
 div#contact div.availability div.radios input[type="radio"] + label,
-div#store div.availability div.radios input[type="radio"] + label {
+div#store div.availability div.radios input[type="radio"] + label,
+div.sub div.availability div.radios input[type="radio"] + label {
   display: block;
   padding-right: 0;
   margin-bottom: 10px;
 }
 div#contact div.availability-job,
-div#store div.availability-job {
+div#store div.availability-job,
+div.sub div.availability-job {
   margin-bottom: 20px;
 }
 div#contact div.availability-job div.left,
 div#store div.availability-job div.left,
+div.sub div.availability-job div.left,
 div#contact div.availability-job div.right,
-div#store div.availability-job div.right {
+div#store div.availability-job div.right,
+div.sub div.availability-job div.right {
   width: 47%;
   min-width: 0px;
   margin-right: 5%;
 }
 div#contact div.availability-job div.right,
-div#store div.availability-job div.right {
+div#store div.availability-job div.right,
+div.sub div.availability-job div.right {
   margin-right: 0;
 }
 div#contact article.item,
-div#store article.item {
+div#store article.item,
+div.sub article.item {
   width: 22.7%;
   display: inline-block;
   margin: 0 1% 20px;
@@ -3539,7 +3664,8 @@ div#store article.item {
   padding: 2%;
 }
 div#contact article.item h4,
-div#store article.item h4 {
+div#store article.item h4,
+div.sub article.item h4 {
   color: #ffffff;
   text-align: center;
   font-family: 'Lato', sans-serif;
