@@ -1,18 +1,26 @@
 section#subpage-nav {
 	background-color: @black;
 	ul {
+		width: 95%;
+		margin: auto;
+		text-align: center;
 		li {
-			float: left;
+			//float: left;
 			//border: 1px solid @white;
+			display: inline-block;
 			padding: 12px;
 			.lato-bold;
 			text-transform: uppercase;
 			font-size: 0.74em;
 			line-height: 1em;
-			height: 45px;
+			min-height: 45px;
+			max-width: 15%;
+			vertical-align: text-top;
 			a {
 				color: @white;
 				text-decoration: none;
+				display: block;
+				
 				&:hover {
 					color: @grey;
 				}
@@ -28,6 +36,24 @@ section#subpage-nav {
 				a {
 					color: @white;
 				}
+			}
+		}
+	}
+}
+
+section#subpage-nav.third {
+	background: #ccc;
+	li {
+		a {
+			color: @black;
+			&:visited {
+				color: #666;
+			}
+		}
+		&.green {
+			background: #ddd;
+			a {
+				color: @black;
 			}
 		}
 	}

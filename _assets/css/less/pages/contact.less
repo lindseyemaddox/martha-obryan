@@ -1,4 +1,5 @@
-div#contact, div#store {
+div#contact, div#store,
+div.sub {
 	section.header {
 		background: url(/_assets/img/header-contact.jpg) no-repeat center center transparent;
 		background-size: cover;
@@ -122,7 +123,7 @@ div#contact, div#store {
 	.g-recaptcha {
 		margin-bottom: 15px;
 	}
-	input[type='text'], input[type='file'], .floating-placeholder {
+	input[type='text'], input[type='file'], input[type='password'], .floating-placeholder {
 		.lato;
 		font-size: 1em;
 		line-height: 3.6em;
@@ -144,7 +145,8 @@ div#contact, div#store {
 		display: inline-block;
 		width: 100%;
 	}
-	.floating-placeholder input[type='text'] {
+	.floating-placeholder input[type='text'],
+	.floating-placeholder input[type='password'] {
 		font-size: 1.5em;
 		outline: none;
 		position: absolute;
