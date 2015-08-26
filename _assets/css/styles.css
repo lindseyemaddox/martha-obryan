@@ -1159,6 +1159,16 @@ html[xmlns] .slides {
   margin: 0 2.5%;
   width: 33%;
   display: inline-block;
+  background: #fff;
+  border-radius: 5px;
+  vertical-align: text-bottom;
+  height: 400px;
+  overflow: auto;
+  padding: 1em;
+  font-size: 1.2em;
+}
+#container a {
+  text-decoration: none;
 }
 .thumb {
   display: block;
@@ -1357,7 +1367,7 @@ html[xmlns] .slides {
   background: -o-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
   background: linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
   background-clip: padding-box;
-  box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px #ffffff inset, 0 1px 1px rgba(0, 0, 0, 0.1);
   color: #444;
   text-decoration: none;
   white-space: nowrap;
@@ -1423,7 +1433,7 @@ html[xmlns] .slides {
   height: auto;
   outline: 0;
   border: 1px solid #aaa;
-  background: white url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px;
+  background: #ffffff url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px;
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
   background: url('/_assets/img/chosen-sprite.png') no-repeat 100% -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
@@ -1556,7 +1566,7 @@ html[xmlns] .slides {
   background-image: -o-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
   background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
   background-clip: padding-box;
-  box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 2px #ffffff inset, 0 1px 0 rgba(0, 0, 0, 0.05);
   color: #333;
   line-height: 13px;
   cursor: default;
@@ -1701,7 +1711,7 @@ html[xmlns] .slides {
 }
 .chosen-rtl .chosen-search input[type="text"] {
   padding: 4px 5px 4px 20px;
-  background: white url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px;
+  background: #ffffff url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px;
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
   background: url('/_assets/img/chosen-sprite.png') no-repeat -30px -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
@@ -2459,6 +2469,12 @@ div#home section#form .btn {
   width: 100%;
   padding: 30px 0;
 }
+div#home section#crankin .homepage-featured {
+  margin: 0 0 1em 0;
+}
+div#home section#crankin .homepage-featured p {
+  font-size: 1.3em;
+}
 div#home section#crankin {
   padding: 96px 0;
   background: url(/_assets/img/pattern-brown.png) repeat left top transparent;
@@ -2782,18 +2798,19 @@ section#leadership h6 {
   line-height: 1em;
   padding: 5px 0 0;
 }
-section#leadership article.item {
+section#leadership .item {
   width: 45%;
   display: inline-block;
   vertical-align: top;
   margin: 0 1.3% 30px;
+  text-decoration: none;
 }
-section#leadership article.item img {
+section#leadership .item img {
   display: inline-block;
   width: 16%;
   margin: 0 2% 0 0;
 }
-section#leadership article.item div.text {
+section#leadership .item div.text {
   display: inline-block;
   width: 81%;
   vertical-align: middle;
@@ -2982,7 +2999,8 @@ section#news-item div.img.full {
   margin: 20px 0 20px 0;
   float: none;
 }
-section#news-item a.next-item {
+section#news-item a.next-item,
+section#news-item a.previous-item {
   display: block;
   text-align: right;
   padding-right: 20px;
@@ -2992,8 +3010,13 @@ section#news-item a.next-item {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
 }
-section#news-item a.next-item:hover {
+section#news-item a.next-item:hover,
+section#news-item a.previous-item:hover {
   color: #b7b7b7;
+}
+section#news-item a.previous-item {
+  text-align: left;
+  float: left;
 }
 section#news-item .slider p {
   display: inline-block;
