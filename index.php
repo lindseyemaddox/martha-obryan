@@ -33,7 +33,7 @@
 	  		<ul class="slides">
 	
 	    		<li>
-	    	    	<img src="/_assets/img/slider-boy.jpg" />
+	    	    	<img src="/_assets/img/slider-reading.jpg" />
 	    		</li>
 	    		<li>
 	    	    	<img src="/_assets/img/slider-girl.jpg" />
