@@ -27,11 +27,11 @@
 <div id="home">
 
 	<section class="slider">
-	
+
 		<div class="flexslider">
-	
+
 	  		<ul class="slides">
-	
+
 	    		<li>
 	    	    	<img src="/_assets/img/slider-reading.jpg" />
 	    		</li>
@@ -41,25 +41,25 @@
 	    		<li>
 	    	    	<img src="/_assets/img/slider-girls2.jpg" />
 	    		</li>
-	
+
 	        </ul>
-	
+
 	        <div class="gradient"></div>
 
 	        <div class="h1-container"><h1>On a foundation of Christian faith, Martha O'Bryan Center empowers children, youth, and adults in poverty to transform their lives through work, education, employment and fellowship.</h1></div>
-	
+
 		</div>
-	
+
 	</section>
 
 	<section id="we">
-		
+
 		<div class="inner">
-			
+
 			<article class="three">
 
 				<span class="icon-tree"></span>
-				
+
 				<h2>We Serve Families</h2>
 
 				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
@@ -71,7 +71,7 @@
 			<article class="three">
 
 				<span class="icon-portrait"></span>
-				
+
 				<h2>We Support Communities</h2>
 
 				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
@@ -83,7 +83,7 @@
 			<article class="three">
 
 				<span class="icon-circle"></span>
-				
+
 				<h2>We Restore Dignity</h2>
 
 				<p>Descriptive paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget nibh a justo mattis venenatis ut malesuada neque. Phasellus sodales, lacus et feugiat dapibus, ligula orci tincidunt tortor.</p>
@@ -97,28 +97,28 @@
 	</section><!--we-->
 
 	<section id="social">
-		
-		<div class="inner">
-			
-			<div class="fb-page" data-href="https://www.facebook.com/marthaobryancenter" data-width="300" data-height="400" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/marthaobryancenter"><a href="https://www.facebook.com/marthaobryancenter">Martha O&#039;Bryan Center</a></blockquote></div></div>
 
-			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/flipper.php'); // flipping images ?>
+		<div class="inner">
 
             <div class="twitter">
             	<a class="twitter-timeline"  href="https://twitter.com/MarthaOBryanCtr" data-widget-id="609394801801191424" width="300" height="400">Tweets by @MarthaOBryanCtr</a>
  	           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    		</div><!--twitter-->      
+    		</div><!--twitter-->
+
+			<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/flipper.php'); // flipping images ?>
+
+			<div class="fb-page" data-href="https://www.facebook.com/marthaobryancenter" data-width="300" data-height="400" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/marthaobryancenter"><a href="https://www.facebook.com/marthaobryancenter">Martha O&#039;Bryan Center</a></blockquote></div></div>
 
 		</div><!--inner-->
 
 	</section><!--social-->
 
 	<section id="numbers">
-		
+
 		<div class="inner">
-			
+
 			<article class="four">
-				
+
 				<p id="individuals" class="number">6000</p>
 
 				<p class="header">Individuals</p>
@@ -162,21 +162,21 @@
 	</section><!--numbers-->
 
 	<section id="work">
-		
+
 		<div class="inner">
-			
+
 			<h5>Work with Martha O’Bryan</h5>
 
 			<div class="slider">
-			
+
 				<div class="jobs">
-			
+
 			  		<ul class="slides">
-			
+
 			    		<li class="job">
 
 			    		<div class="job-inner">
-				
+
 							<p class="title">Founding Physical Education Teacher</p>
 
 							<p class="location">Explore Community School</p>
@@ -194,7 +194,7 @@
 						<li class="job">
 
 						<div class="job-inner">
-							
+
 							<p class="title">Ingram Athlete Summer Camp Counselor</p>
 
 							<p class="location">Martha O'Bryan</p>
@@ -212,7 +212,7 @@
 						<li class="job">
 
 						<div class="job-inner">
-							
+
 							<p class="title">Full Time Kitchen Assistant</p>
 
 							<p class="location">Martha O'Bryan</p>
@@ -230,7 +230,7 @@
 						<li class="job">
 
 						<div class="job-inner">
-							
+
 							<p class="title">Founding Office Manager</p>
 
 							<p class="location">Explore Community School</p>
@@ -248,7 +248,7 @@
 			    		<li class="job">
 
 			    		<div class="job-inner">
-				
+
 							<p class="title">Founding Physical Education Teacher</p>
 
 							<p class="location">Explore Community School</p>
@@ -274,97 +274,97 @@
 	</section><!--work-->
 
 	<section id="form">
-		
+
 		<div class="inner">
-			
+
 			<h5>Be Part of the Solution</h5>
 
 			<article class="option" id="k8education">
-				
+
 				<p class="title">K-8 Education</p>
 
 			</article><!--option-->
 
 			<article class="option" id="college-career">
-				
+
 				<p class="title">College &amp; Career</p>
 
 			</article><!--option-->
 
 			<article class="option" id="early-learning-center">
-				
+
 				<p class="title">Early Learning Center</p>
 
 			</article><!--option-->
 
 			<article class="option" id="hseducation-asu">
-				
+
 				<p class="title">High School Education / ASUs</p>
 
 			</article><!--option-->
 
 			<article class="option" id="clerical-support">
-				
+
 				<p class="title">Clerical Support</p>
 
 			</article><!--option-->
 
 			<article class="option" id="family-outreach">
-				
+
 				<p class="title">Family Outreach</p>
 
 			</article><!--option-->
 
 			<article class="option" id="community-outreach">
-				
+
 				<p class="title">Community Outreach</p>
 
 			</article><!--option-->
 
 			<article class="option" id="new-ideas">
-				
+
 				<p class="title">New Ideas</p>
 
 			</article><!--option-->
 
 			<article class="option" id="community-activities">
-				
+
 				<p class="title">Community Activities</p>
 
 			</article><!--option-->
 
 			<article class="option" id="food-bank">
-				
+
 				<p class="title">Food Bank</p>
 
 			</article><!--option-->
 
 			<article class="option" id="meals-on-wheels">
-				
+
 				<p class="title">Meals on Wheels</p>
 
 			</article><!--option-->
 
 			<article class="option" id="meal-prep">
-				
+
 				<p class="title">Meal/Snack Preparation</p>
 
 			</article><!--option-->
 
 			<article class="option" id="aaeducation">
-				
+
 				<p class="title">Academic Adult Education</p>
 
 			</article><!--option-->
 
 			<article class="option" id="homework-helper">
-				
+
 				<p class="title">Homework Helper</p>
 
 			</article><!--option-->
 
 			<article class="option" id="operations">
-				
+
 				<p class="title">Operations</p>
 
 			</article><!--option-->
@@ -381,49 +381,49 @@
 		          $message .= 'Email: '.$email.'<br>';
 	              if (isset($_POST['k8education'])) {
 	                  $message .= 'I am interested in K-8 Education.<br>';
-	                } 
+	                }
 	              if (isset($_POST['college-career'])) {
 	                  $message .= 'I am interested in College & Career.<br>';
-	                } 
+	                }
 	              if (isset($_POST['early-learning-center'])) {
 	                  $message .= 'I am interested in the Early Learning Center.<br>';
-	                } 
+	                }
 	              if (isset($_POST['hseducation-asu'])) {
 	                  $message .= 'I am interested in High School Education and ASUs.<br>';
-	                } 
+	                }
 	              if (isset($_POST['clerical-support'])) {
 	                  $message .= 'I am interested in Clerical Support.<br>';
-	                } 
+	                }
 	              if (isset($_POST['family-outreach'])) {
 	                  $message .= 'I am interested in Family Outreach.<br>';
-	                } 
+	                }
 	              if (isset($_POST['community-outreach'])) {
 	                  $message .= 'I am interested in Community Outreach.<br>';
-	                } 
+	                }
 	              if (isset($_POST['new-ideas'])) {
 	                  $message .= 'I am interested in New Ideas.<br>';
-	                } 
+	                }
 	              if (isset($_POST['community-activities'])) {
 	                  $message .= 'I am interested in Community Activities.<br>';
-	                } 
+	                }
 	              if (isset($_POST['food-bank'])) {
 	                  $message .= 'I am interested in the Food Bank.<br>';
-	                } 
+	                }
 	              if (isset($_POST['meals-on-wheels'])) {
 	                  $message .= 'I am interested in the Meals on Wheels.<br>';
-	                } 
+	                }
 	              if (isset($_POST['meal-prep'])) {
 	                  $message .= 'I am interested in Meal/Snack Preparation.<br>';
-	                } 
+	                }
 	              if (isset($_POST['aaeducation'])) {
 	                  $message .= 'I am interested in Academic Adult Education.<br>';
-	                } 
+	                }
 	              if (isset($_POST['homework-helper'])) {
 	                  $message .= 'I am interested in being a Homework Helper.<br>';
-	                } 
+	                }
 	              if (isset($_POST['operations'])) {
 	                  $message .= 'I am interested in Operations.<br>';
-	                } 
+	                }
 	                else {
 	              }
 		          $message .= '</body></html>';
@@ -436,7 +436,7 @@
 		  { echo "<form method='post' action='".$_SERVER['SCRIPT_NAME']."'>
 
 				<div id='box'>
-					
+
 					<p>Drag boxes here.</p>
 
 				</div><!--box-->
@@ -474,11 +474,11 @@
 	</section><!--work-->
 
 	<section id="crankin">
-		
+
 		<div class="inner">
 
 			<div class="crankin">
-			
+
 				<img src="/_assets/img/logo-crankin.jpg" alt="Purity Miss Martha's Ice Cream Crankin' and Summer Social">
 
 			</div><!--crankin-->
@@ -539,23 +539,23 @@
 	</section><!--crankin-->
 
 	<section id="leaders">
-		
+
 		<div class="inner">
-			
+
 			<h6>Meet some of the people empowering productive adults to more fully realize their potential.</h6>
 
 			<div class="slider">
-			
+
 				<div class="leaders">
-			
+
 			  		<ul class="slides">
-			
+
 			    		<li class="leader">
 
 				    		<div class="leader-inner">
 
 				    			<img src="/_assets/img/silouette.png">
-					
+
 								<p class="name">Marsha Edwards</p>
 
 								<p class="title">President / Chief Executive Officer</p>
@@ -569,7 +569,7 @@
 							<div class="leader-inner">
 
 								<img src="/_assets/img/silouette.png">
-								
+
 								<p class="name">Michael Gross</p>
 
 								<p class="title">Chief Program Officer</p>
@@ -583,7 +583,7 @@
 							<div class="leader-inner">
 
 								<img src="/_assets/img/silouette.png">
-								
+
 								<p class="name">Vickeeta Coleman</p>
 
 								<p class="title">Chief Operating Officer</p>
@@ -597,7 +597,7 @@
 							<div class="leader-inner">
 
 								<img src="/_assets/img/silouette.png">
-								
+
 								<p class="name">Peter Martino</p>
 
 								<p class="title">Chief Talent &amp; Innovation Officer</p>
@@ -611,7 +611,7 @@
 				    		<div class="leader-inner">
 
 				    			<img src="/_assets/img/silouette.png">
-					
+
 								<p class="name">Tim Sinks</p>
 
 								<p class="title">Board Chair</p>
@@ -625,7 +625,7 @@
 				    		<div class="leader-inner">
 
 				    			<img src="/_assets/img/silouette.png">
-					
+
 								<p class="name">Clay Richards</p>
 
 								<p class="title">Secretary / Board Chair-Elect</p>
@@ -639,7 +639,7 @@
 				    		<div class="leader-inner">
 
 				    			<img src="/_assets/img/silouette.png">
-					
+
 								<p class="name">Juan Vallarino</p>
 
 								<p class="title">Co-Treasurer</p>
@@ -653,7 +653,7 @@
 				    		<div class="leader-inner">
 
 				    			<img src="/_assets/img/silouette.png">
-					
+
 								<p class="name">Lee Ballew</p>
 
 								<p class="title">Co-Treasurer</p>
@@ -671,7 +671,7 @@
 		</div><!--inner-->
 
 	</section><!--leaders-->
-	
+
 </div><!--home-->
 
 	<script>
@@ -741,7 +741,7 @@ $(function() {
 		var $this = ui.draggable;
 		var name = $this.attr('id');
 		$('input[name="' + name + '"').prop('checked', true);
-	      
+
 	  }
 	});
 
@@ -751,7 +751,7 @@ $(function() {
 	$(window).load(function(){
 		$('.fancybox').fancybox();
 	});
-	
+
 });
 
 
